@@ -70,12 +70,12 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-Large language models exhibit strong performance accors many natural language
+Large language models exhibit strong performance across many natural language
 processing tasks, yet their understanding of fine-grained lexical relations
-remains limited, unlike first tongue human speakers. Recent work has used the
-Meaning-Text Theory (MTT) to evaluate models' lexical competence using
-structured lexical functions, but the focus has been on evaluation rather than
-model improvement. In this project, we propose a structured dataset of French
+remains limited compared to that of human native speakers. Recent work has used 
+the Meaning-Text Theory (MTT) to evaluate models' lexical competence through
+lexical functions, but has focused primarily on evaluation rather than
+on model improvement. In this project, we propose a structured dataset of French
 lexical units annotated with lexical functions derived from the French Lexical
 Network. We use this dataset to fine-tune and evaluate three language models,
 assessing whether explicit training on a structured description of natural
@@ -84,51 +84,72 @@ beyond memorized lexeme pairs.
 \end{abstract}
 
 \section{Introduction}
-Modern natural language processing systems have achieved remarkable performance
-across a wide range of tasks, especially with the development of Large
-Language Models (LLMs). By using language as input and output, these systems
-appear to possess language understanding. This ability has been evaluated many
-times, 
-finding limits to their understanding of the language they use. Lexical
-knowledge, the understanding of the words and of the relations between them, is
-a field of application where LLMs tend to diverge from human performance.
+Modern natural language processing systems, particularly Large Language Models,
+achieve strong performance across many natural language tasks, yet their
+understanding of fine-grained lexical relations, the meaning of words and the
+relations between them, remains limited; in this area, models often diverge
+from human performance
+
+% across a wide range of tasks, especially with the development of Large
+% Language Models (LLMs). By using language as input and output, these systems
+% appear to possess strong human language understanding. This ability has been
+% evaluated many times, finding limits to their understanding of the language
+% they use. Lexical knowledge, the understanding of the words and of the
+% relations between them, is a field of application where LLMs tend to diverge from human performance.
 
 The Meaning-Text theory (MTT)
-\cite{melcukVersLinguistiqueSensTexte1997} decomposes language into
-multiple 
-components, from observable sound to abstract meaning: phonology, surface
-morphology, deep morphology, surface syntax, deep syntax, and semantics. Going
-from phonology to semantics corresponds to language understanding, while the
-other way corresponds to language generation. This theory allows for a
+\cite{melcukVersLinguistiqueSensTexte1997} provides a linguistic framework that
+decomposes language into multiple components, from measurable sound to abstract
+meaning.
+% : phonology, surface 
+% morphology, deep morphology, surface syntax, deep syntax, and semantics. Going
+% from phonology to semantics corresponds to language understanding, while the
+% other way corresponds to language generation.
+This theory allows for a universal
 fine-grained description and analysis of multiple areas of linguistic
-competency, and is meant to be universal to all languages.
+competency.
+%, and is meant to be universal to all languages.
 
-As part of this framework, the relations between lexical units are expressed as
-a mathematical concept, called lexical functions (LFs). For a given function
-$f$, for all lexical units $x$ with the associated meaning portrayed by $f$,
-$f(x)=y$ give the different possible values. For example, the $Magn$ function,
-which expresses the increase in intensity, can be applied to "beautiful",
-outputting $Magn(\text{beautiful}) = \text{gorgeous, stunning, amazing}$. These
-lexical functions can be used to create a fine-grained structured description
-of a language's lexicon.
+Whithin this framework, relations between lexical units are modeled using
+lexical functions (LFs), which map a lexical unit to other units expressing a
+semantic relation. For example, the \textit{Magn} function encodes
+intensification, such as $Magn(\text{beautiful}) = \text{gorgeous, stunning}$.
 
-Structured lexical representations such as lexical functions might have the
-potential to help language models' capacities to better understand abstract
-lexical relations. More generally, structured lexical resources, such as
-ontologies describing the terminology of a specific domain like criminal law,
-have been used to support language understanding and generation task, for
-example with automatic translation.
+% For a given function 
+% $f$, for all lexical units $x$ with the associated meaning portrayed by $f$,
+% $f(x)=y$ give the different possible values. For example, the $Magn$ function,
+% which expresses the increase in intensity, can be applied to "beautiful",
+% outputting $Magn(\text{beautiful}) = \text{gorgeous, stunning, amazing}$. These
+% lexical functions can be used to create a fine-grained structured description
+% of a language's lexicon.
 
-This project aims to explain whether language models already encode lexical
+Structured lexical representations such as LF offer a principled way to model
+abstract lexical relations and may help language models move beyond
+memorization of lexeme pairs. However, prior work has primarily used LFs for
+evaluation rather than for improving models' lexical competence.
+
+% might have the
+% potential to help language models' capacities to better understand abstract
+% lexical relations. More generally, structured lexical resources, such as
+% ontologies describing the terminology of a specific domain like criminal law,
+% have been used to support language understanding and generation task, for
+% example with automatic translation.
+
+
+
+This project aims to investigate whether language models already encode lexical
 functions as abstract lexical relations, and if they are able to
 generalize this abstraction or simply memorize lexeme pairs without
-understanding the relations between them.
+understanding the relations between them. To do so, we construct a dataset
+based on lexical functions, and inject this knowledge into three pretrained
+language models. We then evaluate whether this structured lexical training
+improves lexical understanding and general linguistic competence.
 
-To do so, we will create a dataset inspired by previous work, using lexical
-functions as the primary input. We will then proceed to inject this knowledge into
-pretrained language models. We will then evaluate the fine-tuned models on a
-linguistic competence benchmark. More details about the task will be discussed
-in Section \ref{sec:task}.
+% To do so, we will create a dataset inspired by previous work, using lexical
+% functions as the primary input. We will then proceed to inject this knowledge
+% into three pretrained language models and evaluate them on a 
+% linguistic competence benchmark. More details about the task will be discussed
+% in Section \ref{sec:task}.
 
 
 
@@ -144,7 +165,7 @@ but wanting to add more diversity and subtility to the evaluation, COLE was
 created, proposing a 23 tasks evaluation benchmark with a single aggregated
 score \citep{beaucheminCOLEComprehensiveBenchmark2025}. 
 
-While general NLU benchmarks are usefull, they do not allow for a fine-grained
+While general NLU benchmarks are useful, they do not allow for a fine-grained
 evaluation of a specific linguistic evaluation, such as lexical capabilities.
 
 The French Lexical Network (fr-LN) \citep{11403/lexical-system-fr/v3.2} is a
@@ -181,7 +202,7 @@ dataset using fr-LN \citep{11403/lexical-system-fr/v3.2} in JSON format. This
 structure will include part of speech (POS), specific sense to handle polysemy,
 relevant LFs, and an in-context example of the vocable. All of this data is
 available in fr-LN; our work will be to structure it accordingly. As some LFs
-have few instances in fr-LN, we plan to set a minimum occurence threshold to
+have few instances in fr-LN, we plan to set a minimum occurrence threshold to
 ensure consistensy.
 
 % To address the potential scarcity of data, we also plan to experiment with
@@ -230,7 +251,7 @@ Exact Match (EM) and Contain Match (CM)
 \cite{petrovQALFFrenchQuestionAnswering2025} will be used to quantify the
 model's answers; CM will be used to consider whether the model's answer
 contains one of the desired outputs, since models tend to not respect the
-"single lexical unit answer" condition. These metrics will require normalisation of the
+"single lexical unit answer" condition. These metrics will require normalization of the
 model's output, and will be set based, as there can be multiple good answers to
 one LF input. Accuracy and F1 score will also be used to further analyze the
 model's answers.
