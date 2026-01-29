@@ -1,0 +1,110 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{{ATILF}(2025)}]{11403/lexical-system-fr/v3.2}
+{ATILF}. 2025.
+\newblock \href {https://arxiv.org/abs/11403/lexical-system-fr/v3.2} {French
+  lexical network (fr-{{LN}})}.
+\newblock \emph{Preprint}, hdl:11403/lexical-system-fr/v3.2.
+
+\bibitem[{Beauchemin et~al.(2025)Beauchemin, Tremblay, Youssef, and
+  Khoury}]{beaucheminCOLEComprehensiveBenchmark2025}
+David Beauchemin, Yan Tremblay, Mohamed~Amine Youssef, and Richard Khoury.
+  2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2510.05046} {{{COLE}}: A
+  {{Comprehensive Benchmark}} for {{French Language Understanding
+  Evaluation}}}.
+\newblock \emph{Preprint}, arXiv:2510.05046.
+
+\bibitem[{Hu et~al.(2021)Hu, Shen, Wallis, {Allen-Zhu}, Li, Wang, and
+  Chen}]{LoRA}
+Edward~J. Hu, Yelong Shen, Phillip Wallis, Zeyuan {Allen-Zhu}, Yuanzhi Li,
+  Shean Wang, and Weizhu Chen. 2021.
+\newblock \href {https://arxiv.org/abs/2106.09685} {{{LoRA}}: {{Low-rank}}
+  adaptation of large language models}.
+\newblock \emph{CoRR}, abs/2106.09685.
+
+\bibitem[{Jiang et~al.(2023)Jiang, Sablayrolles, Mensch, Bamford, Chaplot,
+  de~las Casas, Bressand, Lengyel, Lample, Saulnier, Lavaud, Lachaux, Stock,
+  Scao, Lavril, Wang, Lacroix, and Sayed}]{jiangMistral7B2023}
+Albert~Q. Jiang, Alexandre Sablayrolles, Arthur Mensch, Chris Bamford,
+  Devendra~Singh Chaplot, Diego de~las Casas, Florian Bressand, Gianna Lengyel,
+  Guillaume Lample, Lucile Saulnier, L{\'e}lio~Renard Lavaud, Marie-Anne
+  Lachaux, Pierre Stock, Teven~Le Scao, Thibaut Lavril, Thomas Wang,
+  Timoth{\'e}e Lacroix, and William~El Sayed. 2023.
+\newblock \href {https://doi.org/10.48550/arXiv.2310.06825} {Mistral {{7B}}}.
+\newblock \emph{Preprint}, arXiv:2310.06825.
+
+\bibitem[{Le et~al.(2020)Le, Vial, Frej, Segonne, Coavoux, Lecouteux, Allauzen,
+  Crabb{\'e}, Besacier, and Schwab}]{leFlauBERTUnsupervisedLanguage2020}
+Hang Le, Lo{\"i}c Vial, Jibril Frej, Vincent Segonne, Maximin Coavoux, Benjamin
+  Lecouteux, Alexandre Allauzen, Beno{\^i}t Crabb{\'e}, Laurent Besacier, and
+  Didier Schwab. 2020.
+\newblock \href {https://doi.org/10.48550/arXiv.1912.05372} {{{FlauBERT}}:
+  {{Unsupervised Language Model Pre-training}} for {{French}}}.
+\newblock \emph{Preprint}, arXiv:1912.05372.
+
+\bibitem[{Li(2025)}]{liEvaluationCompetenceLexicale2025}
+Shuxu Li. 2025.
+\newblock \href {https://doi.org/10.71781/32644} {\emph{{\'Evaluation de la
+  comp\'etence lexicale des mod\`eles de langues}}}.
+\newblock {Maitr\^ise}, Universit\'e de Montr\'eal, Montr\'eal.
+
+\bibitem[{Liu and Lareau(2024)}]{liuAssessingBERTsSensitivity2024}
+Li~Liu and Francois Lareau. 2024.
+\newblock \href {https://aclanthology.org/2024.mwe-1.4/} {Assessing {{BERT}}'s
+  sensitivity to idiomaticity}.
+\newblock In \emph{Proceedings of the {{Joint Workshop}} on {{Multiword
+  Expressions}} and {{Universal Dependencies}} ({{MWE-UD}}) @ {{LREC-COLING}}
+  2024}, pages 14--23, Torino, Italia. {ELRA and ICCL}.
+
+\bibitem[{Martin et~al.(2020)Martin, Muller, Ortiz~Su{\'a}rez, Dupont, Romary,
+  {Villemonte de La Clergerie}, Seddah, and Sagot}]{martin-etal-2020-camembert}
+Louis Martin, Benjamin Muller, Pedro~Javier Ortiz~Su{\'a}rez, Yoann Dupont,
+  Laurent Romary, {\'E}ric {Villemonte de La Clergerie}, Djam{\'e} Seddah, and
+  Beno{\^i}t Sagot. 2020.
+\newblock \href {https://doi.org/10.18653/v1/2020.acl-main.645} {{{CamemBERT}}:
+  A tasty {{French}} language model}.
+\newblock In \emph{Proceedings of the 58th Annual Meeting of the Association
+  for Computational Linguistics}, pages 7203--7219, Online.
+
+\bibitem[{Mel'cuk(1997)}]{melcukVersLinguistiqueSensTexte1997}
+Igor Mel'cuk. 1997.
+\newblock \href
+  {https://olst.ling.umontreal.ca/wp-content/uploads/olst/pdf/MelcukColldeFr.pdf}
+  {Vers une linguistique {{Sens-Texte}}}.
+
+\bibitem[{Ni et~al.(2025)Ni, Chen, Li, Chen, Li, Wang, Wang, Wang, Zhang, Fan,
+  Li, Xu, Sun, and Yang}]{niSurveyLargeLanguage2025}
+Shiwen Ni, Guhong Chen, Shuaimin Li, Xuanang Chen, Siyi Li, Bingli Wang, Qiyao
+  Wang, Xingjian Wang, Yifan Zhang, Liyang Fan, Chengming Li, Ruifeng Xu,
+  Le~Sun, and Min Yang. 2025.
+\newblock \href {https://doi.org/10.48550/arXiv.2508.15361} {A {{Survey}} on
+  {{Large Language Model Benchmarks}}}.
+\newblock \emph{Preprint}, arXiv:2508.15361.
+
+\bibitem[{Petrov et~al.(2025)Petrov, Mancas, Binet, Venant, Lareau, Lepage, and
+  Langlais}]{petrovQALFFrenchQuestionAnswering2025}
+Alexander Petrov, Alessandra~Thais Mancas, Viviane Binet, Antoine Venant,
+  Francois Lareau, Yves Lepage, and Phillippe Langlais. 2025.
+\newblock \href {https://aclanthology.org/2025.ranlp-1.110/} {Q\&{{A-LF}} : {{A
+  French Question-Answering Benchmark}} for {{Measuring Fine-Grained Lexical
+  Knowledge}}}.
+\newblock In \emph{Proceedings of the 15th {{International Conference}} on
+  {{Recent Advances}} in {{Natural Language Processing}} - {{Natural Language
+  Processing}} in the {{Generative AI Era}}}, pages 962--969, Varna, Bulgaria.
+  INCOMA Ltd., Shoumen, Bulgaria.
+
+\bibitem[{Yang et~al.(2024)Yang, Yang, Hui, Zheng, Yu, Zhou, Li, Li, Liu,
+  Huang, Dong, Wei, Lin, Tang, Wang, Yang, Tu, Zhang, Ma, Xu, Zhou, Bai, He,
+  Lin, Dang, Lu, Chen, Yang, Li, Xue, Ni, Zhang, Wang, Peng, Men, Gao, Lin,
+  Wang, Bai, Tan, Zhu, Li, Liu, Ge, Deng, Zhou, Ren, Zhang, Wei, Ren, Fan, Yao,
+  Zhang, Wan, Chu, Liu, Cui, Zhang, and Fan}]{qwen2}
+An~Yang, Baosong Yang, Binyuan Hui, Bo~Zheng, Bowen Yu, Chang Zhou, Chengpeng
+  Li, Chengyuan Li, Dayiheng Liu, Fei Huang, Guanting Dong, Haoran Wei, Huan
+  Lin, Jialong Tang, Jialin Wang, Jian Yang, Jianhong Tu, Jianwei Zhang,
+  Jianxin Ma, and 40 others. 2024.
+\newblock \href {https://arxiv.org/abs/2407.10671} {Qwen2 technical report}.
+\newblock \emph{arXiv preprint arXiv:2407.10671}.
+
+\end{thebibliography}

@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: draft_proposition.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+The style file: acl_natbib.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: proposal.bib
+You've used 12 entries,
+            3764 wiz_defined-function locations,
+            833 strings with 10891 characters,
+and the built_in function-call counts, 13048 in all, are:
+= -- 1010
+> -- 1076
+< -- 7
++ -- 453
+- -- 359
+* -- 1046
+:= -- 2036
+add.period$ -- 49
+call.type$ -- 12
+change.case$ -- 198
+chr.to.int$ -- 13
+cite$ -- 12
+duplicate$ -- 595
+empty$ -- 672
+format.name$ -- 389
+if$ -- 2672
+int.to.chr$ -- 1
+int.to.str$ -- 2
+missing$ -- 151
+newline$ -- 63
+num.names$ -- 48
+pop$ -- 452
+preamble$ -- 1
+purify$ -- 180
+quote$ -- 0
+skip$ -- 625
+stack$ -- 0
+substring$ -- 236
+swap$ -- 367
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 108
+warning$ -- 0
+while$ -- 45
+width$ -- 0
+write$ -- 161
