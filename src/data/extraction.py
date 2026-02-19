@@ -17,14 +17,34 @@ RAW_DATA_PATH = Path(__file__).resolve().parent / "fr-LN_V3_2" / "ls-fr-V3.2"
 JSON_PATH = Path(__file__).resolve().parent / "data.json"
 
 
-def extract_text(html):
+def extract_text(html:str) -> str:
+    """
+    Extracts the text from an input html code. 
+    
+    :param html: A string representing html code.
+    :type html: str
+    :return: The text corresponding to the html code, without the html tags.
+    :rtype: str
+    """
     if pd.isna(html):
         return None
     soup = BeautifulSoup(html, "html.parser")
     return soup.get_text(separator=" ", strip=True)
 
 
-def extract_actants(xml_string):
+def extract_actants(xml_string:str) -> list[str] | None:
+    """
+    Extracts the semantic actants present in a definition from the XML 
+    structure describing these actants.
+
+        Example of output: `$1 is un individu`
+
+    :param xml_string: A XML structure describing the semantic actants.
+    :type xml_string: str
+    :return: The list of string  describing each actants in the inputed XML 
+        code, without the XML tags.
+    :rtype: list[str]
+    """
     if pd.isna(xml_string):
         return None
     
@@ -44,11 +64,28 @@ def extract_actants(xml_string):
     return sentences if sentences else None
 
 
-def combine_examples(row):
+def combine_examples(df: pd.DataFrame) -> list[dict]:
+    """
+    Combines the examples' data spread into multiple columns of the DataFrame
+    into a single column.
+
+    Takes the information present in the columns `example_text`, `occurrences`
+    and `position`, and merge them into a singular list of dicitonnary. The 
+    data from the original columns are lists, where the indices linked to each 
+    other. For example, the information at index 0 of `example_text` is related
+    to the information at index 0 of `occurrence` and `position`.
+
+    :param df: DataFrame containing the columns `example_text`, `occurrences`
+    and `position`.
+    :type df: pd.DataFrame
+    :return: A list of dictionnaries containing all the relevant data for one
+    example
+    :rtype: list[dict]
+    """
     # If the cell is NaN, replace with empty list
-    texts = row["example_text"] if isinstance(row["example_text"], list) else []
-    occurrences = row["occurrence"] if isinstance(row["occurrence"], list) else []
-    positions = row["position"] if isinstance(row["position"], list) else []
+    texts = df["example_text"] if isinstance(df["example_text"], list) else []
+    occurrences = df["occurrence"] if isinstance(df["occurrence"], list) else []
+    positions = df["position"] if isinstance(df["position"], list) else []
 
     n = max(len(texts), len(occurrences), len(positions))
     examples = []
@@ -59,6 +96,15 @@ def combine_examples(row):
             "position": positions[i] if i < len(positions) else None
         })
     return examples
+
+
+def extract_nodes():
+    """
+    Extract the data from the file `01-lsnodes.csv` and saves it
+    in a DataFrame.
+
+    :return: The DataFrame corresponding with the relevant information
+    """
 
 
 def extract_data():
@@ -251,7 +297,7 @@ def extract_data():
 
     df = df[["node_id", "entry_id", "name", "lexnum", "POS", "usagenote", "usagenotevars", "definition", 
              "actants", "lf_dict", "example_text", "occurrence", "position", "status", "%"]]
-    df["examples"] = df.apply(combine_examples, axis=1)
+    df["examples"] = df.copy().apply(combine_examples, axis=1)
     df = df.drop(columns=example_cols)
 
     metadata = {
