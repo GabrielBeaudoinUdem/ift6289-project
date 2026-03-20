@@ -1,2 +1,13 @@
 pandas
 beautifulsoup4
+ipynb
+ipykernel
+#torch
+#torchivision
+#torchaudio
+#accelerate
+#transformer
+#datasets
+#peft
+matplotlib
+scikit-learn
