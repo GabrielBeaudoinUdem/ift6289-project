@@ -98,6 +98,23 @@ def combine_examples(df: pd.DataFrame) -> list[dict]:
     return examples
 
 
+def map_usagenote(value, mapping_dict):
+    if pd.isna(value):
+        return None
+    
+    # Remove parentheses
+    value = value.strip("()")
+
+    if not value:
+        return None
+
+    # Split into lists
+    ids = value.split(",")
+    
+    mapped = [mapping_dict.get(i, i) for i in ids]
+    return mapped
+
+
 def extract_nodes():
     """
     Extract the data from the file `01-lsnodes.csv` and saves it
@@ -108,6 +125,7 @@ def extract_nodes():
 
 
 def extract_data():
+    # TODO: split into mutliple functions
     df = pd.DataFrame()
 
     # We keep overwritting ls_path and ls_df to save RAM
@@ -172,6 +190,7 @@ def extract_data():
     )
     
     df = df.drop(columns=["node"])
+    df["usagenote"] = df["usagenote"].apply(lambda x: map_usagenote(x, charact_type2))
 
     # Using `charact_type2`, we replace the POS id with it's name
     df["POS"] = df["POS"].map(charact_type2)
