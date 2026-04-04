@@ -1,0 +1,228 @@
+{
+    "patterns": [
+        {
+            "lf": "Gener",
+            "free_pattern": [
+                "Quel est l'hyperonyme de <W>? Donne la réponse",
+                "Quel est l'hyperonyme classifiant de <W>? Donne la réponse"
+            ],
+            "one_shot": "L'hyperonyme de 'chat' est 'félin'"
+        },
+        {
+            "lf": "Syn",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "S_0",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Anti",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "V_0",
+            "free_pattern":[
+
+            ]
+        },
+        {
+            "lf": "S_1",
+            "free_pattern":[
+
+            ]
+        },
+        {
+            "lf":"A_0",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "A_1",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Contr",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "S_2",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Adv_0",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Oper_1",
+            "free_pattern": [
+                
+            ]
+        },
+        {
+            "lf": "Real_1",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Magn",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Magn",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "S_loc",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Able_2",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Redun",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "S_3",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Sing",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Mero",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Mult",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "A_2",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Hypo",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Able_1",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "S_res",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "S_instr",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Conv_21",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "AntiBon",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Fact_0",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Fact_2",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Bon",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "AntiMagn",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Adv_1",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Loc_in",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "Ver",
+            "free_pattern": [
+
+            ]
+        },
+        {
+            "lf": "AntiVer",
+            "free_pattern": [
+
+            ]
+        }
+    ]
+}
