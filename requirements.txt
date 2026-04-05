@@ -6,7 +6,7 @@ ipykernel
 #torchivision
 #torchaudio
 #accelerate
-#transformer
+transformers
 #datasets
 #peft
 matplotlib

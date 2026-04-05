@@ -3,226 +3,325 @@
         {
             "lf": "Gener",
             "free_pattern": [
-                "Quel est l'hyperonyme de <W>? Donne la réponse",
-                "Quel est l'hyperonyme classifiant de <W>? Donne la réponse"
+                "Quel est l'hyperonyme de '<W>'? Donne la réponse",
+                "Quel est l'hyperonyme classifiant de '<W>'? Donne la réponse"
             ],
             "one_shot": "L'hyperonyme de 'chat' est 'félin'"
         },
         {
             "lf": "Syn",
             "free_pattern": [
-
-            ]
+                "Quel est un synonyme De '<W>' ? Ne donne que la réponse"
+            ],
+            "one_shot": "Un synonyme de 'automobile' est 'voiture'"
         },
         {
             "lf": "S_0",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie nominale ayant le même sens que '<W>' ? Ne donne que la réponse",
+                "Quel est le nom commun correspondant au verbe ou à l’adjectif '<W>' ? Donne un seul nom commun sans ponctuation. Ne donne que la réponse",
+                "Quel est le nom commun du verbe ou l’adjectif '<W>' ? Donne un seul nom commun sans ponctuation. Ne donne que la réponse",
+                "Quel est le nom commun formé à partir du mot '<W>' ? Donne un seul nom commun sans ponctuation. Ne donne que la réponse",
+                "Quel est le nom commun formé à partir du verbe ou de l’adjectif '<W>' ? Donne un seul nom commun sans ponctuation. Ne donne que la réponse",
+                "Quel est le nom commun dérivé du mot '<W>' ? Donne un seul nom commun sans ponctuation. Ne donne que la réponse",
+                "Quel est le nom commun dont '<W>' est la racine ? Donne un seul nom commun sans ponctuation. Ne donne que la réponse",
+                "Transforme le mot '<W>' en nom commun. Donne un seul nom commun sans ponctuation. Ne donne que la réponse",
+                "Quelle est une lexie nominale ayant le même sens que '<W>' ? Donne un seul nom commun sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "La nominalisation de 'présenter' est 'présentation'"
         },
         {
             "lf": "Anti",
             "free_pattern": [
-
-            ]
+                "Quel est l’antonyme du mot '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'antonyme de 'construire' est 'détruire'"
         },
         {
             "lf": "V_0",
             "free_pattern":[
-
-            ]
+                "Quelle est une lexie verbale ayant le même sens que '<W>' ? Ne donne que la réponse",
+                "Quel est le verbe correspondant au mot '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quel est le verbe formé à partir du mot '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quel est le verbe dérivé du mot '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Transforme le mot '<W>' en verbe. Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quelle est une lexie verbale ayant le même sens que '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "La verbalisation de 'présentation' est 'présenter'"
         },
         {
             "lf": "S_1",
             "free_pattern":[
-
-            ]
+                "Quel est le nom qui désigne l’agent typique de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "Qui fait typiquement '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "Quel est le nom de la personne qui réalise '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Le nom de la personne réalisant 'vendre' est 'vendeur'"
         },
         {
             "lf":"A_0",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie adjectivale ayant le même sens que '<W>' ? Ne donne que la réponse",
+                "Quel est l’adjectif correspondant au mot '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Transforme le mot '<W>' en adjectif. Donne un seul adjectif conjugué au masculin, et sans ponctuation. Ne donne que la réponse",
+                "Quel est l’adjectif formé à partir du mot '<W>' ? Donne un seul adjectif conjugué au masculin, et sans ponctuation. Ne donne que la réponse",
+                "Quel est l’adjectif dérivé du mot '<W>' ? Donne un seul adjectif conjugué au masculin, et sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif correspondant au nom 'espace' est 'spacial'."
         },
         {
             "lf": "A_1",
             "free_pattern": [
-
-            ]
+                "Quel est un adjectif qui décrit typiquement '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Quel adjectif est typiquement associé à '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Comment peut-on qualifier '<W>' avec un adjectif courant ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif décrivant 'présenter' est 'victorieux'"
         },
         {
             "lf": "Contr",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie en opposition sémantique contrastive avec '<W>', souvent pour des fins stylistiques ? Ne donne que la réponse",
+                "Quel mot crée un contraste avec, mais n’est pas l’antonyme de, '<W>' ? Donne un seul mot sans ponctuation.", 
+                "Quel est l’opposé, mais pas l’antonyme de, '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "Quel mot est l’opposé de '<W>', sans être son contraire ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "Quel mot est en opposition contrastive sur le plan sémantique avec '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'opposé de 'eau' est 'feu'"
         },
         {
             "lf": "S_2",
             "free_pattern": [
-
-            ]
+                "Quel est le nom qui désigne le patient typique de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "Sur quoi porte typiquement '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "Quel est l’objet typique de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'object typique de 'vendre' est 'marchandise'"
         },
         {
             "lf": "Adv_0",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie adverbiale ayant le même sens que '<W>' ? Ne donne que la réponse",
+                "Quel est l’adverbe correspondant au mot '<W>' ? Donne un seul adverbe sans ponctuation. Ne donne que la réponse",
+                "Quel est l’adverbe formé à partir du mot '<W>' ? Donne un seul adverbe sans ponctuation. Ne donne que la réponse",
+                "Quel est l’adverbe dérivé du mot '<W>' ? Donne un seul adverbe sans ponctuation. Ne donne que la réponse",
+                "Transforme le mot '<W>' en adverbe. Donne un seul adverbe sans ponctuation. Ne donne que la réponse",
+                "Quelle est une lexie adverbiale ayant le même sens que '<W>' ? Donne un seul adverbe sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot":"L'adverbalisation de 'voir' est 'visuellement"
         },
         {
             "lf": "Oper_1",
             "free_pattern": [
-                
-            ]
+                "Quel verbe support utilise-t-on avec '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quel verbe permet de réaliser '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Avec quel verbe forme-t-on une expression avec '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Le verbe support permettant de réaliser 'méfait' est 'perpétrer'"
         },
         {
             "lf": "Real_1",
             "free_pattern": [
-
-            ]
+                "Quel verbe signifie ‘réaliser '<W>'’ ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quel verbe correspond à l’action d’effectuer '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Comment exprime-t-on verbalement le fait de faire '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Le verbe signifiant l'action d'effectuer 'promesse' est 'tenir'"
         },
         {
             "lf": "Magn",
             "free_pattern": [
-
-            ]
-        },
-        {
-            "lf": "Magn",
-            "free_pattern": [
-
-            ]
+                "Quel est un adjectif ou adverbe que le locuteur utilise comme modificateur de '<W>' pour exprimer son intensification ? Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif utilisé pour exprimer l'intensification de 'peur' est 'bleue'"
         },
         {
             "lf": "S_loc",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie nominale qui désigne un circonstant de lieu typique de '<W>' ? Ne donne que la réponse",
+                "Quel est un nom qui décrit la localisation de '<W>' ? Donne un seul nom sans ponctuation. Donne le lieu typique de '<W>' ? Donne un seul nom sans ponctuation.",
+                "Donne le lieu ou le moment typique de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "À quel endroit se trouve '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "Quelle est une lexie nominale qui désigne un circonstant de lieu typique de, ou d’un fait lié à '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Le nom désignant la localisation de 'bétail' est 'étable'"
         },
         {
             "lf": "Able_2",
             "free_pattern": [
-
-            ]
+                "Quel adjectif décrit ce qui peut être '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif décrivant ce qui peut être 'lire' est 'lisible'"
         },
         {
             "lf": "Redun",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie adjectivale ou adverbiale que le locuteur utilise comme modificateur redondant de '<W>' pour préciser un sens ou une nuance spécifique de '<W>'? Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif utilisé comme modificateur redondant de 'appel' est 'téléphonique'"
         },
         {
             "lf": "S_3",
             "free_pattern": [
-
-            ]
+                "Quel est le nom qui désigne le bénéficiaire typique de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "À qui profite typiquement '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "Quel est le destinataire de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Le nom du bénéficiaire de 'vendre' est 'acheteur'"
         },
         {
             "lf": "Sing",
             "free_pattern": [
-
-            ]
+                "Comment appelle-t-on une unité de '<W>' ? Donne un mot sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Le mot décrivant une unité de 'riz' est 'grain'"
         },
         {
             "lf": "Mero",
             "free_pattern": [
-
-            ]
+                "Quelle est une partie de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "Quel élément constitue une partie de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse",
+                "Donne un composant de '<W>' ? Donne un seul nom sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Un mot décrivant une partie de 'automobile' est 'roue'"
         },
         {
             "lf": "Mult",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie qui désigne un ensemble de '<W>' ? Ne donne que la réponse"
+            ],
+            "one_shot": "Un mot désignant un ensemble de 'chien' est 'meute'"
         },
         {
             "lf": "A_2",
             "free_pattern": [
-
-            ]
+                "Quel adjectif décrit ce qui subit '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Quel adjectif est typiquement associé à l’objet de '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Comment qualifier ce qui est affecté par '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif décrivant ce qui subit 'victoire' est 'vaincu'"
         },
         {
             "lf": "Hypo",
             "free_pattern": [
-
-            ]
+                "Quel est un hyponyme de '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "Donne un type spécifique de '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "Quel est un exemple particulier de '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Un hyponyme de 'chien' est 'husky'"
         },
         {
             "lf": "Able_1",
             "free_pattern": [
-
-            ]
+                "Quel adjectif signifie ‘qui peut faire '<W>'’ ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Comment qualifier quelqu’un qui peut réaliser '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Quel adjectif décrit la capacité à faire '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Un adjectif signifiant la capacité de faire 'peur' est 'épeurant'"
         },
         {
             "lf": "S_res",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie nominale qui désigne un circonstant de résultat typique de '<W>' ? Ne donne que la réponse",
+                "Quel est un résultat typique de l’acte associé au mot '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "Quel est un résultat de l’acte associé au mot '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "En quoi résulte l’acte de '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "Quelle est une lexie nominale qui désigne un circonstant de résultat typique de '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Un mot désignant un circonstant de résultat de 'assassiner' est 'mort'"
         },
         {
             "lf": "S_instr",
             "free_pattern": [
-
-            ]
+                "Quelle est une lexie nominale qui désigne le circonstant instrumental typique de '<W>' ? Ne donne que la réponse",
+                "Quel est un nom qui désigne l’instrumental typique associé à '<W>' ? Ne donne que la réponse"
+            ],
+            "one_shot": "Un mot désignant le circonstant instrumental de 'boire' est 'verre'"
         },
         {
             "lf": "Conv_21",
             "free_pattern": [
-
-            ]
+                "Quel est le verbe qui exprime la même situation que '<W>', mais en inversant le sujet et l’objet ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quel verbe permet de reformuler '<W>' en échangeant les rôles de celui qui fait l’action et de celui qui la subit ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quel est le conversif de '<W>' où l’actant 1 devient actant 2 et inversement ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quel verbe décrit la même relation que '<W>', mais avec les participants inversés ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Comment exprimer '<W>' en inversant les deux participants principaux de la relation ? Donne un seul verbe sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Le verbe reformulant 'inclure' en échangeant le rôle des actants 1 et 2 est 'inclure'"
         },
         {
             "lf": "AntiBon",
             "free_pattern": [
-
-            ]
+                "Quel adjectif ou adverbe exprime une mauvaise évaluation de '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "Quel adjectif ou adverbe signifie que '<W>' est mauvais ? Donne un seul mot sans ponctuation. Ne donne que la réponse",
+                "Comment qualifier négativement '<W>' ? Donne un seul mot sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif exprimant que 'chanter' est mauvais est 'mal'"
         },
         {
             "lf": "Fact_0",
             "free_pattern": [
-
-            ]
+                "Quel verbe signifie que '<W>' se réalise? Donne un seul verbe sans ponctuation. Ne donne que la réponse."
+            ],
+            "one_shot": "Le verbe de réalisation de 'rêve' est 'se réaliser'"
+            
         },
         {
             "lf": "Fact_2",
             "free_pattern": [
-
-            ]
+                "Quel verbe signifie ‘rendre quelqu’un ou quelque chose '<W>'’ ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Quel verbe exprime le fait de provoquer '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse",
+                "Comment exprimer l’action de causer '<W>' ? Donne un seul verbe sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Le verbe pour provoquer 'insolence' est 'offenser'"
         },
         {
             "lf": "Bon",
             "free_pattern": [
-
-            ]
+                "Quel adjectif exprime une bonne évaluation de '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Comment qualifier positivement '<W>' ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse",
+                "Quel adjectif signifie que '<W>' est bon ? Donne un seul adjectif sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "Un adjectif exprimant que 'lac' est bon serait 'limpide'"
         },
         {
             "lf": "AntiMagn",
             "free_pattern": [
-
-            ]
+                "Quel adjectif ou adverbe exprime une faible intensité de '<W>' ? Donne un seul adjectif ou adverbe sans ponctuation. Ne donne que la réponse",
+                "Comment dire que '<W>' est peu intense ? Donne un seul adjectif ou adverbe sans ponctuation. Ne donne que la réponse",
+                "Quel adjectif ou adverbe signifie ‘faible <W>’ ? Donne un seul adjectif ou adverbe sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adverbe exprimant une faible intensité de 'boire' est 'modérément'"
         },
         {
             "lf": "Adv_1",
             "free_pattern": [
-
-            ]
+                "Quel adverbe décrit la manière de faire '<W>' ? Donne un seul adverbe sans ponctuation. Ne donne que la réponse",
+                "Comment fait-on '<W>' ? Donne un seul adverbe sans ponctuation. Ne donne que la réponse",
+                "Quel adverbe est associé à '<W>' ? Donne un seul adverbe sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adverbe correspondant à la manière de faire 'admirer' est 'admirativement'"
         },
         {
             "lf": "Loc_in",
             "free_pattern": [
-
-            ]
+                "Quelle préposition locative de positionnement est associée à '<W>' ? Donne une seule préposition sans ponctuation. Ne donne que la réponse"
+            ],
+            "one_shot": "La préposition locative de positionnement associée à 'France' est 'en'"
         },
         {
             "lf": "Ver",
             "free_pattern": [
-
-            ]
+                "Quel adjectif ou adverbe décrit que '<W>' est véritable, tel qu'il faut ? Ne donne qu'un seul adjectif ou adverbe. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif décrivant que 'viser' est tel qu'il le faut est 'juste'"
         },
         {
             "lf": "AntiVer",
             "free_pattern": [
-
-            ]
+                "Quel adjectif ou adverbe décrit que '<W>' n'est pas véritable, pas comme il le faut ? Ne donne qu'un seul adjectif ou adverbe. Ne donne que la réponse"
+            ],
+            "one_shot": "L'adjectif décrivant que 'viser' n'est pas tel qu'il le faut est 'à côté'"
         }
     ]
 }

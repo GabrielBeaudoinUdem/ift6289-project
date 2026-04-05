@@ -6,15 +6,11 @@ To re-extract, put fr-LN in the `./src/data` folder with this format: `./src/dat
 To run the extraction script: `python ./src/data/extraction.py`
 
 
-
-
-
-Ideas for latter
-Quelle est la valeur de fct {} pour le mot {} (POS{}) : Exemple d'utulisation du mot: {}
-
-
 Avec Exemple de la fct demandée
 Sans Exemple de la fct demandée
 
-- remove ndoes without lf
-- Thinking of only keeping the lfs with at least 100 (or 50) occurences. This would have to be done on the train set...
+
+
+For `benchmarking_patterns.json`, a lot of examples come from https://github.com/rali-udem/QA-LF/blob/main/question_patterns_used.txt
+
+LF description generation: https://chatgpt.com/share/69d2ca29-ca18-8325-95eb-906ed33da8b7
