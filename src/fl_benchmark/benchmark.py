@@ -239,7 +239,7 @@ def run_benchmark(data_path: Path=DATA_PATH,
             for (k, s) in conditions:
                 prompt = build_prompt(word=word, lf=lf, pattern=pattern, 
                                       patterns_map=patterns_map,
-                                      k=k, s=s, current_example=example)
+                                      k=k, s=s, current_example=example, tokenizer=tokenizer)
                 
                 answer = generate_answer(prompt, tokenizer, model, max_new_tokens)
 
@@ -318,3 +318,4 @@ def _print_summary(results: pd.DataFrame) -> None:
 
 if __name__ == "__main__":
     run_benchmark(model_path="mistralai/Mistral-7B-v0.1")
+
