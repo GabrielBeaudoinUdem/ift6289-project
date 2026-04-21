@@ -1,0 +1,11 @@
+# # Local models
+models/
+
+# OS generated files
+.DS_Store
+
+# Video files
+*.mp4
+
+# COLE benchmark repository
+eval/COLE

@@ -1,0 +1,269 @@
+\documentclass[11pt]{article}
+
+% Change "review" to "final" to generate the final (sometimes called camera-ready) version.
+% Change to "preprint" to generate a non-anonymous version with page numbers.
+\usepackage[]{acl}
+
+% Standard package includes
+\usepackage{times}
+\usepackage{latexsym}
+
+% For proper rendering and hyphenation of words containing Latin characters (including in bib files)
+\usepackage[T1]{fontenc}
+% For Vietnamese characters
+% \usepackage[T5]{fontenc}
+% See https://www.latex-project.org/help/documentation/encguide.pdf for other character sets
+
+% This assumes your files are encoded as UTF8
+\usepackage[utf8]{inputenc}
+
+% This is not strictly necessary, and may be commented out,
+% but it will improve the layout of the manuscript,
+% and will typically save some space.
+\usepackage{microtype}
+
+% This is also not strictly necessary, and may be commented out.
+% However, it will improve the aesthetics of text in
+% the typewriter font.
+\usepackage{inconsolata}
+
+%Including images in your LaTeX document requires adding
+%additional package(s)
+\usepackage{graphicx}
+
+\usepackage{amsmath}
+% If the title and author information does not fit in the area allocated, uncomment the following
+%
+%\setlength\titlebox{<dim>}
+%
+% and set <dim> to something 5cm or larger.
+
+\title{IFT6289-H26 - Project Proposal\\ Lexical Functions to Improve Lexical
+  Competence}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a separate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+
+\author{
+    \textbf{Nathalie Ann\textsuperscript{1}},
+    \textbf{Gabriel Beaudoin\textsuperscript{2}},
+    \textbf{Noah Tremblay Taillon\textsuperscript{3}}
+    \\
+    \textsuperscript{1} @umontreal.ca,
+    \textsuperscript{2} gabriel.beaudoin.3@umontreal.ca,\\
+    \textsuperscript{3} noah.tremblay.taillon@umontreal.ca
+    }
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Large language models exhibit strong performance across many natural language
+processing tasks, yet their understanding of fine-grained lexical relations
+remains limited compared to that of human native speakers. Recent work has used 
+the Meaning-Text Theory (MTT) to evaluate models' lexical competence through
+lexical functions, but has focused primarily on evaluation rather than
+on model improvement. In this project, we propose a structured dataset of French
+lexical units annotated with lexical functions derived from the French Lexical
+Network. We use this dataset to fine-tune and evaluate three language models,
+assessing whether explicit training on a structured description of natural
+language improves models' lexical understanding and their ability to generalize
+beyond memorized lexeme pairs.
+\end{abstract}
+
+\section{Introduction}
+Modern natural language processing systems, particularly Large Language Models,
+achieve strong performance across many natural language tasks, yet their
+understanding of fine-grained lexical relations, the meaning of words and the
+relations between them, remains limited; in this area, models often diverge
+from human performance.
+
+% across a wide range of tasks, especially with the development of Large
+% Language Models (LLMs). By using language as input and output, these systems
+% appear to possess strong human language understanding. This ability has been
+% evaluated many times, finding limits to their understanding of the language
+% they use. Lexical knowledge, the understanding of the words and of the
+% relations between them, is a field of application where LLMs tend to diverge from human performance.
+
+The Meaning-Text theory (MTT)
+\cite{melcukVersLinguistiqueSensTexte1997} provides a linguistic framework that
+decomposes language into multiple components, from measurable sound to abstract
+meaning.
+% : phonology, surface 
+% morphology, deep morphology, surface syntax, deep syntax, and semantics. Going
+% from phonology to semantics corresponds to language understanding, while the
+% other way corresponds to language generation.
+This theory allows for a universal
+fine-grained description and analysis of multiple areas of linguistic
+competency.
+%, and is meant to be universal to all languages.
+
+Within this framework, relations between lexical units are modeled using
+lexical functions (LFs), which map a lexical unit to other units expressing a
+semantic relation. For example, the \textit{Magn} function encodes
+intensification, such as $Magn(\text{beautiful}) = \text{gorgeous, stunning}$.
+
+% For a given function 
+% $f$, for all lexical units $x$ with the associated meaning portrayed by $f$,
+% $f(x)=y$ give the different possible values. For example, the $Magn$ function,
+% which expresses the increase in intensity, can be applied to "beautiful",
+% outputting $Magn(\text{beautiful}) = \text{gorgeous, stunning, amazing}$. These
+% lexical functions can be used to create a fine-grained structured description
+% of a language's lexicon.
+
+Structured lexical representations such as LF offer a principled way to model
+abstract lexical relations and may help language models move beyond
+memorization of lexeme pairs. However, prior work has primarily used LFs for
+evaluation rather than for improving models' lexical competence.
+
+% might have the
+% potential to help language models' capacities to better understand abstract
+% lexical relations. More generally, structured lexical resources, such as
+% ontologies describing the terminology of a specific domain like criminal law,
+% have been used to support language understanding and generation task, for
+% example with automatic translation.
+
+
+
+This project aims to investigate whether language models already encode lexical
+functions as abstract lexical relations, and if they are able to
+generalize this abstraction or simply memorize lexeme pairs without
+understanding the relations between them. To do so, we construct a dataset
+based on lexical functions, and inject this knowledge into three pretrained
+language models. We then evaluate whether this structured lexical training
+improves lexical understanding and general linguistic competence.
+
+% To do so, we will create a dataset inspired by previous work, using lexical
+% functions as the primary input. We will then proceed to inject this knowledge
+% into three pretrained language models and evaluate them on a 
+% linguistic competence benchmark. More details about the task will be discussed
+% in Section \ref{sec:task}.
+
+
+
+\section{Related Works}\label{sec:relwork}
+In order to evaluate language models' natural language understanding (NLU), the
+enough generality to quantify models linguistic capabilities
+\citep{niSurveyLargeLanguage2025}. GLUE \cite{niSurveyLargeLanguage2025}
+proposed the first unified benchmark, giving a single score to quantify a
+model's performance. Following in the steps of GLUE,
+FLUE, a French specific benchmark composed of six linguistic evaluation tasks,
+was proposed \citep{leFlauBERTUnsupervisedLanguage2020}. Inspired by this work,
+but wanting to add more diversity and subtility to the evaluation, COLE was
+created, proposing a 23 tasks evaluation benchmark with a single aggregated
+score \citep{beaucheminCOLEComprehensiveBenchmark2025}. 
+
+While general NLU benchmarks are useful, they do not allow for a fine-grained
+evaluation of a specific linguistic evaluation, such as lexical capabilities.
+
+The French Lexical Network (fr-LN) \citep{11403/lexical-system-fr/v3.2} is a
+formal French lexicon following the MTT, describing a total of $29,976$ lexical
+units. LFs are used to describe the relations between all the lexical units,
+creating a graph data structure. Using this resource,
+\citet{liuAssessingBERTsSensitivity2024} proposed 
+an evaluation procedure to assess CamemBERT's \cite{martin-etal-2020-camembert}
+understanding of French idioms. \citet{petrovQALFFrenchQuestionAnswering2025}
+proposed the Q\&A-LF benchmark to evaluation models' lexical knowledge using
+LFs. Using a fixed template prompt design for 15 selected lexical functions,
+the authors found that tested language models generally excel when needed to use
+morphological evidence, but struggle on tasks involving world conception and
+creative reasoning, demonstrating the absence of structured semantic
+mapping. Similarly, \citet{liEvaluationCompetenceLexicale2025} used 82 LFs to
+compared language models.
+
+These MTT specific evaluation procedures tend to remove rare LFs in their
+testing, in order to have a more general score. To our knowledge, no prior work
+proposed to enhance models with LFs knowledge.
+
+
+\section{Task and Dataset} \label{sec:task}
+
+
+Our primary task involves the extraction and structuring of lexical knowledge
+to fine-tune a Large Language Model (LLM). We aim to teach the model specific
+Lexical Functions derived from the Meaning-Text Theory.
+
+As mentionned in the Section \ref{sec:relwork}, previous work on LFs and
+language models created evaluation datasets, which are not suited for
+optimization strategies. Based on previous work, we will create a structured
+dataset using fr-LN \citep{11403/lexical-system-fr/v3.2} in JSON format. This
+structure will include part of speech (POS), specific sense to handle polysemy,
+relevant LFs, and an in-context example of the vocable. All of this data is
+available in fr-LN; our work will be to structure it accordingly. As some LFs
+have few instances in fr-LN, we plan to set a minimum occurrence threshold to
+ensure consistency.
+
+% To address the potential scarcity of data, we also plan to experiment with
+% synthetic data generation techniques to augment the dataset. All synthetically
+% generated entries will undergo manual validation to ensure linguistic
+% correctness. We consider the development of these reliable augmentation
+% strategies for structured lexical knowledge to be a contribution of our work.
+
+\section{Methodology}
+We will employ a parameter-efficient fine-tuning approach to verify if
+structural injection improves competence.
+
+We will be comparing three models : Mistral-7B
+\citep{jiangMistral7B2023} for its modern and strong multilingual architecture;
+Qwen2.5-14B-Instruct \citep{qwen2} for its instruction-tuned multilingual
+model, and FlauBERT \citep{leFlauBERTUnsupervisedLanguage2020}, a strong
+French-specific model. This diversity in models with manageable size for
+academic experimentation will allow us to have a
+broader understanding of language model's capacity regarding LFs.
+
+Our primary objective is to compare the performance of the fine-tuned models
+against the base models to see if explicit training yields better understanding
+of lexical relations. Regarding the training techniques, we considered classic
+full fine-tuning but will likely proceed with Low-Rank Adaptation (LoRA). LoRA
+is significantly more cost-effective and computationally efficient, allowing us
+to inject specific Meaning-Text Theory constraints without the prohibitive
+resource costs of updating all model parameters. We will compare two main
+configuration. Prompting the original Mistral-7B to perform tasks without
+weight updates and the Mistral-7B model updated with our dataset via LoRA
+\citep{LoRA}.
+
+\section{Baselines and Evaluation}
+Using the dataset as described in Section \ref{sec:task}, we will perform a two
+step evaluation procedure.
+
+First, by dividing the dataset in a $80\%, 20\%$ train-test split, we will
+perform a supervised-learning inspired evaluation. Using
+\citet{petrovQALFFrenchQuestionAnswering2025}'s evaluation procedure, we will
+create fixed query template for every LF in our dataset. For example, a prompt
+for the $S_0$ function could be "\textit{What noun corresponds to the verb
+<<Verb>>?}". This strategy allows for an automatic evaluation procedure
+on all terms in the test split. The prompts will also ask for a single lexical
+unit answer.
+
+Exact Match (EM) and Contain Match (CM)
+\cite{petrovQALFFrenchQuestionAnswering2025} will be used to quantify the
+model's answers; CM will be used to consider whether the model's answer
+contains one of the desired outputs, since models tend to not respect the
+"single lexical unit answer" condition. These metrics will require normalization of the
+model's output, and will be set based, as there can be multiple good answers to
+one LF input. Accuracy and F1 score will also be used to further analyze the
+model's answers.
+
+The second evaluation step will be using the COLE benchmark
+\cite{beaucheminCOLEComprehensiveBenchmark2025} in order to assess whether
+learning LFs allowed for a better general language understanding.
+
+
+% Bibliography entries for the entire Anthology, followed by custom entries
+%\bibliography{anthology,custom}
+% Custom bibliography entries only
+\bibliography{proposal}
+
+\end{document}

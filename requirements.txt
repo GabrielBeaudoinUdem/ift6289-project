@@ -1,0 +1,14 @@
+datasets
+pandas
+torch
+transformers
+peft
+tqdm
+beautifulsoup4
+sacremoses
+pandas
+beautifulsoup4
+ipynb
+ipykerne
+matplotlib
+scikit-learn

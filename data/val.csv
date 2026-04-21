@@ -1,0 +1,661 @@
+name,POS,lexical_function,targets,example,group_id
+semoule,nom,A_0,['semoulier'],Il saisit son assiette remplie de semoule et de pois chiches. Il la jette par la fenêtre ouverte. Nous entendons le bruit...,semoule||nom||A_0
+vaguement,adverbe,A_0,['vague'],"...toutes ses dents, remplacées par cet objet vaguement répugnant qui trempait dans un verre sur sa table de nuit et que j’évitais de...",vaguement||adverbe||A_0
+citoyen,nom,A_0,['citoyen'],"...communautés, aura un visage humain. Chaque citoyen pourra briguer ces magistratures modestes, mais « honorées et importantes ».",citoyen||nom||A_0
+prince,nom,A_0,['princier'],"...le bouclier et qui sont la garde privée du prince... Suivent les voitures à chèvres, les voitures à chevaux, toutes ornées d’or.",prince||nom||A_0
+précédemment,adverbe,A_0,['précédent'],...les tenailles du maréchal-ferrant qui avait précédemment occupé cette masure donnaient un air de chambre de torture à ce sombre intérieur.,précédemment||adverbe||A_0
+aimer,verbe,A_0,['amoureux'],"...amis, l’un s’appelait Marcel, l’autre Paul. Tu aimais le premier, le second était amoureux de toi.",aimer||verbe||A_0
+collégienne,nom,A_0,['collégien'],"Delphine P., 11 ans, collégienne à Valdahon, est une passionnée de sport, plus exactement de nombreux sports.",collégienne||nom||A_0
+torrent,nom,A_0,['torrentiel'],"...l’Oued-Bouketheun, ou l’Oued-Biban, nom que prend le torrent après avoir franchi les Portes ; mais ses eaux, grossies par l’orage, retardèrent...",torrent||nom||A_0
+ouvrir,verbe,A_0,['ouvert'],"Ouvrez vos oreilles, je vous prie, et surtout vos yeux !",ouvrir||verbe||A_0
+cauchemar,nom,A_0,['cauchemardesque'],...relever la nuit en pleurant après avoir fait des cauchemars.,cauchemar||nom||A_0
+au ras des pâquerettes,locution prépositionnelle,A_0,['ras des pâquerettes'],"...prenais conscience qu’on pouvait, en écrivant au ras des pâquerettes, en décrivant son quotidien, être bouleversant ou ennuyeux comme un bottin téléphonique.",au ras des pâquerettes||locution prépositionnelle||A_0
+définir,verbe,A_0,['définitionnel'],Il faut définir les termes qu’on emploie !,définir||verbe||A_0
+violet,nom,A_0,['violet'],"...le Créateur, le vert, c’est la confiance. Le violet, c’est la tristesse et la pénitence, le noir, c’est le deuil. Les trois premières...",violet||nom||A_0
+piano,nom,A_0,['pianistique'],"J’apprends le piano et je suis des cours de chant. Je vais quand même au cinéma, toutes les semaines,...",piano||nom||A_0
+vêtement,nom,A_0,['vestimentaire'],...l’enveloppe dans ma veste ne sachant où sont ses vêtements et il continue à dormir.,vêtement||nom||A_0
+Amérique du Sud,locution nominale,A_0,['sud-américain'],...le général Mangin au cours de son voyage en Amérique du Sud.,Amérique du Sud||locution nominale||A_0
+ange,nom,A_0,['angélique'],"...éventail céleste : au loin à l’horizon, un ange volait vers lui, laissant filer dans son sillage la traîne sinueuse d’une ceinture...",ange||nom||A_0
+adulte,nom,A_0,['adulte'],"Saint-John Perse est un adulte, mais il a conservé en lui le continent de l’enfance, d’où jaillit la source...",adulte||nom||A_0
+train,nom,A_0,['ferroviaire'],"...délivrer de tout souci, ces gens-là prennent le train ou le car. Que ce soit en ville ou pour de grands voyages, les moyens de transport...",train||nom||A_0
+mer,nom,A_0,"['marin', 'maritime']",— C’est incroyable comme l’eau de mer bouffe tout ! dit Gabin sans se relever...,mer||nom||A_0
+meurtre,nom,A_0,['meurtrier'],"...dix-huit ans sont mis en examen pour le viol et le meurtre d’une grand-mère de soixante-neuf ans, le jeune majeur pour meurtre sur une...",meurtre||nom||A_0
+qualité,nom,A_0,['qualitatif'],C’est souvent dû à une mauvaise qualité des huiles. Il arrive que des savonniers peu scrupuleux utilisent pour la fabrication...,qualité||nom||A_0
+bien,adverbe,A_0,"['bon', 'bien']","...façon de me dire, au téléphone, que tout allait bien, qui m’a fait à ce point insister pour qu’il vienne déjeuner avec nous à Paris...",bien||adverbe||A_0
+groupe,nom,A_0,['groupal'],"...temps calme, les jeunes se séparent en trois groupes : les premiers vont faire un tennis, les autres un foot et les derniers préfèrent...",groupe||nom||A_0
+boue,nom,A_0,['boueux'],...s’affaire. Les cygnes cessent de filtrer la boue avec leur bec et préfèrent les gros morceaux de pain. Les canards arrêtent de...,boue||nom||A_0
+mois,nom,A_0,['mensuel'],"Si un employé demande son congé pour le mois de septembre, il peut en obtenir un nouveau en juin ou juillet de l’année suivante,...",mois||nom||A_0
+furieusement,adverbe,A_0,['furieux'],"...rendu immense par ses ailes déployées, siffle furieusement vers lui, mais demeure à une distance prudente.",furieusement||adverbe||A_0
+kaki,nom,A_0,['kaki'],"...yeux pour que les couleurs s’en mêlent. Le kaki des chemises de partisans, le vert de la jungle, le bleu de la baie, le rouge...",kaki||nom||A_0
+paume,nom,A_0,['palmaire'],"Je me décidai à couvrir d’une large paume un bâillement considérable et M. Rezeau retoucha l’arc de sa moustache, en soupirant.",paume||nom||A_0
+fleur,nom,A_0,"['floral', 'fleuri']","...toujours photographiées sur fond de cerisiers en fleur, sont aussi mythiques, à nos yeux, que les matrones romaines ou les dames grecques...",fleur||nom||A_0
+corporellement,adverbe,A_0,['corporel'],"...interprétaient divers chants, s’exprimaient corporellement sur les thèmes du pugilat et du sport acrobatique.",corporellement||adverbe||A_0
+volcan,nom,A_0,['volcanique'],"...dont le whisky déliait la langue, j’ai vu un volcan en éruption, le feu était si fort que je l’ai vu, qu’il m’a ébloui.",volcan||nom||A_0
+Australie,nom,A_0,['australien'],"...que nous pouvons au moins imaginer pourquoi l’Australie, mieux que tout autre continent, offrirait à une telle expérience un terrain...",Australie||nom||A_0
+défendre,verbe,A_1,['défensif'],"...nobles, autour du roi, avait été, jadis, de défendre contre l’ennemi ceux qui s’étaient mis sous leur protection et de faire la guerre...",défendre||verbe||A_1
+s’appuyer,verbe pronominal,A_1,['appuyé'],"...femmes en jupes longues, puis en jupes courtes, s’étaient appuyées à son comptoir, sous de grands chapeaux pareils à des auréoles, ou de petits...",s’appuyer||verbe pronominal||A_1
+handicap,nom,A_1,['handicapé'],...qui abrite dans mon corps la faiblesse et le handicap rampant.,handicap||nom||A_1
+boulimie,nom,A_1,['boulimique'],"...à boire et à manger, à s’empiffrer avec une boulimie stupéfiante.",boulimie||nom||A_1
+religiosité,nom,A_1,['religieux'],"...héroïquement contre la mort et qu’anime une religiosité foncière, longtemps chrétienne.",religiosité||nom||A_1
+respect,nom,A_1,['respectueux'],"« J’ai beaucoup de respect pour lui » note Keith J., « il joue dur, c’est un grand scoreur et il mène bien...",respect||nom||A_1
+le feu aux fesses,locution nominale,A_1,['excité'],"...train de combiner son coup, et la Gazette, le feu aux fesses, filait comme le gibier noir en direction du sud-ouest, en faisant de grands...",le feu aux fesses||locution nominale||A_1
+allergie,nom,A_1,['allergique'],"...chimique des lacrymogènes, l’état second où l’allergie me met, les ondes de chaleur qui irradient de la foule, l’énergie élémentaire...",allergie||nom||A_1
+collaborer,verbe,A_1,['collaborateur'],"...du conseil municipal de Paris et s’apprête à collaborer avec les Allemands, dès leur entrée dans la ville.",collaborer||verbe||A_1
+stérilité,nom,A_1,['stérile'],"Après avoir détecté ou non une stérilité masculine, des examens sont pratiqués pour dépister les causes d’une stérilité...",stérilité||nom||A_1
+bonheur,nom,A_1,['heureux'],"Alors, petit à petit, mon bonheur a laissé place à l’angoisse. Lorsque j’ai réalisé que le réveil avait été trop...",bonheur||nom||A_1
+ochlophobie,nom,A_1,['ochlophobe'],...je devrais vous expliquer que je souffre d’ochlophobie légère (la phobie des foules).,ochlophobie||nom||A_1
+allotropie,nom,A_1,['allotropique'],Le phénomène d’allotropie est typiquement plus visible dans le cas des non-métaux puisqu’il peut être...,allotropie||nom||A_1
+quarantaine,nom,A_1,['en'],L’habitude de mettre les arrivantes en quarantaine remontait à une épidémie qui avait effrayé les gardiens SS pour leur propre...,quarantaine||nom||A_1
+obsédé,nom,A_1,['obsédé'],...partait avec la même fiévreuse impatience que l’obsédé de baccara court au casino.,obsédé||nom||A_1
+misogynie,nom,A_1,['misogyne'],"...mal préparée à l’énormité tranquille de la misogynie que j’allais découvrir dans le monde extérieur. Plus qu’une conviction étayée,...",misogynie||nom||A_1
+bruit,nom,A_1,['bruyant'],"...glissant dans ses charentaises qui faisaient un bruit feutré sur les carreaux en linoléum grenat quadrillé de blanc, ouvrit le tiroir...",bruit||nom||A_1
+miel,nom,A_1,"['mielleux', 'doucereux']","...il ne sourit jamais, mais il met un peu de miel dans sa voix.",miel||nom||A_1
+début,nom,A_1,['débutant'],"Pour éviter le début d’incendie sur ce camion qui était chargé de cartons, les pompiers ont pris...",début||nom||A_1
+astuce,nom,A_1,['astucieux'],...arrive à Audincourt — il lui a fallu toute l’astuce d’un ancien du Deuxième Bureau pour pénétrer en zone interdite — sa permission...,astuce||nom||A_1
+parole,nom,A_1,['parlant'],"...intervention pour toutes les pathologies de la parole, de la déglutition, de la voix et du langage oral et écrit, quelle que soit...",parole||nom||A_1
+souci,nom,A_1,['soucieux'],...toujours consacrée à sa famille. Son principal souci était de rendre les autres heureux. Germaine était grand-mère de deux petites-filles...,souci||nom||A_1
+imminence,nom,A_1,['imminent'],...résistants avaient été informés la veille de l’imminence du débarquement.,imminence||nom||A_1
+inattention,nom,A_1,['inattentif'],"...munies, pour en limiter les effets en cas d’inattention du mécanicien, de bouchons fusibles, vissés dans le ciel du foyer et obturés...",inattention||nom||A_1
+diplôme,nom,A_1,['diplômé'],...ordonne de retourner à ses études et exige un diplôme pour la fin de l’année.,diplôme||nom||A_1
+ne plus être,locution verbale,A_1,['mort'],"...où la nouvelle de sa mort, le rappel qu’elle n’est plus, je dois me l’administrer comme de l’extérieur ; en un sursaut.",ne plus être||locution verbale||A_1
+Irlandaise,nom,A_1,['irlandais'],"...charmante vieille dame servait le thé : c’était une Irlandaise qui, chaque été, faisait un voyage pour rendre visite à sa famille, dans le...",Irlandaise||nom||A_1
+énergie,nom,A_1,['énergique'],"...journée, et on imagine mal combien il faut d’énergie pour maintenir la discipline, garder, pour chaque enfant, une réelle attention....",énergie||nom||A_1
+ne plus tenir debout,locution verbale,A_1,['fatigué'],"...qu’elle va se coucher, qu’elle est crevée et ne tient plus debout.",ne plus tenir debout||locution verbale||A_1
+adolescent,nom,A_1,['adolescent'],"...baie, et l’un des groupes, composé de deux adolescents et d’un membre d’une équipe de sauveteurs, n’est pas retrouvé.",adolescent||nom||A_1
+coopération,nom,A_1,['coopérant'],"...recherche pas une grande guerre, elle veut une coopération des forces qui obligeront les États-Unis à abandonner leur politique agressive,...",coopération||nom||A_1
+battre,verbe,A_2,['battu'],"Maman me battait souvent et c’était en général lorsque « ses nerfs la lâchaient », elle ne pouvait...",battre||verbe||A_2
+passionner,verbe,A_2,['passionné'],...prenais plaisir à ce commentaire parce qu’il passionnait Camille et que de jour en jour je voyais Kotelnitch lui devenir de plus en plus...,passionner||verbe||A_2
+pension,nom,A_2,['pensionné'],"...ancien des Dardanelles, pour lui piquer sa pension trimestrielle d’invalide de guerre.",pension||nom||A_2
+profit,nom,A_2,['profitable'],...faire des études sérieuses et que je tirerais profit d’une hypokhâgne et d’une khâgne.,profit||nom||A_2
+haleter,verbe,A_2,['haletant'],...un litre d’alcool à 90°. L’auditoire haleta.,haleter||verbe||A_2
+plaisir,nom,A_2,['plaisant'],"Ah, le plaisir des soldes ! Moment important, surtout pour les magasins de vêtements. Beaucoup...",plaisir||nom||A_2
+rassurer,verbe,A_2,['rassuré'],"...cabinet. J’étais inquiet, anxieux, mais il m’a rassuré avec une voix très pondérée, ce n’est rien monsieur, détendez-vous, installez-vous.",rassurer||verbe||A_2
+gonfler,verbe,A_2,['gonflé'],"...timbale et le rond de serviette en argent qui gonflaient la poche de son pantalon, et qu’il comptait offrir à Zézette, à la minute la...",gonfler||verbe||A_2
+sinistre,nom,A_2,['sinistré'],...pieds à la tête comme pour intervenir sur un sinistre.,sinistre||nom||A_2
+maladie,nom,A_2,['malade'],"...soi-même être sale, pour ne pas attraper les maladies.",maladie||nom||A_2
+habitation,nom,A_2,['habité'],"À la fois ferme, bergerie et maison d’habitation, elle était inoccupée depuis des années.",habitation||nom||A_2
+étouffer,verbe,A_2,['étouffé'],"...cellule, la visite discrète d’un bourreau qui les étouffe ou les égorge avant d’escamoter leur dépouille. C’est le mot terrible de Pascal...",étouffer||verbe||A_2
+distinguer,verbe,Able_1,['distinctif'],"...pouvoir, mais ce trait ne suffirait pas à la distinguer de la plupart des affaires privées, qui savent, quand il convient, trouver le...",distinguer||verbe||Able_1
+absorber,verbe,Able_1,['absorbant'],"...Et mes selles boivent la graisse, le cuir l’absorbe vraiment, à une vitesse stupéfiante pour ma selle d’amazone.",absorber||verbe||Able_1
+ébahir,verbe,Able_1,['ébahissant'],Cela a l’air de l’ébahir qu’on prononce ce nom.,ébahir||verbe||Able_1
+tracasser,verbe,Able_1,['tracassier'],"...ni comment ni pourquoi, nous avons cessé de tracasser Sinali, le vieux tirailleur aux trois chevrons.",tracasser||verbe||Able_1
+mordre,verbe,Able_1,['mordeur'],"...rat n’est pas sale, il n’est pas méchant il mord moins que les souris...",mordre||verbe||Able_1
+tempête,nom,Able_1,['exposé'],"La tempête ulule, mais ce n’est plus à bord, par le sifflet des persiennes d’un panneau,...",tempête||nom||Able_1
+anglais,nom,Able_1,['anglophone'],"...l’indispensable Wikipedia, un flash mob (traduit de l’anglais par rassemblement éclair ou foule éclair) est le rassemblement d’un groupe de...",anglais||nom||Able_1
+flatter,verbe,Able_1,['flatteur'],"...ses yeux bruns ; noisette, disait-on pour la flatter. Elle avait toujours su que c’était un marron banal, une couleur commune à côté...",flatter||verbe||Able_1
+s’enflammer,verbe pronominal,Able_1,['inflammable'],"...pourtant, elle s’approcha tant et tant que sa robe s’enflamma et qu’elle prit feu.",s’enflammer||verbe pronominal||Able_1
+aventure,nom,Able_1,"['aventurier', 'aventureux']","...pragmatique, il cultive un goût immodéré pour l’aventure, en montagne comme dans le désert.",aventure||nom||Able_1
+distribuer,verbe,Able_2,['distribuable'],"...ramasse le courrier chez la concierge et le distribue, tâche de confiance...",distribuer||verbe||Able_2
+douter,verbe,Able_2,['douteux'],"...odieuses aujourd’hui », disais-je à Paul qui doutait de mon bon sens en apercevant les trois saintes nitouches.",douter||verbe||Able_2
+vendre,verbe,Able_2,['vendable'],"À chaque station, des gamins vendaient pour quelques sous aux voyageurs des ananas juteux à pulpe jaune qui procuraient...",vendre||verbe||Able_2
+analyser,verbe,Able_2,['analysable'],"...pollution est mangée par des bactéries. Sylvie B. analyse l’eau à l’entrée et à la sortie de la station. Quand elle est rejetée à la rivière,...",analyser||verbe||Able_2
+douleur,nom,Able_2,['sensible'],"...deux sacs. Toute la journée, je ressens des douleurs dans les bras et les épaules.",douleur||nom||Able_2
+nier,verbe,Able_2,['niable'],"...avaient été entendus par les enquêteurs, mais ils niaient les faits. Grâce à ce cheveu, le laboratoire d’analyse de police scientifique...",nier||verbe||Able_2
+détruire,verbe,Able_2,['destructible'],...utiliser les armes lourdes. Nous ne voulons pas détruire ce bâtiment.,détruire||verbe||Able_2
+accès,nom,Able_2,['accessible'],...où le trottoir s’affaisse pour permettre un accès plus aisé.,accès||nom||Able_2
+calculer,verbe,Able_2,['calculable'],"...1 à 5 étoiles, ceci pour nous permettre de calculer une note moyenne.",calculer||verbe||Able_2
+danser,verbe,Able_2,['dansable'],...Je ne suis pas sûr qu’il ait envie de danser.,danser||verbe||Able_2
+attirer,verbe,Able_2,['attirable'],"Si l’aimant attire le fer, c’est tout simplement parce qu’il réussit l’exploit de le transformer...",attirer||verbe||Able_2
+promouvoir,verbe,Able_2,['promouvable'],"Le 12 juillet 1994, le roi Hassan II promeut son fils aîné au grade de général de division.",promouvoir||verbe||Able_2
+paralysie,nom,Able_2,['paralysant'],"...d’urgence, il a pu être sauvé, mais souffre d’une paralysie partielle du bras et de la jambe droites, à telle enseigne qu’il risque de rester...",paralysie||nom||Able_2
+allergie,nom,Able_2,"['allergisant', 'allergène']","...chimique des lacrymogènes, l’état second où l’allergie me met, les ondes de chaleur qui irradient de la foule, l’énergie élémentaire...",allergie||nom||Able_2
+occuper,verbe,Able_2,['occupable'],Je trouvais absurde d’occuper un lit d’hôpital pour si peu ; je ne me sentais pas malade.,occuper||verbe||Able_2
+rigoler,verbe,Able_2,['rigolo'],...vas nous remercier parce que t’as vu ton père rigoler pour la première fois depuis la chute du vase de Soissons...,rigoler||verbe||Able_2
+entendre,verbe,Able_2,['audible'],...toutes les nuits la même chose. Je m’endors. J’entends un cri. Je m’éveille en sursaut. Une sueur glacée me colle aux draps.,entendre||verbe||Able_2
+fantastique,adjectif,Adv_0,['fantastiquement'],"Le Thunderbird est une créature fantastique en forme d’oiseau, son nom « l’oiseau-tonnerre » proviendrait du bruit semblable...",fantastique||adjectif||Adv_0
+bénévole,adjectif,Adv_0,['bénévolement'],"Ils se souviennent de leur participation bénévole aux ravitaillements. « À 3 h du matin, on épluchait les oranges. Et quand les...",bénévole||adjectif||Adv_0
+étrange,adjectif,Adv_0,['étrangement'],...surprenant était que je portais maintenant une étrange coiffure.,étrange||adjectif||Adv_0
+geste,nom,Adv_0,['gestuellement'],...semi-comateux. Elle n’esquissa pas le moindre geste de défense quand la lame s’approcha de sa main. Il l’avait contemplée alors...,geste||nom||Adv_0
+propre,adjectif,Adv_0,['proprement'],...s’occuper pour mériter salaire dans cette maison propre comme un sou neuf jusque dans les coins.,propre||adjectif||Adv_0
+prompt,adjectif,Adv_0,['promptement'],"...inquiet, appela le médecin, le SAMU. Malgré leur prompte intervention, Chantal, victime d’un arrêt cardiaque, rendit le dernier soupir.",prompt||adjectif||Adv_0
+impatient,adjectif,Adv_0,['impatiemment'],"Puis aux enfants impatients, pendant que le fruit de leur travail levait lentement, cuisait dans les fours...",impatient||adjectif||Adv_0
+corps,nom,Adv_0,"['corporellement', 'physiquement']",...internes comme les rayons x le font pour le corps humain.,corps||nom||Adv_0
+exactitude,nom,Adv_0,['exactement'],...découverte sensationnelle devait bientôt confirmer l’exactitude de cette hypothèse.,exactitude||nom||Adv_0
+nombre,nom,Adv_0,['numériquement'],"...poser le problème suivant : si je prends le nombre 2 517 à la puissance 513, par quel chiffre se termine-t-il ? Et il me donnait...",nombre||nom||Adv_0
+instant,nom,Adv_0,['instantanément'],...vole si lentement que je m’attends à chaque instant à le voir tomber.,instant||nom||Adv_0
+hypothèse,nom,Adv_0,['hypothétiquement'],"...peuvent-elles permettre de formuler certaines hypothèses très générales, mais celles-ci doivent faire l’objet de nombreuses vérifications...",hypothèse||nom||Adv_0
+simple,adjectif,Adv_0,['simplement'],...quatre parfois s’il s’agit d’exercices très simples.,simple||adjectif||Adv_0
+homme,nom,Adv_0,['humainement'],"...« et, par conséquent, devenus une menace pour l’homme », a déclaré le porte-parole des KWS.",homme||nom||Adv_0
+après-coup,nom,Adv_0,['après coup'],"...considérant la façon dont on a travaillé. Dans cet après-coup, on peut constater que partenariat peut être le nom de toutes les relations...",après-coup||nom||Adv_0
+bizarrerie,nom,Adv_0,['bizarrement'],...que les employés s’étonnaient à peine de la bizarrerie de ses propos.,bizarrerie||nom||Adv_0
+sage,adjectif,Adv_0,['sagement'],"Ils m’écoutaient comme des enfants sages, entre chaque phrase on aurait pu entendre une mouche voler tellement le silence...",sage||adjectif||Adv_0
+exception,nom,Adv_0,['exceptionnellement'],"...par les pas. Je dis bien en principe, car les exceptions sont suffisamment fréquentes : un pas de danse peut meubler un silence musical,...",exception||nom||Adv_0
+sexe,nom,Adv_0,['sexuellement'],"...abeilles, c’est donc la reine qui contrôle le sexe d’un œuf en décidant ou non de le féconder à partir du sperme emmagasiné des...",sexe||nom||Adv_0
+danger,nom,Adv_0,['dangereusement'],"...otage l’ensemble des habitants. Conscient du danger, le gouvernement français a rapidement décidé le rapatriement de tous les ressortissants...",danger||nom||Adv_0
+lexique,nom,Adv_0,['lexicalement'],"...besoins de ceux qui s’en servaient, ou dont le lexique ou la grammaire se soient appauvris au point qu’elles cessent quasiment d’être...",lexique||nom||Adv_0
+double,adjectif,Adv_0,['doublement'],...me rejoindre : à deux nous avions droit à la double quantité de la marchandise rationnée.,double||adjectif||Adv_0
+adorable,adjectif,Adv_0,['adorablement'],"Fine tricoteuse, elle savait confectionner d’adorables petits chaussons en laine, qu’elle aimait offrir en cadeau de naissance.",adorable||adjectif||Adv_0
+indiscret,adjectif,Adv_0,['indiscrètement'],"— Je suis indiscret, mais vous comptez rester en métropole ou venir vous réinstaller ici ?",indiscret||adjectif||Adv_0
+obligatoire,adjectif,Adv_0,['obligatoirement'],"...que l’analyse de sang implique le dépistage obligatoire du virus du sida, bonne occasion pour savoir si mes fréquentations ont été correctes.",obligatoire||adjectif||Adv_0
+énergétique,adjectif,Adv_0,['énergétiquement'],"« La réduction des consommations énergétiques, tout en respectant les seuils de renouvellement d’air imposés par les règlements...",énergétique||adjectif||Adv_0
+fonctionnel,adjectif,Adv_0,['fonctionnellement'],C’est à ce prix que les propriétés fonctionnelles du système nerveux pourront être réellement expliquées et que des interventions...,fonctionnel||adjectif||Adv_0
+vraisemblable,adjectif,Adv_0,['vraisemblablement'],"...de cette logeuse, une histoire plus ou moins vraisemblable.",vraisemblable||adjectif||Adv_0
+sainteté,nom,Adv_0,['saintement'],...je les vénérais pour leur savoir et pour la sainteté de leur vie.,sainteté||nom||Adv_0
+incroyable,adjectif,Adv_0,['incroyablement'],...techniques ont fait en peu de temps des progrès incroyables.,incroyable||adjectif||Adv_0
+injustice,nom,Adv_1,['injustement'],Et il serait d’une grande injustice de les juger sur une sueur de paroles.,injustice||nom||Adv_1
+victoire,nom,Adv_1,['victorieusement'],Votre victoire sur le Stade Toulousain a été la victoire d’une équipe et de ses supporters....,victoire||nom||Adv_1
+peur,nom,Adv_1,['peureusement'],"...la belle-mère du ministre. Tout le monde a peur des belles-mères de ministres, y compris les ministres. Cela marche formidablement...",peur||nom||Adv_1
+frilosité,nom,Adv_1,"['avec', 'frileusement']","...plaignent d’impression d’inconfort, de malaise, de frilosité.",frilosité||nom||Adv_1
+hypocrisie,nom,Adv_1,"['hypocritement', 'avec']","...liberté, de leur vie même, l’impuissance et l’hypocrisie de nos législateurs.",hypocrisie||nom||Adv_1
+treize,numéral,Adv_1,['à'],"Le soir, je lis les treize premières pages de ce chapitre d’ouverture à Jean. Il me dit « je veux savoir...",treize||numéral||Adv_1
+infertilité,nom,Anti,['fertilité'],...la pollution de la nappe phréatique et de l’infertilité des terres.,infertilité||nom||Anti
+inexprimable,adjectif,Anti,['exprimable'],"...bonheur qu’il faisait revivre en moi, ce bonheur inexprimable que j’ai connu aux environs de 1930.",inexprimable||adjectif||Anti
+régresser,verbe,Anti,['progresser'],Je régresse gravement : j’me suis offert la sieste du siècle après avoir regardé des dessins...,régresser||verbe||Anti
+désillusion,nom,Anti,['illusion'],...fréquenterai pas et ainsi ne rapporterai aucune désillusion.,désillusion||nom||Anti
+lendemain,nom,Anti,['veille'],"Le lendemain matin, Maman vient aspirer la chose et vider le sac de l’aspirateur.",lendemain||nom||Anti
+inexplicable,adjectif,Anti,['explicable'],"...sa langue à des contraintes en grande partie inexplicables, comme si, par là, elle eût atteint à un état supérieur de clarté.",inexplicable||adjectif||Anti
+fermer,verbe,Anti,['ouvrir'],"...l’ouverture de la fenêtre, que nous avions renoncé à fermer complètement cet été-là, tu t’en souviens ?",fermer||verbe||Anti
+particulier,adjectif,Anti,['général'],"...forme, motiver un nouvel examen ou une décision particulière.",particulier||adjectif||Anti
+avec,adverbe,Anti,['sans'],...je n’aurai tout fait pour la sauver et moi avec. Mais ces mots-là je les ai recopiés et ne les ai pas signés. Pas folle la guêpe.,avec||adverbe||Anti
+bonté,nom,Anti,['méchanceté'],...génie. Il l’estimait pour sa franchise et sa bonté.,bonté||nom||Anti
+échec,nom,Anti,"['succès', 'réussite']","...échouent. Le porte-parole évite de parler d’un échec, et utilise l’expression « premier round ».",échec||nom||Anti
+synonyme,nom,Anti,['antonyme'],...vérifiera en outre que les étymologies ont des synonymes exacts dans d’autres langues ou même des analogues dans la même langue. Ainsi...,synonyme||nom||Anti
+franchissable,adjectif,Anti,['infranchissable'],"...ses petits murets feuillus de deux mètres, franchissables à volonté, Michelet était attirant ; on avait presque envie d’y entrer.",franchissable||adjectif||Anti
+se coucher,verbe pronominal,Anti,['se lever'],"Le soleil se couchait sur les vallées profondes où les eaux coulaient sur les pierres roses et, contre...",se coucher||verbe pronominal||Anti
+irremplaçable,adjectif,Anti,['remplaçable'],"...n’est rien, monsieur, mais les souvenirs, c’est irremplaçable » —, les dégâts des eaux provoqués par l’inconséquence des voisins — « les gens...",irremplaçable||adjectif||Anti
+pudeur,nom,Anti,['impudeur'],Ma pudeur pouvait être blessée par des scènes d’amour trop osées ou trop dites.,pudeur||nom||Anti
+envers,nom,Anti,['endroit'],"...je me souviens, on recousait les robes sur l’envers quand l’endroit était élimé, cela donnait l’illusion du neuf, et un vêtement...",envers||nom||Anti
+soupçonnable,adjectif,Anti,['insoupçonnable'],"L’enfant Yves ne se sent pas soupçonnable, mais d’emblée soupçonné, fautif.",soupçonnable||adjectif||Anti
+vidé,adjectif,Anti,['rempli'],...cages. Elles s’élevaient au fond de la pièce vidée de ses meubles.,vidé||adjectif||Anti
+imitable,adjectif,Anti,['inimitable'],...rares et sont un atout compétitif difficilement imitable par des concurrents.,imitable||adjectif||Anti
+matériel,adjectif,Anti,['spirituel'],"...leurs masses, action chimique de leur substance matérielle. Puis, pressée par l’évidence de ses lacunes et de ses insuffisances, elle a...",matériel||adjectif||Anti
+malheur,nom,Anti,['bonheur'],"...toutes les précautions possibles, lorsque le malheur doit arriver rien ne peut l’arrêter.",malheur||nom||Anti
+inintéressant,adjectif,Anti,['intéressant'],...leur travail à l’intérieur d’une entreprise inintéressante.,inintéressant||adjectif||Anti
+explicite,adjectif,Anti,['implicite'],"...bien avec personne », telle était la consigne explicite donnée aux instituteurs, et plus encore aux institutrices, cibles désignées...",explicite||adjectif||Anti
+bas,adjectif,Anti,"['haut', 'élevé']","...avec la Maserati, c’est qu’elle est tellement basse qu’elle ne passe pas les plus petites bosses : les bas de porte, les trottoirs,...",bas||adjectif||Anti
+guérissable,adjectif,Anti,"['incurable', 'inguérissable']","...soignable, mais on ne sait plus très bien ce qui est guérissable.",guérissable||adjectif||Anti
+s’approcher,verbe pronominal,Anti,['s’éloigner'],Elle se leva peu de temps après lui. Elle s’approcha de lui et lui vola un baiser.,s’approcher||verbe pronominal||Anti
+passé,adjectif,Anti,['futur'],...concernant les modes de telle ou telle époque passée.,passé||adjectif||Anti
+raisonnable,adjectif,Anti,['déraisonnable'],Je sais que vous êtes une fille raisonnable ; je rends bon témoignage de vous.,raisonnable||adjectif||Anti
+complétude,nom,Anti,['incomplétude'],...d’un accusé de réception et d’un examen de la complétude du dossier.,complétude||nom||Anti
+inutilisable,adjectif,Anti,['utilisable'],...que constater que son véhicule était devenu inutilisable.,inutilisable||adjectif||Anti
+s’embellir,verbe pronominal,Anti,"['s’enlaidir', 'enlaidir']","...folle de joie, nous fait visiter la chambre qui s’est embellie depuis que M. Symphor et Mam’zelle Francette, ses parents, ont acheté une à...",s’embellir||verbe pronominal||Anti
+désagréable,adjectif,Anti,['agréable'],...Il ouvre la première. Il en vient une odeur désagréable de renfermé.,désagréable||adjectif||Anti
+cation,nom,Anti,['anion'],"...règle de l’octet. Les charges sur l’anion et le cation correspondent au nombre d’électrons donnés ou reçus. Dans les liaisons ioniques,...",cation||nom||Anti
+banlieue,nom,AntiBon,['zone'],...l’équivalent dans la « tchatche » des adolescents de banlieue.,banlieue||nom||AntiBon
+recevoir,verbe,AntiBon,['comme un chien dans un jeu de quilles'],"...courir encore à la Chaussée-d’Antin, où on l’avait reçue comme un chien dans un jeu de quilles, presque chassée d’abord, et puis câlinée,...",recevoir||verbe||AntiBon
+gueule,nom,AntiBon,['de _N de long'],"— Dis donc, t’as une sale gueule... — Fatigué... — Toujours en train de courir le guilledou ? — Non. — Allez......",gueule||nom||AntiBon
+couteau,nom,AntiBon,['mauvais'],"De la pointe du couteau, on caresse le manteau de l’huître pour s’assurer qu’elle vit.",couteau||nom||AntiBon
+environnement,nom,AntiBon,['hostile'],...des grands problèmes et crée un environnement intellectuel de tout premier plan.,environnement||nom||AntiBon
+gosse,nom,AntiBon,"['sale', 'chiard']",Le gosse avait retiré de dessus sa tête le plateau de fer où les gâteaux baignaient dans...,gosse||nom||AntiBon
+corps,nom,AntiBon,['difforme'],...internes comme les rayons x le font pour le corps humain.,corps||nom||AntiBon
+pluie,nom,AntiBon,['dévastateur'],"Il se mit à tomber de la pluie, de larges gouttes, de plus en plus pressées.",pluie||nom||AntiBon
+vaurien,nom,AntiMagn,['petit'],Il a marqué notre enfance ce petit vaurien. Ses pitreries m’ont toujours fait mourir de rire.,vaurien||nom||AntiMagn
+tornade,nom,AntiMagn,"['petit', 'mini']","...Terre de Feu, pris dans une de ces soudaines tornades qui sont là-bas presque quotidiennes, le bateau sombre.",tornade||nom||AntiMagn
+magnifique,adjectif,AntiMagn,['beau'],"En réalité, ils roulaient dans une magnifique auto qu’ils se gardaient bien d’avancer jusqu’au laboratoire.",magnifique||adjectif||AntiMagn
+chanter,verbe,AntiMagn,"['chantonner', 'fredonner', 'bas', 'à mi-voix']",...je me sens si heureux d’être en vie que je chante tout seul.,chanter||verbe||AntiMagn
+trancher,verbe,AntiMagn,['fin'],"...la bonne se mit à geindre, et le brigadier trancha la corde au poignet de Mourad.",trancher||verbe||AntiMagn
+couleur,nom,AntiMagn,"['clair', 'pâle']","...présentes : un Jean noir, une chemise de la même couleur, mon caleçon rose à petits motifs.",couleur||nom||AntiMagn
+remarque,nom,AntiVer,['convenu'],"...« Mère », surveille les moindres détails, fait des remarques à voix basse, et quand tout semble terminé elle demande le recueillement pour...",remarque||nom||AntiVer
+ressemblance,nom,AntiVer,"['prétendu', 'trompeur']","Il s’agit en somme d’une histoire de la ressemblance : à quelles conditions la pensée classique a-t-elle pu réfléchir, entre les...",ressemblance||nom||AntiVer
+père,nom,AntiVer,"['mauvais', 'indigne']","Lorsqu’enfin nous arrivâmes à Saint-Paul-en-Jarez, le père, furieux, engueula la mère et bouda la fille, il voulait un garçon.",père||nom||AntiVer
+vent,nom,AntiVer,['pestilentiel'],...la conviction que ceci permet de chasser les vents parasitaires.,vent||nom||AntiVer
+piste,nom,AntiVer,['impraticable'],"...le sentier qu’ils suivaient d’habitude, une piste de sable entre les palmiers à huile, serrée par une brousse drue d’euphorbes...",piste||nom||AntiVer
+dormir,verbe,Bon,"['tranquille', 'bien', 'comme un bébé', 'tranquillement', 'paisiblement', 'suffisamment']",J’ai hâte d’être au lit et de dormir.,dormir||verbe||Bon
+poitrine,nom,Bon,"['beau', 'superbe', 'magnifique']","...Nanterre, épaisse chemise à carreaux sur généreuse poitrine.",poitrine||nom||Bon
+attitude,nom,Bon,['gracieux'],"...ingrat, tandis que son mari, raidi dans ses attitudes, a gardé cette manie de poser ses mains à plat sur son bas-ventre comme s’il...",attitude||nom||Bon
+tête,nom,Bon,['beau'],...en métal qu’il brandissait au-dessus de sa tête tout en l’injuriant en espagnol plus qu’en français.,tête||nom||Bon
+tapis,nom,Bon,"['épais', 'moelleux']",De doux tapis tibétains recouvraient le parquet.,tapis||nom||Bon
+odeur,nom,Bon,"['bon', 'exquis', 'parfum', 'délicieux']","...d’alcool, fit tourner le breuvage blond et huma l’odeur de tourbe, l’odeur de miel.",odeur||nom||Bon
+oreille,nom,Bon,"['exercé', 'oreille absolue', 'attentif', 'bon']","Le taxi écoutait d’une oreille attentive, le front plissé dans un effort de concentration auquel il n’était...",oreille||nom||Bon
+entrée,nom,Contr,['sortie'],...partie de mille points quand un homme fit une entrée remarquée dans la salle. Balayant le sol de sa casquette au cours d’un salut...,entrée||nom||Contr
+Merci,interjection,Contr,"['Il n’y a pas de quoi', 'De rien']","...pour cette semaine, je retesterai ce week-end. Merci pour votre patience.",Merci||interjection||Contr
+écrire,verbe,Contr,['lire'],"...l’écriture quand vous ne saviez pas encore écrire — et que vous voyiez quelqu’un le faire ? » Bêtement, d’abord, je m’étais révolté...",écrire||verbe||Contr
+coût de sortie,locution nominale,Contr,['coût d’entrée'],"Les coûts de sortie, ce sont tous les frais qui permettent de faire en sorte que l’immobilisation...",coût de sortie||locution nominale||Contr
+émigrer,verbe,Contr,['immigrer'],"...cause : son père, originaire de l’Anatolie, a émigré à Hambourg au milieu des années soixante.",émigrer||verbe||Contr
+chèque,nom,Contr,"['liquide', 'cash', 'espèces', 'carte de crédit']",Elle laisse remplir son chèque par la caissière et signe lentement.,chèque||nom||Contr
+à la rame,locution prépositionnelle,Contr,['à la voile'],"...n’étaient que de grandes barques, qui marchaient à la rame ou à la voile, à moins qu’elles ne fussent tirées par des chevaux.",à la rame||locution prépositionnelle||Contr
+tragédie,nom,Contr,['comédie'],"...italien littéraire pur. La forme est celle de la tragédie grecque. Toute l’action se passe entre les actes. La pièce que j’ai adaptée,...",tragédie||nom||Contr
+ton,pronom déterminatif,Contr,['mon'],"Depuis la mémorable veste que ton grand-père a ramassée aux dernières élections, ils se sont complètement retirés,...",ton||pronom déterminatif||Contr
+chercher,verbe,Contr,['trouver'],"Pierre et Laura l’avaient cherché dans tout le village. C’est Inès qui l’avait déniché, caché avec un copain dans...",chercher||verbe||Contr
+pipe,nom,Contr,"['cigare', 'cigarette']","Il m’écoute en tirant sur sa pipe, mi-sceptique mi-goguenard.",pipe||nom||Contr
+défendre,verbe,Contr,['attaquer'],"...nobles, autour du roi, avait été, jadis, de défendre contre l’ennemi ceux qui s’étaient mis sous leur protection et de faire la guerre...",défendre||verbe||Contr
+terre,nom,Contr,"['soleil', 'ciel', 'mer']",La terre tremblait et de toutes parts s’ouvraient des crevasses dans lesquelles s’engouffraient...,terre||nom||Contr
+simple,nom,Contr,['double'],"...23,77 m de long sur 8,23 m de large pour les simples (partie à deux joueurs) et 10,97 m pour les doubles (parties à quatre joueurs).",simple||nom||Contr
+macroscopique,adjectif,Contr,"['submicroscopique', 'microscopique']","...tumeur n’est pas forcément visible à l’échelon macroscopique, à l’œil nu, si vous préférez, il faut des examens beaucoup plus poussés pour...",macroscopique||adjectif||Contr
+pile,nom,Contr,['face'],"...accompagnent le pari qu’ils font, l’un sur pile, l’autre sur face, d’une mise qui peut être le même objet.",pile||nom||Contr
+bruit,nom,Contr,['silence'],"...glissant dans ses charentaises qui faisaient un bruit feutré sur les carreaux en linoléum grenat quadrillé de blanc, ouvrit le tiroir...",bruit||nom||Contr
+jupe,nom,Contr,['pantalon'],"...elle pivotait sur sa jambe droite, la petite jupe volait au vent, et on voyait une aimable paire de fesses, d’ailleurs recouvertes...",jupe||nom||Contr
+langage oral,locution nominale,Contr,"['écrit', 'langage écrit']","...et englobant la rééducation de la voix, du langage oral et du langage écrit.",langage oral||locution nominale||Contr
+volant,adjectif,Contr,['rampant'],...regardait filer leur toile et piéger des proies volantes bernées par les contre-jours.,volant||adjectif||Contr
+nuit,nom,Contr,['jour'],"Lorsque nous sortons, le soir, il fait nuit. Lorsque nous reprenons, à l’aube, il fait nuit. Nous ne vivons plus qu’à la...",nuit||nom||Contr
+gaz de ville,locution nominale,Contr,['gaz naturel'],"...ces voitures pour qu’elles marchent au gaz — gaz de ville et gazogène au charbon de bois —, ou à l’alcool.",gaz de ville||locution nominale||Contr
+signature,nom,Contr,['en-tête'],"Vous pouvez également insérer une signature automatique en fin de mail qui outre le fait de vous identifier clairement,...",signature||nom||Contr
+droit,adjectif,Contr,['gauche'],"...et de fait, quand elle pivotait sur sa jambe droite, la petite jupe volait au vent, et on voyait une aimable paire de fesses, d’ailleurs...",droit||adjectif||Contr
+nord,nom,Contr,['sud'],...la treille veuve de fruits le cruel vent du nord pourchasse les flocons.,nord||nom||Contr
+question,nom,Contr,['réponse'],"...fois. Pour être en mesure de répondre à des questions telles que celles posées ci-dessus, on serait donc conduit à faire une seule...",question||nom||Contr
+douceur,nom,Contr,['acidité'],"...vivante du fruit et l’extrême concentration de douceur de la confiture, est la figue même, sa figure angélique, sa sainteté gustative.",douceur||nom||Contr
+feu,nom,Contr,"['eau', 'glace']","...bien alors on vénérait la terre, l’eau, le feu, les astres.",feu||nom||Contr
+joie,nom,Contr,['peine'],"Ils ne sont plus là pour connaître mes joies et mes peines. En pensée, je les leur raconte. Déménagement, mariage, livres,...",joie||nom||Contr
+manger la laine sur le dos,locution verbale,Conv_21,['se laisser bouffer'],...guerre du pouvoir entre associations qui se bouffent la laine sur le dos.,manger la laine sur le dos||locution verbale||Conv_21
+se terminer,verbe pronominal,Conv_21,['terminer'],"...belliqueux, venait jouer avec nous, mais cela se terminait toujours par une bagarre.",se terminer||verbe pronominal||Conv_21
+au-dessous,préposition,Conv_21,['au-dessus'],"...la queue, tandis que sa main droite, placée au-dessous de la poitrine, soutenait l’avant du pigeon, la tête face à droite.",au-dessous||préposition||Conv_21
+visiter,verbe,Conv_21,['recevoir'],"...Plombières, il profite de ses vacances pour visiter les frères et les beaux-frères qu’il a dans la région. Comme il aime la marche...",visiter||verbe||Conv_21
+avoir,verbe,Conv_21,"['aller', 'partir']","...« vingt-neuf », lui a promis sa mère, « il aura une glace, double ! »",avoir||verbe||Conv_21
+passer,verbe,Conv_21,['renverser'],"...puisse le rattraper, et puis il a fini par passer sous une voiture.",passer||verbe||Conv_21
+désintéresser,verbe,Conv_21,['se désintéresser'],...passe entièrement sous l’autorité du roi qui désintéresse les actionnaires.,désintéresser||verbe||Conv_21
+ouvrir,verbe,Conv_21,['commencer'],"...tout début du film : le plan d’ensemble qui ouvre le film nous montre en effet la maison isolée en mettant également en avant,...",ouvrir||verbe||Conv_21
+car,conjonction,Conv_21,"['en conséquence', 'donc', 'par conséquent']","...préfecture organisa donc un quasi couvre-feu, car la police nous recherchait toujours.",car||conjonction||Conv_21
+chimie,nom,Fact_0,['opérer'],On sous-estime souvent la nécessaire chimie entre ce type de personnage et son acteur.,chimie||nom||Fact_0
+balayeuse,nom,Fact_0,['balayer'],...places de stationnement pour permettre à la balayeuse de nettoyer les caniveaux.,balayeuse||nom||Fact_0
+montgolfière,nom,Fact_0,"['s’élever', 'voler']","...le Zambèze en raft, survolé le Kalahari, en montgolfière, vécu chez les Papous et les Yanomanis, chez les Aborigènes d’Australie et les...",montgolfière||nom||Fact_0
+volcan,nom,Fact_0,['exploser'],"...dont le whisky déliait la langue, j’ai vu un volcan en éruption, le feu était si fort que je l’ai vu, qu’il m’a ébloui.",volcan||nom||Fact_0
+figure,nom,Fact_0,"['illustrer', 'indiquer', 'représenter']",La figure 74 représente le schéma général de l’installation de chauffage d’une voiture.,figure||nom||Fact_0
+oiseau,nom,Fact_0,['voler'],Des oiseaux volaient à petits coups d’ailes autour des palmiers dattiers.,oiseau||nom||Fact_0
+lac,nom,Fact_0,"['s’étaler', 'se déverser', 's’écouler', 'se répandre', 'se décharger', 'stagner']","Son passé lui remontait à la gorge, les lacs de tristesse dans ses yeux s’agrandissaient pendant que, debout dans la chambre,...",lac||nom||Fact_0
+voiture,nom,Fact_0,"['circuler', 'avancer', 'rouler', 'se déplacer']","...cousins, les beaux-frères. Ils ont chacun une voiture. Il roule en mobylette. C’est un raté.",voiture||nom||Fact_0
+journaliste,nom,Fact_2,"['couvrir', 'enquêter']","...conviction des policiers, certains, écrivent les journalistes, de tenir le coupable.",journaliste||nom||Fact_2
+boulangère,nom,Fact_2,"['faire', 'préparer']","La boulangère de Viveda, le village le plus proche, qu’elle a embarquée trois ou quatre fois,...",boulangère||nom||Fact_2
+parasite,nom,Fact_2,['profiter'],Tu ne sers à rien. Tu es une parasite. As-tu un métier ? Gagnes-tu ta vie ?,parasite||nom||Fact_2
+peloton de tête,locution nominale,Fact_2,['mener'],"Pour renverser la tendance et retrouver le peloton de tête en Europe, il faut certes mener de grandes politiques qui se dessinent aujourd’hui...",peloton de tête||locution nominale||Fact_2
+boucher,nom,Fact_2,"['découper', 'dépecer', 'couper', 'débiter']","...apprentis mécaniciens dans des garages, ou garçons bouchers, promotions flatteuses sur l’échelle des valeurs sociales.",boucher||nom||Fact_2
+garant,nom,Fact_2,['garantir'],"...l’on a pris. Hautement stratégique, il est le garant du bon déroulement de la partie. À ne surtout pas négliger...",garant||nom||Fact_2
+hélicoptère,nom,Fact_2,['transporter'],"Les pales de l’hélicoptère tournaient toujours, au ralenti. Les silhouettes réapparurent, transportant...",hélicoptère||nom||Fact_2
+mécanicienne,nom,Fact_2,['conduire'],"À la différence des mécaniciens et mécaniciennes de locomotives qui sont responsables de la conduite des trains, le chef de train...",mécanicienne||nom||Fact_2
+trieur,nom,Fact_2,['trier'],"Elle racontait : Émile, trieur de courrier des wagons postaux, gradé. Bon salaire.",trieur||nom||Fact_2
+Neptune,nom,Gener,"['astre', 'planète']","...Pluton et de Triton, le satellite de Neptune. N 2 était sans doute la forme principale d’azote dans la nébuleuse proto-solaire, c’est-à-dire...",Neptune||nom||Gener
+poiscaille,nom,Gener,['animal'],"...de m’envoyer 27,49€ pour que je m’achète un poiscaille et moi de le baptiser comme vous savez. Sauf que d’une part je n’ai absolument...",poiscaille||nom||Gener
+cocotier,nom,Gener,['arbre'],"Ibis, cocotiers en fleurs, cigognes volantes, photos d’aviation prises si haut que la ville...",cocotier||nom||Gener
+clic-clac,nom,Gener,"['meuble', 'pièce d’ameublement']",...intensément et posément comment ça s’ouvrait un clic-clac?,clic-clac||nom||Gener
+spleen,nom,Gener,['sentiment'],"...ses amies, et Raymonde en Normandie, pas le spleen de Jacques-Alain, quelque chose de plus médical, pas le blues, mais cette maladie...",spleen||nom||Gener
+guitoune,nom,Gener,['abri'],...leur commandement habituel. Le soir sous la guitoune le colonel leur distribua des grades imaginaires. En pointant du doigt à la...,guitoune||nom||Gener
+état mental,locution nominale,Gener,['état'],"...point que Melville, douché, avait douté de son état mental, et de son idée d’avoir cru qu’il pouvait avoir recours à lui.",état mental||locution nominale||Gener
+larigot,nom,Gener,['jeu'],"...mes délices et amours : bourdon, nasard et larigot.",larigot||nom||Gener
+Wimbledon,nom,Gener,"['tournoi', 'quartier']",...cette romance au cœur du tournoi de tennis de Wimbledon. Entre un tennisman en fin de carrière et une jeune joueuse fougeuse.,Wimbledon||nom||Gener
+chaton,nom,Gener,['animal'],"Plusieurs chatons de type européen sont à placer. Ils sont âgés de 4 à 12 mois, sont propres et...",chaton||nom||Gener
+mamelle,nom,Gener,['partie du corps'],"Les lamantins ont la tête ronde, portent les mamelles sur la poitrine ; comme les femelles allaitent leurs petits en les serrant contre...",mamelle||nom||Gener
+cisailles,nom,Gener,['outil'],"...remue-ménage fatigué de pioches, de pelles et de cisailles, qui traînaille les soirs d’été jusque par la nuit claire dans les jardinets...",cisailles||nom||Gener
+tuberculeux,nom,Gener,['malade'],"...de ménage dans un hôtel qui accueillait des tuberculeux, contracta le mal et mourut.",tuberculeux||nom||Gener
+rue piétonne,locution nominale,Gener,['voie'],"Quelqu’un passe dans la rue piétonne, le bruit des pas trouant le silence.",rue piétonne||locution nominale||Gener
+pissenlit,nom,Gener,['plante'],"...le bleu-violet de la luzerne, le jaune des pissenlits, le rose du trèfle...",pissenlit||nom||Gener
+dimanche,nom,Gener,['jour'],"Le jogging du dimanche matin, le squash du samedi, les balades à la campagne.",dimanche||nom||Gener
+écrevisse,nom,Gener,['crustacés'],Astacus astacus ou encore l’écrevisse à pieds rouges frétille dans nos eaux douces de Franche-Comté. Ce petit crustacé...,écrevisse||nom||Gener
+benoîte,nom,Gener,"['plante', 'fleur']","Les benoîtes offrent des floraisons éclatantes, souvent dans des tons jaunes, orange ou rouges.",benoîte||nom||Gener
+mésange nonnette,locution nominale,Gener,"['oiseau', 'passereau']","Les mésanges nonnettes forment des couples à la fin de l’hiver, et restent ensemble jusqu’à la fin...",mésange nonnette||locution nominale||Gener
+bouchon doseur,locution nominale,Gener,['bouchon'],"...au petit-déjeuner, verser 10 ml à l’aide du bouchon doseur gradué.",bouchon doseur||locution nominale||Gener
+torpilleur,nom,Gener,['bateau'],"...puissance et mobilité variant selon le navire, torpilleur, cuirassé... etc.",torpilleur||nom||Gener
+bouchère,nom,Gener,"['métier', 'profession', 'marchande']","Ils ne peuvent faire la queue chez leur bouchère pour acheter du boudin, ni s’inquiéter de savoir si les prothèses dentaires...",bouchère||nom||Gener
+jambe,nom,Gener,"['partie du corps', 'membre']","— Et comment vont vos jambes ? — Oh, c’est toujours pareil. L’ulcère de gauche ne bouge pas, il est propre...",jambe||nom||Gener
+tempête,nom,Gener,['phénomène atmosphérique'],"La tempête ulule, mais ce n’est plus à bord, par le sifflet des persiennes d’un panneau,...",tempête||nom||Gener
+plantigrade,nom,Gener,"['animal', 'être animé']",...encore et encore les conditions de captivité des plantigrades dans notre pays.,plantigrade||nom||Gener
+pression,nom,Gener,"['boisson', 'boisson alcoolisée']","...son fils vers le baby-foot. Elle commande une pression. Maggy refuse de la servir, vu son état.",pression||nom||Gener
+bleu,adjectif,Gener,['coloré'],"Je n’en connais que les rideaux, bleus dans sa chambre, blancs partout ailleurs.",bleu||adjectif||Gener
+chimiste,nom,Gener,['scientifique'],...exclusivité produite à partir des brevets d’un chimiste suisse pour qui l’entreprise de la rue Eiffel est le fabriquant exclusif.,chimiste||nom||Gener
+bon,nom,Gener,['document'],"Ils ont par ailleurs reçu un bon de tapisserie de 183 euros (1.200 F), mais « à quoi cela sert-il de changer...",bon||nom||Gener
+cerise,nom,Gener,['fruit'],"...je ne manquais pas de parler du muguet, des cerises que l’on cueille à même la branche, et surtout des soirées éternelles, en été.",cerise||nom||Gener
+rose fuchsia,locution adjectivale,Gener,['coloré'],...préparatifs d’Yvonne : elle hésitait entre un turban rose fuchsia et un grand chapeau de paille.,rose fuchsia||locution adjectivale||Gener
+émoi,nom,Gener,['sentiment'],"L’émoi, dans le quartier, depuis l’agression, est resté d’autant plus intact que l’artisan...",émoi||nom||Gener
+automobile,nom,Gener,['secteur'],...des grandes puissances et de l’avenir de l’automobile.,automobile||nom||Gener
+Grèce,nom,Gener,['pays'],...stage chez Valmer et devait s’envoler pour la Grèce.,Grèce||nom||Gener
+apéritif,nom,Gener,"['boisson', 'boisson alcoolisée']","...meublé, mit des fleurs, apporta des bouteilles d’apéritifs et d’alcools, une théière, son phono et des disques de jazz ou de musique classique.",apéritif||nom||Gener
+jambon,nom,Gener,['charcuterie'],...demi-heure de queue pour acheter une tranche de jambon.,jambon||nom||Gener
+épreuve,nom,Hypo,['bac'],L’examen est composé de deux épreuves : une épreuve générale portant sur un programme de connaissances juridiques...,épreuve||nom||Hypo
+obstacle,nom,Hypo,"['rivière', 'haie']","Les obstacles sont multiples : bull finch, double barrière, oxer, petit, moyen et gros open-ditch,...",obstacle||nom||Hypo
+porte,nom,Hypo,['porte à tambour'],La porte coulissante qui donne sur la terrasse a glissé sur les rails.,porte||nom||Hypo
+mois,nom,Hypo,"['février', 'septembre', 'novembre', 'juin', 'avril', 'décembre', 'juillet', 'mars', 'août', 'janvier', 'mai', 'octobre']","Si un employé demande son congé pour le mois de septembre, il peut en obtenir un nouveau en juin ou juillet de l’année suivante,...",mois||nom||Hypo
+articulation,nom,Hypo,"['articulation crico-aryténoïdienne', 'articulation temporo-mandibulaire']",C’est l’articulation de la hanche qui unit l’os coxal et le fémur.,articulation||nom||Hypo
+transport,nom,Hypo,['transport ferroviaire'],"...en fauteuil roulant, l’environnement et les transports doivent être accessibles pour que l’handicapé ne soit pas isolé dans son logement »,...",transport||nom||Hypo
+désert,nom,Hypo,"['reg', 'erg']","...Et plus loin encore, au-delà de l’effrayant désert du Taklamakan où continuait la route de la soie et celle des épices.",désert||nom||Hypo
+volume,nom,Hypo,"['sphère', 'cube']",...que je peux mesurer : ce sont les volumes.,volume||nom||Hypo
+argot,nom,Hypo,['loucherbem'],"...limitée aux expressions courantes, à un certain argot basique, et à la langue des affaires.",argot||nom||Hypo
+signe de ponctuation,locution nominale,Hypo,"['virgule', 'point d’exclamation', 'point']","...ou la syllabe, le chiffre ou même le simple signe de ponctuation.",signe de ponctuation||locution nominale||Hypo
+chaise,nom,Loc_in,['sur'],"Il m’offre une chaise et, assis auprès d’un baquet, il entreprend d’éplucher les champignons.",chaise||nom||Loc_in
+thorax,nom,Loc_in,"['endothoracique', 'dans', 'sur']",Ce gros ventre contraste avec un thorax et des membres supérieurs où les muscles ont fondu.,thorax||nom||Loc_in
+pays,nom,Loc_in,['dans'],"L’Amérique est un grand pays. La Sicile, à côté, et l’Italie me paraissent minuscules.",pays||nom||Loc_in
+lit,nom,Loc_in,"['sur', 'dans']",...choix entre une paillasse sale par terre ou un lit en bois perché dans lequel deux sœurs couchent à l’étage inférieur.,lit||nom||Loc_in
+voiture,nom,Loc_in,"['à bord', 'dans']","...cousins, les beaux-frères. Ils ont chacun une voiture. Il roule en mobylette. C’est un raté.",voiture||nom||Loc_in
+antenne,nom,Loc_in,"['en', 'à']",J’avais par mon ami Jean Guitton mes antennes à Rome.,antenne||nom||Loc_in
+insecte,nom,Magn,"['sale', 'sacré', 'satané']","...soit ? Non. Pas en ces termes. Et pourtant... Insecte laborieuse, amoureuse, tenace, je construisais ma petite cellule vitale et mon...",insecte||nom||Magn
+surveillance,nom,Magn,['étroit'],"...fallu moins de deux heures de cuisson, avec une surveillance de chaque instant pour vérifier que la pâte levait correctement en prenant la...",surveillance||nom||Magn
+enveloppe,nom,Magn,"['important', 'gros']",L’enveloppe budgétaire de l’appel à projets est de 30 000 euros.,enveloppe||nom||Magn
+blesser,verbe,Magn,"['profondément', 'gravement', 'grièvement']",Je ne tiens pas à blesser un spectateur en lui envoyant le ballon dans la figure !,blesser||verbe||Magn
+mordre,verbe,Magn,"['à belles dents', 'à pleines dents']","...un lit de crème anglaise, qu’il eût aimé y mordre à belles dents !",mordre||verbe||Magn
+garantir,verbe,Magn,['sur facture'],"...Babygros. Un rouge et un noir. La vendeuse m’a garanti que j’allais en être très content, ils bougeaient pas du tout au lavage.",garantir||verbe||Magn
+mal,adverbe,Magn,"['très', 'bien']",Les choses vont mal à la maison. On se dispute. On crie.,mal||adverbe||Magn
+histoire,nom,Magn,['à dormir debout'],...Et puis j’en ai marre de devoir raconter des histoires à maman chaque fois que je sors avec lui.,histoire||nom||Magn
+moyen,adjectif,Magn,"['médiocre', 'très']","Il y avait été un élève très moyen, dont on déplorait l’application incertaine, soupçonnait l’insolence, et auquel...",moyen||adjectif||Magn
+pas,adverbe,Magn,"['nullement', 'le moins du monde', 'du tout', 'en aucune façon']","...chance, tu trouveras un jour un vieil appart pas trop cher dans le quartier. Nos guidons s’étaient heurtés. En matière d’appartement,...",pas||adverbe||Magn
+se barber,verbe pronominal,Magn,['comme un rat mort'],...la journée et déjeuné avec les Brunetier. Je me suis barbée comme un rat mort.,se barber||verbe pronominal||Magn
+promettre,verbe,Magn,['sur l’honneur'],"Alice a promis à Pauline que le lendemain, nous irions lui acheter, sinon un chat, du moins...",promettre||verbe||Magn
+juste bon,syntagme adjectival,Magn,['tout'],"...équipées d’un moteur de quarante chevaux, tout juste bon pour le cabotage, on nous raconte qu’ils partent là-dessus, une folie, des creux...",juste bon||syntagme adjectival||Magn
+envie,nom,Magn,['fou'],"...aujourd’hui, mais sur le moment, j’avais une envie folle d’aller étrangler ce vieux filou de photographe. Il m’avait possédé......",envie||nom||Magn
+neuf,adjectif,Magn,['flambant neuf'],...Patrick R. vient d’investir dans une camionnette neuve avec ouverture latérale qu’il a équipée lui-même.,neuf||adjectif||Magn
+horreur,nom,Magn,['saint'],J’ai horreur des longs trajets en tramway.,horreur||nom||Magn
+loup de mer,locution nominale,Magn,['vieux'],"...denses et nombreux qui sautillent partout. Les loups de mer de l’équipage esquissent des sourires carnassiers en voyant déambuler, tels...",loup de mer||locution nominale||Magn
+sommeil,nom,Magn,"['très', 'sans rêves', 'profond', 'lent', 'lourd', 'de plomb', 'vraiment']","...tout seul peut-être, pendant la nuit et le sommeil lourd des passagers.",sommeil||nom||Magn
+dormir,verbe,Magn,"['comme une marmotte', 'comme un loir', 'à poings fermés', 'comme une souche', 'comme une bûche', 'comme une masse', 'comme un sonneur', 'profondément']",J’ai hâte d’être au lit et de dormir.,dormir||verbe||Magn
+peur,nom,Magn,"['frayeur', 'terreur', 'bleu', 'mortel', 'panique', 'fou']","...la belle-mère du ministre. Tout le monde a peur des belles-mères de ministres, y compris les ministres. Cela marche formidablement...",peur||nom||Magn
+imagination,nom,Magn,"['fou', 'galopant']","...ressemblance c’est tout ce qu’il avait souhaité, l’imagination et les yeux fermés avaient fait le reste.",imagination||nom||Magn
+goût,nom,Magn,"['aiguisé', 'fort', 'boulimie', 'développé']","Je retrouvai le goût exact du café d’Adèle, un peu amer, un peu caramélisé.",goût||nom||Magn
+faim,nom,Magn,['de loup'],"Et puis, j’avais toujours faim. Une faim qui ne passait jamais. Le soir, après dîner, j’aurais mangé encore...",faim||nom||Magn
+guacamole,nom,Mero,['avocat'],...blog sur la cuisine mexicaine sans parler du guacamole ?,guacamole||nom||Mero
+brosse,nom,Mero,"['dos', 'poil', 'fibre', 'manche']","...uniformes, exécutés à l’eau froide avec une brosse et un savon qui sent une odeur très spéciale, qualifiée « odeur de Horsin ».",brosse||nom||Mero
+figue de Barbarie,locution nominale,Mero,['pépin'],"...l’eau et des fruits. Elle boit, goûte à une figue de Barbarie. La pulpe sucrée fond dans sa bouche.",figue de Barbarie||locution nominale||Mero
+olive,nom,Mero,['noyau'],"...poisson sur des canapés de pain blanc, des olives, des amandes épluchées et salées, des bâtonnets de gingembre et de pâte d’abricot.",olive||nom||Mero
+boîte aux lettres,locution nominale,Mero,"['boîte d’envoi', 'boîte de réception']","Tout le monde en a dans sa boîte aux lettres : « Devenez riche, envoyez cet e-mail à plus de 10 personnes pour trouver l’amour...",boîte aux lettres||locution nominale||Mero
+mot,nom,Mero,['lettre'],"...intellectuelle, il permet d’apprendre de nouveaux mots et donc de développer son vocabulaire.",mot||nom||Mero
+gamme,nom,Mero,"['do', 'sol']","...escalier parce que ce sont les sept notes de la gamme, je me dis que chaque jeudi et dimanche matin vont être des matins de bonheur.",gamme||nom||Mero
+gentiane,nom,Mero,['gentiane'],...robe à ramages proposa à l’instit un verre de gentiane.,gentiane||nom||Mero
+noyau,nom,Mero,"['nucléon', 'neutron', 'proton']","...part, la constitution de l’atome isolé avec son noyau et son cortège d’électrons, les théoriciens ont voulu prévoir les modifications...",noyau||nom||Mero
+églantier,nom,Mero,['églantine'],"...branches basses d’arbustes épineux, de houx, d’églantiers, de ronces, de ronciers, de feuilles sèches que le vent dénivelle et déporte...",églantier||nom||Mero
+escargot,nom,Mero,"['antenne', 'corne', 'coquille']",...laitues retenaient l’attention de tous les escargots du pays.,escargot||nom||Mero
+balai,nom,Mero,"['pommeau', 'manche']","On a épousseté la chaussée avec des balais de genêt. Le village n’a jamais été aussi net, même avant la guerre.",balai||nom||Mero
+piano,nom,Mero,['clavier'],"J’apprends le piano et je suis des cours de chant. Je vais quand même au cinéma, toutes les semaines,...",piano||nom||Mero
+part,nom,Mult,['capital'],...l’application du régime de droit commun des cessions de parts prévu à l’article 726 du CGI est de nature à donner ouverture à des droits inférieurs...,part||nom||Mult
+ennemi,nom,Mult,['ennemi'],...ordres sans discussion et également à tuer des ennemis.,ennemi||nom||Mult
+entité chimique,locution nominale,Mult,['espèce chimique'],Les entités chimiques qui constituent l’eau sont des molécules d’eau de formule H 2 O qui sont l’association...,entité chimique||locution nominale||Mult
+chiffon,nom,Mult,['tas'],"Avec un chiffon, il nettoie minutieusement son pistolet.",chiffon||nom||Mult
+chaussette,nom,Mult,['paire'],Elle avait quand même mis des chaussettes pour marcher sur le parquet et protéger la plante de ses pieds des échardes.,chaussette||nom||Mult
+comprimé,nom,Mult,"['tube', 'flacon', 'plaquette', 'boîte']","Je sors ma boîte à comprimés... Elle me tend un verre à dents plein de flotte, avec des traces de dentifrice...",comprimé||nom||Mult
+jumelle,nom,Mult,['jumelle'],"...filles, qui toutes, sans exception (sauf la jumelle de mon grand-père, morte à trois mois de coqueluche), devinrent institutrices.",jumelle||nom||Mult
+oignon,nom,Mult,"['filet', 'botte']","...voici : un demi-chou vert, deux carottes, deux oignons, deux poireaux, trois pommes de terre, trois cents grammes de poitrine maigre...",oignon||nom||Mult
+poil,nom,Mult,['pelage'],"...fougères, houx et genévriers à la recherche d’un poil de renard ou de fouine.",poil||nom||Mult
+patron,nom,Mult,['patronat'],"...c’est-à-dire ce qui lui permet de vivre. Et, entre le patron de grande entreprise et l’ouvrier, la distance est plus grande encore et les...",patron||nom||Mult
+sieste,nom,Oper_1,['faire'],"...village occupée aux champs, l’autre faisant la sieste, je traînais dans la rue.",sieste||nom||Oper_1
+jambe,nom,Oper_1,['avoir'],"— Et comment vont vos jambes ? — Oh, c’est toujours pareil. L’ulcère de gauche ne bouge pas, il est propre...",jambe||nom||Oper_1
+colle,nom,Oper_1,['poser'],Oh tu me poses une colle là je suis une vraie mère chocolat mais j’adore les fruits rouges.,colle||nom||Oper_1
+cancer du sein,locution nominale,Oper_1,"['souffrir', 'avoir']",...très proche autant de cancers du poumon que de cancers du sein ?,cancer du sein||locution nominale||Oper_1
+visage,nom,Oper_1,"['afficher', 'avoir', 'arborer', 'offrir', 'présenter', 'montrer', 'exhiber']",...Rennes où les mathématiques avaient pris un visage qu’il ne reconnaissait pas.,visage||nom||Oper_1
+coup de sang,locution nominale,Oper_1,['avoir'],"...pour l’ensevelir. « Le maître est mort d’un coup de sang », dit-elle. Elle ressemblait à ces laveuses de morts voilées de noir qu’il...",coup de sang||locution nominale||Oper_1
+coup de collier,locution nominale,Oper_1,['donner'],"...Allons, allons, dépêchons-nous, c’est le coup de collier, il faut le donner... On aura tout le temps de faire roue libre après les fêtes !",coup de collier||locution nominale||Oper_1
+putsch,nom,Oper_1,"['faire', 'commettre', 'perpétrer']","...Petit-Clamart - de se réveiller avec l’annonce d’un putsch de généraux inconnus qui troublaient la marche vers la paix, vers « l’autodétermination ».",putsch||nom||Oper_1
+sensation,nom,Oper_1,"['éprouver', 'avoir']",J’ai eu une sensation de chatouillis insupportable dans la paume et de chaleur bienfaisante dans le...,sensation||nom||Oper_1
+coup de couteau,locution nominale,Oper_1,"['asséner', 'donner']","Il a reçu une grosse pierre sur la tête, un coup de couteau au flanc.",coup de couteau||locution nominale||Oper_1
+autoroute,nom,Oper_1,['faire'],"...lourds de menace : — Au fond l’autoroute et les femmes, tu vois, ça va pas ensemble.",autoroute||nom||Oper_1
+déplacement,nom,Oper_1,"['effectuer', 'faire']","...en leur absence : ce vendredi, ils sont en déplacement à Rotterdam, partis tout le week-end plaider une cause ; elle leur préfère de...",déplacement||nom||Oper_1
+jeu de mots,locution nominale,Oper_1,['faire'],"...de la blague, des plaisanteries idiotes, des jeux de mots (« Un cheval croise saint Thomas sur son chemin et l’avale d’un coup; le Christ...",jeu de mots||locution nominale||Oper_1
+éclair,nom,Oper_1,"['jeter', 'cracher', 'lancer', 'projeter']","...orage terrible. Averse, tempête déchaînée, éclairs tels que toutes les cinq minutes on y voit comme en plein jour.",éclair||nom||Oper_1
+promesse,nom,Oper_1,['faire'],"...quittés en haut du boulevard Saint-Michel, avec promesse de nous revoir.",promesse||nom||Oper_1
+pompier,nom,Oper_1,"['tailler', 'faire']",...lorsque je tiens la distance en faisant durer un pompier que je m’inflige le plus de petites tortures.,pompier||nom||Oper_1
+mal,nom,Oper_1,"['avoir', 'être', 'souffrir']",Une dispute est un mal.,mal||nom||Oper_1
+maladie,nom,Oper_1,"['avoir', 'souffrir']","...soi-même être sale, pour ne pas attraper les maladies.",maladie||nom||Oper_1
+prévision,nom,Oper_1,['faire'],...mêmes des techniques de recherche faussent la prévision des comportements réels.,prévision||nom||Oper_1
+fausse route,locution nominale,Oper_1,['faire'],"...ans, il est Docteur en Pharmacie, c’est une fausse route. Il change d’itinéraire et réussit le premier tour du monde d’une voiture Française....",fausse route||locution nominale||Oper_1
+froid dans le dos,locution nominale,Oper_1,['avoir'],"...noire, quelque chose de terrible qui me faisait froid dans le dos.",froid dans le dos||locution nominale||Oper_1
+tête-à-queue,nom,Oper_1,['faire'],"...cheval qui est en colère commence un violent tête-à-queue, qui aurait dû se dérouler en un quart de seconde. Une riposte immédiate de...",tête-à-queue||nom||Oper_1
+gros dos,locution nominale,Oper_1,['faire'],...les épaules du patron et se mit à faire le gros dos.,gros dos||locution nominale||Oper_1
+somme,nom,Oper_1,['calculer'],Il travaille à une somme de fractions sur laquelle les plus grands mathématiciens du monde se penchent...,somme||nom||Oper_1
+tempête,nom,Oper_1,"['essuyer', 'pris', 'surpris', 'être', 'subir']","La tempête ulule, mais ce n’est plus à bord, par le sifflet des persiennes d’un panneau,...",tempête||nom||Oper_1
+angine de poitrine,locution nominale,Oper_1,"['avoir', 'souffrir']",...cardiaque lié à la maladie coronaire (comme une angine de poitrine) pendant la période de suivi.,angine de poitrine||locution nominale||Oper_1
+pneumonie,nom,Oper_1,"['souffrir', 'avoir']","La cave est fraîche mais c’est l’été, les pneumonies ne s’attrapent pas comme ça.",pneumonie||nom||Oper_1
+priorité,nom,Oper_1,['avoir'],"...pas, les exigences des investissements ou les priorités de la défense nationale.",priorité||nom||Oper_1
+horreur,nom,Oper_1,"['éprouver', 'ressentir', 'avoir']","Nos soldats furent saisis d’horreur et de compassion lorsque, plongeant leurs regards dans le fond de ces abîmes,...",horreur||nom||Oper_1
+pont,nom,Real_1,['traverser'],"...je vois, entre les branches, un lavoir, un pont, une route.",pont||nom||Real_1
+carton rouge,locution nominale,Real_1,"['sortir', 'dégainer', 'brandir']",...l’empressement de Florence D. à brandir prématurément un carton rouge envers Frédéric M. suite à une chamaillerie avec Z. (25 e ) a quelque peu modifié...,carton rouge||locution nominale||Real_1
+brosse,nom,Real_1,['passer'],"...uniformes, exécutés à l’eau froide avec une brosse et un savon qui sent une odeur très spéciale, qualifiée « odeur de Horsin ».",brosse||nom||Real_1
+hélicoptère,nom,Real_1,['piloter'],"Les pales de l’hélicoptère tournaient toujours, au ralenti. Les silhouettes réapparurent, transportant...",hélicoptère||nom||Real_1
+plage,nom,Real_1,['aller'],"...ping-pong, au badminton ou à saute-mouton, sur les plages de Lavasina, de Miomo ou de Toga, à la sortie nord de Bastia.",plage||nom||Real_1
+atmosphère,nom,Real_1,['respirer'],"...sera-t-il protégé, et les œuvres avec lui, contre l’atmosphère viciée et le bruit.",atmosphère||nom||Real_1
+ascenseur social,locution nominale,Real_1,"['profiter', 'bénéficier']",...opportunités nécessaires à la relance de l’ascenseur social.,ascenseur social||locution nominale||Real_1
+chiffre,nom,Real_1,"['écrire', 'chiffrer', 'tracer']","...préconiser le numérotage des générations par des chiffres romains, et celui des individus, de la gauche à la droite dans chaque génération,...",chiffre||nom||Real_1
+office,nom,Real_1,['remplir'],"...matin, elle revenait au Mesnil, remplir son office d’institutrice, subsidiairement traduire un cahier hongrois échoué entre ses...",office||nom||Real_1
+disque,nom,Real_1,['lancer'],"...d’une aire de lancer de javelots, poids et disques (si la conception le permet) à proximité, et également la réalisation des ouvrages...",disque||nom||Real_1
+répertoire,nom,Real_1,['piocher'],"Un répertoire des textes relevant du Légendaire, œuvres des auteurs et compilateurs des Jours...",répertoire||nom||Real_1
+balai,nom,Real_1,"['passer', 'jouer', 'manier']","On a épousseté la chaussée avec des balais de genêt. Le village n’a jamais été aussi net, même avant la guerre.",balai||nom||Real_1
+serre-tête,nom,Real_1,['porter'],"...P-.D.G. à Versailles, avec cinq enfants et un serre-tête dans les cheveux !",serre-tête||nom||Real_1
+flûte,nom,Real_1,"['souffler', 'jouer']","...village, je revenais à la maison, une petite flûte entre les doigts, essayant avec acharnement de retrouver un air que je venais...",flûte||nom||Real_1
+bateau,nom,Real_1,['faire'],"...chez sa tante Jeanne, en Bretagne, faire du bateau avec ses petites cousines et se bourrer de crêpes au beurre.",bateau||nom||Real_1
+rame,nom,Real_1,['ramer'],"Lorsqu’elle vit Julien prendre les rames dans la grange, elle fila vers la rive et sauta dans le bateau. Quand ils y...",rame||nom||Real_1
+volet,nom,Real_1,['fermer'],"Lorsque j’ai fermé les volets dans ma chambre, un éclair a traversé le ciel. Le ciel menace encore ce soir....",volet||nom||Real_1
+train,nom,Real_1,"['voyager', 'assurer', 'prendre']","...délivrer de tout souci, ces gens-là prennent le train ou le car. Que ce soit en ville ou pour de grands voyages, les moyens de transport...",train||nom||Real_1
+citation,nom,Real_1,"['emprunter', 'reprendre']","...visite le moulin-musée, j’échange des citations et des propos pleins de passion littéraire devant l’horrible Cadran Floral qui a remplacé...",citation||nom||Real_1
+mobylette,nom,Real_1,['rouler'],...beaux-frères. Ils ont chacun une voiture. Il roule en mobylette. C’est un raté.,mobylette||nom||Real_1
+vitesse,nom,Real_1,['passer'],"...qu’arrêté, essayait vainement de passer les vitesses. « Je suis en panne ! » cria-t-il aux gendarmes. Il était en fait complètement...",vitesse||nom||Real_1
+cadenas,nom,Real_1,['cadenasser'],...remorque et le tout était pourtant attaché avec un cadenas.,cadenas||nom||Real_1
+mesure,nom,Real_1,['prendre'],"...bloc-notes, je vais à l’appartement prendre les mesures des rideaux, des panneaux, notant la place présumée des meubles, des tapis et...",mesure||nom||Real_1
+limite d’âge,locution nominale,Real_1,['atteindre'],"...mémoire ambulante est hors champ. Touché par la limite d’âge, le grand reporteur prend sa retraite.",limite d’âge||locution nominale||Real_1
+somme,nom,Redun,['argent'],"...les Froissard et nous avait remis une grosse somme dans une enveloppe : — Tu feras attention, Borinka. C’est la première fois que...",somme||nom||Redun
+balayeuse,nom,Redun,['aspirateur'],...places de stationnement pour permettre à la balayeuse de nettoyer les caniveaux.,balayeuse||nom||Redun
+théorie,nom,Redun,['scientifique'],"...de vue ébauché par Cauchy, Hamilton fonda la théorie des nombres complexes sur leur définition comme couples de nombres réels.",théorie||nom||Redun
+fête,nom,Redun,['religieux'],"...afin d’installer le jeu de quilles pour la fête de la Pentecôte. Il s’agissait de mettre en place, de niveau, sur un lit de...",fête||nom||Redun
+carte,nom,Redun,['à jouer'],"...stratégie de mémorisation utilisée dans un jeu de cartes enfantin, appelé mariage.",carte||nom||Redun
+élément,nom,Redun,['chimique'],Un élément est une substance formée d’une seule sorte d’atomes. Il est impossible de séparer...,élément||nom||Redun
+serveur,nom,Redun,['informatique'],...votre navigation sur Internet en utilisant ces serveurs DNS plutôt que ceux de votre fournisseur d’accès à Internet.,serveur||nom||Redun
+retenue,nom,Redun,['eau'],Le moulin du Valaubert est accoté à sa retenue d’eau.,retenue||nom||Redun
+cassette,nom,Redun,['personnel'],...président de la République a financé sur sa cassette l’achat de fincas ou d’actions pour de petits seigneurs de guerre en chômage.,cassette||nom||Redun
+manifestation,nom,Redun,['sportif'],...aux enfants de 7 à 13 ans. Il s’agit d’une manifestation qui était ouverte à tous les jeunes du village et des environs.,manifestation||nom||Redun
+position,nom,Redun,['sexuel'],"...C’est aussi la première fois, pour certaines positions, qu’elle n’a jamais permises auparavant. Parce que c’était sale, que ça faisait...",position||nom||Redun
+haricot,nom,Redun,['vert'],"...delirium des citadins dégénérés, qui préfèrent des haricots frais aux siens, sous verre, trop cuits, couleur épinard.",haricot||nom||Redun
+punaise,nom,Redun,['sale'],"– Où c’est que t’as été te promener, dit cette punaise de Chantal, flairant un coup, pour ça elle avait de l’intuition.",punaise||nom||Redun
+effets,nom,Redun,['personnel'],"...devons nous rassembler à l’accueil, avec nos effets personnels.",effets||nom||Redun
+fil,nom,Redun,['linge'],"...loin, on aurait cru une lessive séchant sur un fil, place de la mairie de Voray, vendredi. Un fil tendu entre deux arbres et portant,...",fil||nom||Redun
+dentaire,adjectif,S_0,['dent'],"Buccotherm, Laboratoire Odost propose des produits dentaires à base d’eau thermale de castera-verduzan (gels dentifrices, pâte dentifrice...",dentaire||adjectif||S_0
+recommander,verbe,S_0,['recommandation'],"Elle me reconnut. Sur-le-champ, elle me recommanda à Amadou Kisso Cissé en lui donnant des renseignements sur ma famille, recommandation...",recommander||verbe||S_0
+émotion,nom,S_0,['s’émouvoir'],...peux pas te dire. Je ne peux pas... L’émotion lui brisait la voix.,émotion||nom||S_0
+éclater,verbe,S_0,['éclatement'],...transforme en gouttes de liquide et la bulle éclate.,éclater||verbe||S_0
+charger,verbe,S_0,['chargement'],"...société SKF avenue de la Grande-Année, et ils avaient chargé la marchandise sur des camions, pour l’apporter jusqu’à leur officine de marché...",charger||verbe||S_0
+constater,verbe,S_0,['constatation'],En passant rue du Maine elle constata que Chez Maria était noir de monde et qu’il devait s’y trouver certains de ses...,constater||verbe||S_0
+frontal,adjectif,S_0,['front'],"...la douleur, la congestion et un mal de tête frontal. Le siège de la douleur situe le foyer d’infection. Par exemple, une infection...",frontal||adjectif||S_0
+saharien,adjectif,S_0,['Sahara'],"...mer levée avec le soir, fumait comme un erg saharien et semblait arracher d’elle une à une, ainsi que des voiles translucides, les...",saharien||adjectif||S_0
+placer,verbe,S_0,['placement'],...pas un seul meuble « art nouveau » pour le placer dans une chambre garnie de meubles anciens : c’est tout ou rien.,placer||verbe||S_0
+encourager,verbe,S_0,['encouragement'],...j’entends presque les cris des supporters venus encourager l’équipe de France au championnat du monde.,encourager||verbe||S_0
+se tasser,verbe pronominal,S_0,['tassement'],"...de tomber elle commence de s’effondrer, elle se tasse, elle fond, cela disparaît.",se tasser||verbe pronominal||S_0
+déchirer,verbe,S_0,['déchirement'],"...désinvolture pour d’autres, que le surveillant déchire l’enveloppe qui contient l’épreuve de philo du bac 99. Suspense. Enfin les copies...",déchirer||verbe||S_0
+baptiser,verbe,S_0,['baptême'],"...semblable à d’autres rites répétés fidèlement. On baptisa les enfants, on allait à la messe, dans ces villes de province, cela se fait.",baptiser||verbe||S_0
+arriver,verbe,S_0,"['arrivage', 'arrivée']",Il arrivait chaque matin à l’hôtel-Dieu dans un coupé à deux chevaux que le cocher faisait...,arriver||verbe||S_0
+continuer,verbe,S_0,['continuation'],"...réponse, j’aurais bafouillé un refus. Mais il continua son chemin sans plus me regarder.",continuer||verbe||S_0
+bloquer,verbe,S_0,['blocage'],"...est 14h15 quand les assaillants, une dizaine, bloquent avec un camion le second fourgon, y apposent un pain de plastic qu’ils font...",bloquer||verbe||S_0
+érotique,adjectif,S_0,['érotisme'],"La photo érotique est propre et noble, la photo pornographique sale et triviale. La photo érotique...",érotique||adjectif||S_0
+côtier,adjectif,S_0,['côte'],"...plaisir j’allais marcher seul sur les chemins côtiers et je remettais en état le bateau que mon père m’avait offert, sur un chantier...",côtier||adjectif||S_0
+fièrement,adverbe,S_0,['fierté'],"...brasse avec les mouvements de pieds », explique fièrement Thomas.",fièrement||adverbe||S_0
+indien,adjectif,S_0,"['Indien', 'Inde']","...télégramme que m’avait envoyé le gouvernement indien : « L’Inde, où se trouve la capitale construite par Le Corbusier, viendra verser...",indien||adjectif||S_0
+barométrique,adjectif,S_0,['baromètre'],...simples front atténués se noyant dans un marais barométrique élevé.,barométrique||adjectif||S_0
+héroïque,adjectif,S_0,['héros'],"...médecin, qu’il a mené cette vie aventureuse, héroïque.",héroïque||adjectif||S_0
+chipoter,verbe,S_0,['chipotage'],"Malheureusement, tandis que nous chipotions dans nos assiettes, les enfants ne décollaient pas du vivoir, attendant Gonzague...",chipoter||verbe||S_0
+échapper,verbe,S_0,['échappée'],"...juifs russo-polonais, sont arrêtés et déportés. Échappant de peu à la déportation suite à une rafle en janvier 1944, l’orphelin trouve...",échapper||verbe||S_0
+pédaler,verbe,S_0,['pédalage'],"...porte-bagages pour Clara, mais Amélie savait déjà pédaler seule, sans petites roues sur le côté.",pédaler||verbe||S_0
+aryténoïde,adjectif,S_0,['aryténoïde'],...muscles ont tous une insertion sur le cartilage aryténoïde sauf le muscle crico-thyroïdien.,aryténoïde||adjectif||S_0
+circuler,verbe,S_0,['circulation'],"...baisse trop à cause des médicaments, le sang circule moins bien, le cerveau reçoit moins d’oxygène...",circuler||verbe||S_0
+vomir,verbe,S_0,['vomissement'],"...nouveau droit aux gogues. J’avais plus rien à vomir, je vomissais ma gorge et mes dents, c’était pire que tout.",vomir||verbe||S_0
+sensoriel,adjectif,S_0,['sens'],...Compositions plastiques : expérimentations sensorielles et développement des réalisations plastiques en deux ou trois dimensions. Agir...,sensoriel||adjectif||S_0
+baisser,verbe,S_0,"['abaissement', 'baisse']","Il baisse son premier pantalon de jogging, son deuxième, enfonce sa main entre le troisième...",baisser||verbe||S_0
+amputer,verbe,S_0,['amputation'],"...ses assistants, en sueur, n’arrêtaient plus d’amputer des jambes et des bras dans une cahute.",amputer||verbe||S_0
+vendre,verbe,S_0,['vente'],"À chaque station, des gamins vendaient pour quelques sous aux voyageurs des ananas juteux à pulpe jaune qui procuraient...",vendre||verbe||S_0
+pastoral,adjectif,S_0,['pasteur'],"Mais lisez les sermons, les lettres pastorales du pauvre cardinal !",pastoral||adjectif||S_0
+errer,verbe,S_0,['errance'],"Tendre la main, être chassé, errer, n’être plus rien... Tel est le sort tragique des sans-abri au milieu de nous......",errer||verbe||S_0
+couard,adjectif,S_0,['couardise'],"Poltron sinon couard, mais craintif à coup sûr, Douglas Haig s’imagina aussitôt croupissant à Biribi.",couard||adjectif||S_0
+suisse,adjectif,S_0,['Suisse'],"...vendanges, il s’est présenté à la frontière suisse, où les douaniers l’ont refoulé.",suisse||adjectif||S_0
+s’accomplir,verbe pronominal,S_0,['accomplissement'],Il est écrit que les moindres événements s’accomplissent maintenant dans la tristesse et avec le maximum de difficultés.,s’accomplir||verbe pronominal||S_0
+aimé,adjectif,S_1,"['amoureuse', 'amoureux']","...plus, car je sais que Pilo, le tenait d’un ami aimé et disparu.",aimé||adjectif||S_1
+couardise,nom,S_1,"['couard', 'couarde']",...arrangements n’y feront rien. Ni ta prudence. Ni ta couardise.,couardise||nom||S_1
+aboyer,verbe,S_1,"['chienne', 'chien']",...bâton un vieux mouton devant lui. Son chien aboie.,aboyer||verbe||S_1
+crime,nom,S_1,"['criminelle', 'criminel', 'auteure', 'auteur']","On l’accusa de crimes imaginaires, d’avoir protégé des criminels de guerre, qu’en vérité elle voulait...",crime||nom||S_1
+rue piétonnière,locution nominale,S_1,"['piéton', 'piétonne']","...fois le livre achevé, j’empruntais la longue rue piétonnière qui mène vers la forteresse.",rue piétonnière||locution nominale||S_1
+hypnotiser,verbe,S_1,"['hypnotiseur', 'hypnotiseuse']","M. R. raconte qu’un jour, ayant hypnotisé un de ses amis, il lui dit : « Te voilà changé en perroquet, mon pauvre garçon. »",hypnotiser||verbe||S_1
+échec,nom,S_1,"['joueur', 'joueuse']","...de traversée, passer son temps à jouer aux échecs avec une très belle fille, alors qu’on meurt d’envie de se battre, est une des...",échec||nom||S_1
+ioniser,verbe,S_1,"['molécule', 'atome']","Les rayonnements alpha, bêta et gamma ionisent les atomes de matière avec lesquels ils interagissent.",ioniser||verbe||S_1
+ruminant,adjectif,S_1,['ruminant'],"...autre espèce, à savoir celle des mammifères ruminants.",ruminant||adjectif||S_1
+jazz,nom,S_1,"['jazzman', 'jazzwoman']","Ils achetaient des disques de jazz aux Champs-élysées, et s’attardaient à la brasserie Hungaria, pour écouter les...",jazz||nom||S_1
+vendre,verbe,S_1,"['vendeur', 'vendeuse']","À chaque station, des gamins vendaient pour quelques sous aux voyageurs des ananas juteux à pulpe jaune qui procuraient...",vendre||verbe||S_1
+fume-cigare,nom,S_1,"['fumeur', 'fumeuse']","...entendue répéter, en vue d’une soirée costumée, fume-cigare au bec, en robe à fourreau, perruque blonde et huit-reflets, imitant les intonations...",fume-cigare||nom||S_1
+pâtisserie,nom,S_1,"['pâtissier', 'pâtissière']",...triomphé dans une rédaction sur la vitrine d’une pâtisserie. Le maître avait lu tout haut le passage suivant : « Les gâteaux brillent de...,pâtisserie||nom||S_1
+abonnement,nom,S_1,"['abonné', 'abonnée']","...coûts, des salaires, du prix des courses, des abonnements parisiens, etc. Le nombre des taxis est souvent insuffisant.",abonnement||nom||S_1
+britannique,adjectif,S_1,['britannique'],"Le 15 février 1942, 73000 soldats britanniques capitulaient à Singapour après une brève résistance.",britannique||adjectif||S_1
+aimer,verbe,S_1,"['amateur', 'amoureux', 'amatrice', 'amoureuse']","...amis, l’un s’appelait Marcel, l’autre Paul. Tu aimais le premier, le second était amoureux de toi.",aimer||verbe||S_1
+conservatisme,nom,S_1,"['conservateur', 'conservatrice']","...Débat, 108, 2000) dénonçant sans indulgence le conservatisme intellectuel, le clientélisme localiste, la dépréciation des diplômes, la misère...",conservatisme||nom||S_1
+abricotier,nom,S_1,['abricot'],"...d’enfance où l’on perchait sur les branches des abricotiers, où l’on partait à l’assaut des palmiers, guerriers sans peur et sans reproche.",abricotier||nom||S_1
+étude,nom,S_1,"['étudiant', 'étudiante']",...j’avais besoin de tout mon temps pour faire des études sérieuses et que je tirerais profit d’une hypokhâgne et d’une khâgne.,étude||nom||S_1
+aînesse,nom,S_1,"['aînée', 'aîné']","...tu n’enviais ni les droits ni les devoirs d’aînesse de ton frère, et tu n’avais aucun désir de compétition pour atteindre le rang...",aînesse||nom||S_1
+changement chimique,locution nominale,S_1,['substance'],...chaleur. Ce dégagement de chaleur indique qu’un changement chimique se produit.,changement chimique||locution nominale||S_1
+démocratie,nom,S_1,['démocrate'],"...la Tchécoslovaquie a sauté ce week-end. La Démocratie, vous dit-on, en oubliant de noter que tous ces pauvres gens n’ont rien à bouffer...",démocratie||nom||S_1
+possession,nom,S_1,['propriétaire'],...qu’elle était obligée de vendre ses plus belles possessions ?,possession||nom||S_1
+kiosque,nom,S_1,"['kiosquière', 'kiosquier']","Au kiosque de la gare, avant de monter dans le train, tu as acheté Le Monde.",kiosque||nom||S_1
+entêtement,nom,S_1,"['entêtée', 'entêté']","Optimiste avec entêtement, ma mère était cependant une nerveuse, une anxieuse : c’est ce qui expliquait...",entêtement||nom||S_1
+pot,nom,S_1,"['véhicule', 'plante']",Les plantes anémiques dans leurs pots tremblaient à chaque palier.,pot||nom||S_1
+emprunter,verbe,S_1,"['emprunteur', 'emprunteuse']","...allait bientôt prendre l’habitude d’aller lui emprunter livres et films, il mettrait peu de jours à comprendre que Brigitte, le soir...",emprunter||verbe||S_1
+narine,nom,S_1,['cétacé'],"...dauphins de bronze qui crachent de l’eau par les narines, on a élevé des rocs poreux d’où s’échappent mille herbes folles et planté des...",narine||nom||S_1
+au bord des lèvres,locution prépositionnelle,S_1,['cigare'],"Vous avez peut-être déjà le cigare au bord des lèvres, prenez quelques instants pour comprendre le but de la manœuvre. Dans nos sociétés...",au bord des lèvres||locution prépositionnelle||S_1
+poche,nom,S_1,['marsupial'],Le kangourou est un marsupial à poche ventrale.,poche||nom||S_1
+empoisonner,verbe,S_1,"['empoisonneuse', 'empoisonneur']","...a tué son mari en une longue nuit : elle l’a empoisonné mais ça a raté, alors elle l’a poignardé puis elle a essayé de l’asphyxier au...",empoisonner||verbe||S_1
+agoraphobie,nom,S_1,['agoraphobe'],"...sort jamais, ajouta-t-il. — Elle a de l’agoraphobie ? demanda l’épicier avec précision.",agoraphobie||nom||S_1
+détente,nom,S_1,['arme à feu'],"...glissement du percuteur, la sensibilité de la détente, le cran de sécurité.",détente||nom||S_1
+bourreau,nom,S_2,"['condamné', 'condamnée']",...l’ont fait basculer sous le couperet que le bourreau actionna.,bourreau||nom||S_2
+lycée,nom,S_2,"['lycéenne', 'lycéen']",...contournant soigneusement le boulevard menant au lycée de son fils.,lycée||nom||S_2
+équivalent,nom,S_2,['équivalent'],...puisqu’il coûte à la Nation chaque année l’équivalent de 100 000 logements.,équivalent||nom||S_2
+nager,verbe,S_2,"['vêtement', '400 mètres', '200 mètres', 'chaussure', '1500 mètres', '100 mètres']","...27 octobre 1962, l’australienne Dawn Fraser nageait le cent mètres en cinquante neuf secondes huit dixièmes, temps avec lequel John...",nager||verbe||S_2
+remuscler,verbe,S_2,['muscle'],"...kinésithérapie, présente quelques exercices simples pour remuscler son périnée.",remuscler||verbe||S_2
+fax,nom,S_2,['fax'],"En mon absence, elle a contacté — par fax ! — le proviseur du lycée Gutenberg qui lui a répondu, par fax aussi, qu’il...",fax||nom||S_2
+gribouillage,nom,S_2,"['gribouillage', 'gribouillis']","...sinueuses branches de lierre d’une rocaille, gribouillage rapide.",gribouillage||nom||S_2
+cheval,nom,S_2,['cheval'],Jamais elle ne pourra manger ce beefsteak de cheval.,cheval||nom||S_2
+se diriger,verbe pronominal,S_2,['direction'],"...après onze heures, Nadia sortit de chez elle et se dirigea vers les Buttes-Chaumont toutes proches. Elle s’était promis de consacrer ses...",se diriger||verbe pronominal||S_2
+parler,verbe,S_2,['langue'],"...l’appellerions infans , celui qui voit avant de parler, qui cherche un visage par le regard avant d’observer, un infans transtemporel, ignorant...",parler||verbe||S_2
+coup de feu,locution nominale,S_2,['service'],...présent dans les congélateurs en attendant le coup de feu pour lequel il faudra embaucher au moins 10 extras.,coup de feu||locution nominale||S_2
+taille,nom,S_2,"['taille', 'végétal']","...magnifiques. La chrysalide est de la taille d’un index, le papillon est jaune et noir et sur le thorax, on peut voir apparaître un...",taille||nom||S_2
+ambulancier,nom,S_2,['ambulance'],...l’accouchement a été sauvé de justesse par un ambulancier grâce au geste décrit au téléphone par un médecin du SAMU de Châteauroux.,ambulancier||nom||S_2
+jumeau,nom,S_2,['bœuf'],"Le jumeau à pot-au-feu : ce morceau est moelleux et gélatineux, on l’utilise principalement,...",jumeau||nom||S_2
+as,nom,S_2,['couleur'],"...réussite consistant, après avoir retiré les quatre as, à réordonner le jeu selon ses quatre séquences de même couleur en se servant...",as||nom||S_2
+bouchon,nom,S_2,['pêcheur'],"...plombs fendus de différentes tailles, de gros bouchons ressemblant à des toupies, de fines plumes, des mouches de couleur, des bas...",bouchon||nom||S_2
+lundi,nom,S_2,['semaine'],"...est toujours propre, changeant de costume le lundi et le vendredi et, tout comme Vireil, porte des bottines que d’ailleurs, tout...",lundi||nom||S_2
+combat,nom,S_2,['adversaire'],Elle fut aussi David et me défia en combat singulier.,combat||nom||S_2
+priseuse,nom,S_2,['tabac'],"...derniers, un neveu allait rendre visite à sa tante, priseuse de tabac s’il en fût. Cette dame était en train de confectionner une appétissante...",priseuse||nom||S_2
+commérage,nom,S_2,['commérage'],"...dire, tout d’abord, pour répondre à certains commérages qui ont été faits, que de Gaulle ne m’a jamais demandé ou offert quoi que ce...",commérage||nom||S_2
+cuisiner,verbe,S_2,"['repas', 'plat']","...été très agréable, M me Grandrieux cuisinait des plats asiatiques délicieux ; ses enfants étaient de jeunes personnes intéressantes,...",cuisiner||verbe||S_2
+imposer,verbe,S_2,['contribuable'],"...choisir des catégories de contribuables qu’elles imposeraient le plus, ce qui aurait pu multiplier l’effet d’inégalité de ces impôts mal assis,...",imposer||verbe||S_2
+conclure,verbe,S_2,['conclusion'],"J’en conclus que je l’ai saisie au moment de son retour à Paris, et qu’elle a passé l’hiver...",conclure||verbe||S_2
+moulin à café,locution nominale,S_2,['café'],"...monte vers les chambres, elle avait placé le moulin entre ses cuisses, dans le creux de son tablier noir à fleurettes grises.",moulin à café||locution nominale||S_2
+s’équiper,verbe pronominal,S_2,['équipement'],"...nouvelles normes et de nouvelles taxes, les villes s’équipent de tramways colorés, aménagent des pistes cyclables, proposent des vélos en...",s’équiper||verbe pronominal||S_2
+renifler,verbe,S_2,['odeur'],"...faisais avec le gant de toilette, sinon, dit-il en reniflant le doigt caoutchouté qui m’avait examinée, « cela ne sent pas très bon ».",renifler||verbe||S_2
+université,nom,S_2,['universitaire'],"...violoniste à dix-huit ans, étudie le droit à l’université de Bruxelles et dessine merveilleusement.",université||nom||S_2
+instituteur,nom,S_2,['élève'],"C’était le meilleur instituteur de l’école primaire, et toi, comme tu avais sauté deux classes, tu te retrouvais...",instituteur||nom||S_2
+député,nom,S_2,"['électeur', 'électrice']",Les interventions effectuées par les députés et l’analyse des scrutins constituent un bon témoignage de la force réelle des...,député||nom||S_2
+messe,nom,S_2,['fidèle'],"...pouvez être sûre que d’ici quelques années, la messe sera dite dans la langue nationale de chaque pays.",messe||nom||S_2
+grandeur,nom,S_2,['grandeur'],...qui permettent de calculer avec précision les grandeurs qui le caractérisent. Dans le troisième chapitre nous essayerons de dégager...,grandeur||nom||S_2
+autopsie,nom,S_3,['résultat'],Je vous passe le détail de l’autopsie. Il s’avère que mon noyé n’a pas bu la tasse : il a piqué une tête dans le canal...,autopsie||nom||S_3
+course,nom,S_3,"['fiacre', 'taxi']",...repos. Le pont détruit de Laurière allonge la course.,course||nom||S_3
+louer,verbe,S_3,['locataire'],"...meilleurs amis, « les Paul » qui venaient de louer une maison de pêcheur et une barque à moteur à Port-Manech.",louer||verbe||S_3
+envoi,nom,S_3,['destinataire'],Limiter les envois d’argent et de colis de la part des Cubains vivant aux USA aux seuls parents...,envoi||nom||S_3
+cirer,verbe,S_3,['cire'],Elle lessiva les murs et cira le parquet.,cirer||verbe||S_3
+compensation,nom,S_3,['compensation'],"...la base de Thulé, en demandant notamment une compensation financière pour la commune de Thulé, dépossédée d’un cinquième de son territoire...",compensation||nom||S_3
+qualifier,verbe,S_3,['qualificatif'],"...peine de mort, il y a des méthodes que certains qualifient de « barbares » : la lapidation, la pendaison ou la guillotine. Mais pour le...",qualifier||verbe||S_3
+diriger,verbe,S_3,['direction'],"Les déflecteurs servent à diriger le flux d’arrivée d’eau dans une direction, et pour capturer le CO 2 allant...",diriger||verbe||S_3
+marche,nom,S_3,"['auditeur', 'auditrice']",...tenait à la fois de la valse musette et de la marche militaire.,marche||nom||S_3
+film,nom,S_3,"['actrice', 'acteur', 'comédienne', 'comédien']",Un festival du film fantastique vient confirmer une tendance du cinéma de genre : l’épicentre de...,film||nom||S_3
+habiller,verbe,S_3,"['vêtement', 'habit']",Laura choisit les vêtements dans l’armoire et habille Alexandre.,habiller||verbe||S_3
+unanimité,nom,S_3,"['vote', 'élection']","...pour, 0 contre. Le parcours est accepté, à l’unanimité, dans l’enthousiasme et par acclamations.",unanimité||nom||S_3
+emprunté,adjectif,S_3,"['emprunteur', 'emprunteuse']","...mais, le plus souvent en désordre, des livres empruntés aux rédacteurs du journal ou à la bibliothèque municipale.",emprunté||adjectif||S_3
+épicerie,nom,S_3,"['client', 'cliente']","...y trouverez la Mairie, les boulangeries, l’épicerie, le tabac, la presse et bien sûr le bar.",épicerie||nom||S_3
+hôpital,nom,S_3,"['patient', 'patiente']","À l’hôpital, Luc, qui semblait ne souffrir de rien, est mort au moment où je le prenais...",hôpital||nom||S_3
+chanter,verbe,S_instr,"['corde vocale', 'larynx']",...je me sens si heureux d’être en vie que je chante tout seul.,chanter||verbe||S_instr
+adapter,verbe,S_instr,['adaptateur'],"...sur le corps de l’appareil, afin de pouvoir y adapter un tube souple, sur lequel peuvent être fixées différentes bouches ou becs aspirateurs...",adapter||verbe||S_instr
+coiffeuse,nom,S_instr,"['peigne', 'sèche-cheveux', 'ciseau', 'brosse']",...ne reflétant qu’une image brouillée quand la coiffeuse me demande de m’y regarder pour vérifier mes sourcils épilés.,coiffeuse||nom||S_instr
+mesure,nom,S_instr,"['mètre', 'instrument de mesure', 'règle']",...géomètre-expert est le professionnel de la mesure depuis des temps immémoriaux.,mesure||nom||S_instr
+bêcher,verbe,S_instr,['bêche'],"...le chef jardinier, un vrai saint Fiacre, qui bêche, bine, serfouit, taille, butte, pique et empote comme on ne le fait plus.",bêcher||verbe||S_instr
+coup de poing,locution nominale,S_instr,['coup de poing'],"...possible, c’est un boxeur, je lui lance un coup de poing, il va pas le recevoir, ce serait trop simple...",coup de poing||locution nominale||S_instr
+analyser,verbe,S_instr,['analyseur'],"...pollution est mangée par des bactéries. Sylvie B. analyse l’eau à l’entrée et à la sortie de la station. Quand elle est rejetée à la rivière,...",analyser||verbe||S_instr
+droit,nom,S_instr,['main droite'],"...profité de ses bras trop hauts pour placer un droit au foie », raconte Guadagnolo.",droit||nom||S_instr
+badminton,nom,S_instr,"['volant', 'raquette']","...dans un caboin de vieilles raquettes de badminton, un vieux volant, et sans plus d’allégresse, jouent mollement, jusqu’à ce que la nuit...",badminton||nom||S_instr
+doucher,verbe,S_loc,"['douche', 'salle de bain', 'salle de douche']","...dans des fantômes, prit un bain, se leva tard, doucha Paulette, la coiffa n’importe comment, flâna un peu dans la rue de Grenelle...",doucher||verbe||S_loc
+sans domicile fixe,locution prépositionnelle,S_loc,['rue'],"À New York, un sans domicile fixe a voulu aider une femme qui se faisait agresser. Il a été poignardé.",sans domicile fixe||locution prépositionnelle||S_loc
+prisonnier,adjectif,S_loc,['prison'],"Les uns pleurent des êtres chers déportés ou prisonniers, d’autres ont été arrêtés ou ont vécu dans l’angoisse d’être arrêtés.",prisonnier||adjectif||S_loc
+articulation,nom,S_loc,['point'],"...intervenant, Marcel D., vient leur apprendre l’articulation, la diction, le placement sur scène, la façon de bouger en occupant l’espace...",articulation||nom||S_loc
+noix,nom,S_loc,['noyer'],"...de dessert, selon la saison, des pommes, des noix, quelques fraises écrasées avec du sucre qu’on étale sur une tartine.",noix||nom||S_loc
+encre,nom,S_loc,['encrier'],« Vous avez les doigts pleins d’encre. C’est bon signe. Vous réussirez à votre examen et vous serez une brillante...,encre||nom||S_loc
+villageois,nom,S_loc,['village'],"...le journal : l’histoire de ces trois jeunes villageois, pour rompre avec la routine des champs, vivre plus amplement, décident de devenir...",villageois||nom||S_loc
+maladie,nom,S_loc,['siège'],"...soi-même être sale, pour ne pas attraper les maladies.",maladie||nom||S_loc
+presse,nom,S_loc,"['presse', 'imprimerie']",...en général et elle dispose actuellement de presses rotatives qui peuvent imprimer des timbres en six couleurs.,presse||nom||S_loc
+sandwich,nom,S_loc,['sandwicherie'],"Je trouvai un bar ouvert, mangeai un sandwich de pain de mie à la tomate et au thon.",sandwich||nom||S_loc
+chair de poule,locution nominale,S_loc,['peau'],...pièce un froid terrible qui lui donnait la chair de poule.,chair de poule||locution nominale||S_loc
+volley-ball,nom,S_loc,['terrain'],"...individuels, la natation, l’athlétisme, le volley-ball, le basket, tout était bon pour faire de nous des petits êtres robustes et déliés.",volley-ball||nom||S_loc
+figue,nom,S_loc,['figuier'],"...qu’on ajoute à chaque repas, ni la poignée de figues qu’on grignote de temps en temps dans les intervalles.",figue||nom||S_loc
+réaction,nom,S_loc,['réacteur'],"...principe de l’égalité de l’action et de la réaction, le rail exerce, sur la roue, une réaction N, égale et directement opposée à...",réaction||nom||S_loc
+coiffeuse,nom,S_loc,['salon'],...ne reflétant qu’une image brouillée quand la coiffeuse me demande de m’y regarder pour vérifier mes sourcils épilés.,coiffeuse||nom||S_loc
+orchestre,nom,S_loc,['fosse d’orchestre'],"...dix-huit, dix-neuf ans, j’ai fait partie d’un orchestre, le dimanche.",orchestre||nom||S_loc
+mesure,nom,S_res,"['mesure', 'résultat']",...géomètre-expert est le professionnel de la mesure depuis des temps immémoriaux.,mesure||nom||S_res
+blesser,verbe,S_res,['blessure'],Je ne tiens pas à blesser un spectateur en lui envoyant le ballon dans la figure !,blesser||verbe||S_res
+déchirer,verbe,S_res,['déchirure'],"...désinvolture pour d’autres, que le surveillant déchire l’enveloppe qui contient l’épreuve de philo du bac 99. Suspense. Enfin les copies...",déchirer||verbe||S_res
+muscler,verbe,S_res,['muscle'],"...polaires, des haltères violettes, des ballons pour muscler l’intérieur des cuisses et renforcer les pectoraux, un univers en expansion,...",muscler||verbe||S_res
+tournoi,nom,S_res,['résultat'],...idée de transporter cette romance au cœur du tournoi de tennis de Wimbledon. Entre un tennisman en fin de carrière et une jeune joueuse...,tournoi||nom||S_res
+effort,nom,S_res,['résultat'],...tenants du régime de l’alcool déploient de grands efforts pour le laver de toute imputation péjorative dans l’ordre de l’alcoolisme.,effort||nom||S_res
+souffler,verbe,S_res,['souffle'],"...par l’anneau étroit dans lequel il s’agit de souffler doucement, calmement, régulièrement.",souffler||verbe||S_res
+envelopper,verbe,S_res,['enveloppement'],...locomotive lâche en sifflant un jet de vapeur qui enveloppe sa mince silhouette.,envelopper||verbe||S_res
+concours,nom,S_res,['résultat'],"...mes gammes et mes exercices, si bien qu’aux concours de piano je me classais parmi les dernières.",concours||nom||S_res
+trébucher,verbe,S_res,['chute'],...pas pour mieux apprécier sa composition et trébuche sur ce foutu clébard qui s’enfuit en glapissant dans un autre angle du jardin.,trébucher||verbe||S_res
+code,nom,Sing,['loi'],"...rappelle les termes, formulés par l’article 353 du code de procédure pénale, avant la délibération.",code||nom||Sing
+lentille,nom,Sing,"['paquet', 'boîte']","...d’aller acheter deux cent cinquante grammes de lentilles, de pois cassés, de haricots blancs.",lentille||nom||Sing
+colère,nom,Sing,['bouffée'],Un jour dans le car une grand-mère en colère a donné des coups de canne ou de parapluie à un petit copain.,colère||nom||Sing
+saucisson,nom,Sing,['rondelle'],"...rondelles de cornichon, avec des rondelles de saucisson, et avec des œufs de lump rouges ou noirs et des petits morceaux de citron.",saucisson||nom||Sing
+chevelure,nom,Sing,['cheveu'],"...menton altier, les paupières en biseau et la chevelure crantée d’un acteur américain des années 50.",chevelure||nom||Sing
+pluie,nom,Sing,"['goutte', 'gouttelette']","Il se mit à tomber de la pluie, de larges gouttes, de plus en plus pressées.",pluie||nom||Sing
+cheval,nom,Sing,['compétition'],"...bien équipé : on pouvait y faire aussi bien du cheval que de la voile, du ski nautique, de la chasse sous-marine, de la pêche au gros,...",cheval||nom||Sing
+farine,nom,Sing,"['paquet', 'sac']",J’ai juste déjeuné de la quantité de farine de manioc et du petit carré de morue salée qu’elle m’avait départis.,farine||nom||Sing
+ennemi,nom,Sing,['ennemi'],...conséquences. C’est de la trahison face à l’ennemi.,ennemi||nom||Sing
+mois,nom,Sing,"['jour', 'semaine']","...de cet accident, je suis resté couché quatre mois, ou dans une chaise roulante, j’étais dans l’impossibilité de tenir debout.",mois||nom||Sing
+tarte,nom,Sing,['part'],"...lac Léman, à se goinfrer de chocolat et de tarte au citron.",tarte||nom||Sing
+espèce chimique,locution nominale,Sing,['entité chimique'],"À l’échelle macroscopique, une espèce chimique désigne une collection d’un nombre très élevé d’entités chimiques identiques....",espèce chimique||locution nominale||Sing
+nouille,nom,Sing,['paquet'],"Avec indifférence ils mangaient des nouilles trop cuites, pas très chaudes, et un reste de viande en sauce que Brioude tirait...",nouille||nom||Sing
+toutou,nom,Syn,"['cador', 'clébard', 'clebs', 'cabot', 'chien']","...apprend à parler. Il appelle alors le chien toutou, le cheval dada, et son père papa, il dit bonjour, merci, il fait sa prière.",toutou||nom||Syn
+manger la feuille de match,locution verbale,Syn,['bouffer la feuille de match'],"...centimètres en début de partie et Vagney, à son tour, a mangé la feuille de match trois minutes avant la fin de la rencontre.",manger la feuille de match||locution verbale||Syn
+du gâteau,locution nominale,Syn,['de la tarte'],"...maldonne, et chacun avait eu la même réaction : du gâteau, un vrai boulot pour débutant.",du gâteau||locution nominale||Syn
+dans les baskets,locution prépositionnelle,Syn,['dans les chaussettes'],...en quête d’une pizzeria avec le moral un peu dans les baskets vu les conditions climatiques.,dans les baskets||locution prépositionnelle||Syn
+gaz,nom,Syn,"['flatuosité', 'vent']","...pas : j’ai pas mangé de haricots. J’ai des gaz. — Les haricots, moi non plus, je les digère pas. Mais ça distrait. (Rires.)...",gaz||nom||Syn
+à califourchon,locution prépositionnelle,Syn,['à cheval'],Alors il s’assit à califourchon sur une chaise et se frotta les yeux.,à califourchon||locution prépositionnelle||Syn
+zizi,nom,Syn,"['queue', 'quéquette', 'bistouquette', 'chibre', 'zob', 'biroute', 'manche', 'braquemart', 'verge', 'moineau', 'membre', 'pine', 'teub', 'pénis', 'zigounette', 'bite', 'robinet', 'nouille']","...qu’aucun de ses noms ne lui semblait le vrai, ni zizi qu’employaient quelquefois ses parents, ni verge ni pénis qu’il avait lus dans...",zizi||nom||Syn
+mère célibataire,locution nominale,Syn,['fille mère'],"...erreur, son péché de jeunesse à une époque où les mères célibataires n’existaient pas dans la terminologie. On disait alors... filles mères et elles...",mère célibataire||locution nominale||Syn
+pasteure,nom,Syn,['femme pasteur'],"...fois, réunissait un rabbin, un musulman, une pasteure protestante et un prêtre catholique.",pasteure||nom||Syn
+étron,nom,Syn,"['caca', 'merde', 'crotte']","...fais inopinément et sans la moindre bavure un étron superbe, si long qu’il faut qu’il s’incurve à ses extrémités pour tenir dans...",étron||nom||Syn
+cinoche,nom,Syn,"['cinéma', 'ciné', 'comédie']",...jetait sur les mille-feuilles en sortant du cinoche.,cinoche||nom||Syn
+cradingue,adjectif,Syn,"['crade', 'cracra', 'crado', 'craspec', 'crasseux', 'cradoque']","...cassé, que tu ailles jouer là-dedans ? C’est cradingue, plein de saletés, de tessons de bouteilles, de cambouis, de toiles d’araignée...",cradingue||adjectif||Syn
+F3,nom,Syn,"['T3', 'trois-pièces']","...F pour un F2, de 2.500 F à 3.600 F pour un F3, entre 3.000 et 4.500 F pour un F4/ F5, et 3.000 à 5.000 F pour une maison de...",F3||nom||Syn
+fesse,nom,Syn,"['cul', 'arrière-train']","...reportage, un film hebdomadaire (sans trop de fesse ou de flingue), voilà une consommation d’ORTF qui n’atteint pas l’heure.",fesse||nom||Syn
+bosser,verbe,Syn,['travailler'],"...travail, être papa, et, entre 23 h et 3 h du mat’ bosser sur cette campagne !",bosser||verbe||Syn
+baffe,nom,Syn,['gifle'],"...que j’y foutais les boules, et y m’a mis une baffe dans la gueule. J’te jure, c’est la première fois qu’y tape en deux ans.",baffe||nom||Syn
+kidnapping,nom,Syn,['kidnappage'],"...nouvelle de rien. Nous avons pensé un moment à un kidnapping, mais aucune trace pour le prouver, en Union soviétique on n’enlève pas comme...",kidnapping||nom||Syn
+huit-pièces,nom,Syn,"['T8', 'F8']","...D., est logé gratuitement dans un huit-pièces (200 m²). Il économise environ 11 000 euros de loyer par mois.",huit-pièces||nom||Syn
+noix de coco,locution nominale,Syn,['coco'],"Fourrée d’une crème très légère à la noix de coco parsemée de paillettes de chocolat, la gaufre Meert, traditionnellement très...",noix de coco||locution nominale||Syn
+godasse,nom,Syn,"['chaussure', 'tatane', 'grolle', 'pompe']",...ils marchent sur les talons d’une paire de godasses qui a dû être une paire de baskets.,godasse||nom||Syn
+bien,adverbe,Syn,['ben'],"...de fête il s’est enfui avec Milhaud, qui eût bien voulu rester mais a dû obtempérer, à Petropolis.",bien||adverbe||Syn
+vélomoteur,nom,Syn,['cyclomoteur'],"Tantôt je prenais mon vélomoteur, tantôt le train, tantôt le car, et il m’arrivait aussi de partir à pied, ou...",vélomoteur||nom||Syn
+lin,nom,Syn,['graine de lin'],...peu d’essence de térébenthine et d’huile de lin ; il choisit une petite brosse plate et raide qu’il trempa dans son mélange...,lin||nom||Syn
+mère d’emprunt,locution nominale,Syn,"['mère de substitution', 'mère porteuse']","...concrète de la paternité. Au contraire, la mère d’emprunt porte un fœtus réel, participant ainsi, dans son corps, à la conception de l’enfant.",mère d’emprunt||locution nominale||Syn
+arracheur de dents,locution nominale,Syn,['dentiste'],"J’en ai envie comme d’aller chez un arracheur de dents, mais si je n’y vais pas ça risque d’être un drame...",arracheur de dents||locution nominale||Syn
+kilo,nom,Syn,['kilogramme'],"...jetait dans la débâcle, ils stockaient des kilos de sucre et des litres d’huile en prévision de la guerre civile.",kilo||nom||Syn
+document,nom,Syn,['fichier'],"Les documents électroniques sont des objets structurés, qui ont un contenu. Celui-ci est souvent...",document||nom||Syn
+ruiné,adjectif,Syn,['en ruine'],...tombé en quenouille et fait retaper un château ruiné près d’Avranches.,ruiné||adjectif||Syn
+appel,nom,Syn,"['coup de téléphone', 'coup de bigophone', 'coup de fil']","...nouvelle ligne peuvent se faire par un simple appel, vous pouvez conserver votre numéro si vous restez dans la même zone géographique...",appel||nom||Syn
+femme médecin,syntagme nominal,Syn,"['docteure', 'toubib', 'doctoresse', 'doc', 'médecin']",La femme médecin me dit : « Dix pour cent des gens ne supportent pas l’examen et arrachent le...,femme médecin||syntagme nominal||Syn
+se fourrer,verbe pronominal,Syn,['se glisser'],"...tremblant de peur, il vient dans ma chambre, il se fourre dans mon lit, il dit, I’ve come to protect you, Ilse !",se fourrer||verbe pronominal||Syn
+stopper,verbe,Syn,"['stopper', 'arrêter']","...pas moyen d’arrêter pour le moment. En plus, stopper la cigarette peut rendre anxieux et impatient, quand ici l’objectif est de passer...",stopper||verbe||Syn
+ration,nom,Syn,['portion'],"Il était difficile de se procurer sa ration journalière de pain. Les boulangeries ouvraient tard le matin, et fermaient...",ration||nom||Syn
+docteur,nom,Syn,"['toubib', 'médecin', 'doc']","...aussi des patients traités à l’AZT, continua le docteur Chandi, qui sont en pleine forme physique et morale.",docteur||nom||Syn
+table de ping-pong,locution nominale,Syn,['ping-pong'],"...Gilles S. du foyer rural, ont profité des trois tables de ping-pong installées à leur intention. Ils ont pratiqué ce sport en tenant compte des...",table de ping-pong||locution nominale||Syn
+gaspi,nom,Syn,['gaspillage'],"...ne se reprisent plus ; on les jette, et ce gaspi, qui remplit les poubelles, tend à devenir la norme chez des amis qui, voilà...",gaspi||nom||Syn
+prêt,nom,V_0,['prêter'],...l’association peut solliciter auprès de la Ville le prêt de matériel.,prêt||nom||V_0
+voleur,adjectif,V_0,['voler'],Les chattes sont voleuses.,voleur||adjectif||V_0
+mise en garde,locution nominale,V_0,['mettre en garde'],...seulement il pouvait y avoir une VRAIE campagne de mise en garde collective pour expliquer tout simplement aux citoyens quelques principes de...,mise en garde||locution nominale||V_0
+frottage,nom,V_0,['frotter'],"...vitesse la série des opérations de lavage : bac, frottage circulaire, robinet, égouttoir.",frottage||nom||V_0
+jetage,nom,V_0,['jeter'],...descendre le long des berges de la Cure pour le jetage des bûches.,jetage||nom||V_0
+triche,nom,V_0,['tricher'],"...trois les heures de conférences, organisant la triche au plus haut niveau.",triche||nom||V_0
+tricherie,nom,V_0,['tricher'],"...j’avais obtenu un résultat brillant grâce à cette tricherie, ce qui me jetait dans les affres de la culpabilité.",tricherie||nom||V_0
+éveil,nom,V_0,['éveiller'],"...ses ongles cannelés, sans autre effet que l’éveil en sursaut de Luce, le lever de ses paupières lourdes derrière toutes ses dioptries.",éveil||nom||V_0
+décollage,nom,V_0,['décoller'],"...sûr, à l’équipe « Insertion » : lessivage, décollage du papier, enduit peinture, tapisserie.",décollage||nom||V_0
+poids,nom,V_0,['peser'],"...mètres de large et 6,85 mètres de haut pour un poids d’environ quatre-vingts tonnes.",poids||nom||V_0
+retenue,nom,V_0,['retenir'],"La mesure de retenue est levée de plein droit à défaut, pour le demandeur, dans le délai de dix jours...",retenue||nom||V_0
+amusement,nom,V_0,"['s’amuser', 'amuser']",...militaire grille une cigarette en considérant avec amusement les chambres vides. Il se demande quelle sorte de tableaux pouvaient bien décorer...,amusement||nom||V_0
+collage,nom,V_0,['coller'],"...révolutionnaire, de courir de réunion en débat, de collage d’affiches en distribution de tracts, et moi je me cassais la gueule.",collage||nom||V_0
+paiement,nom,V_0,['payer'],...motards qui l’empruntent sont dispensés de paiement.,paiement||nom||V_0
+annonce,nom,V_0,['annoncer'],"...dernières années, remonterait au sommet à l’annonce de son retour sur les planches.",annonce||nom||V_0
+énervé,adjectif,V_0,['avoir les abeilles'],"Énervée, elle le vit mal et en marchant dans la rue tape dans une canette qui jonche...",énervé||adjectif||V_0
+regard,nom,V_0,['regarder'],"...soulever ses jupes et décoiffer ses cheveux, le regard fixé sur le large, malgré les embruns qui nous volaient dans les yeux.",regard||nom||V_0
+déduction,nom,V_0,['déduire'],...de l’attribution de compensation opéré par déduction de ces charges.,déduction||nom||V_0
+sauveur,adjectif,V_0,['sauver'],"Le téléphone sauveur sonna, mais après un bref « Bien sûr ! », Guiard nous tendit l’appareil : —...",sauveur||adjectif||V_0
+jeu,nom,V_0,['jouer'],"...essai filmique met en scène trois amis en plein jeu de cartes, les expressions théâtrales et les regards confus vers la caméra trahissent...",jeu||nom||V_0
+blocage,nom,V_0,['bloquer'],"...de violences pour monter dans la voiture, du blocage de la porte par Nicolas, ce qui est apparemment faux.",blocage||nom||V_0
+impression,nom,V_0,['imprimer'],"L’impression à l’encre effaçable comme une première étape, avant l’impression définitive...",impression||nom||V_0
+embrassement,nom,V_0,['embrasser'],La jeune femme le reçut donc avec un tendre embrassement.,embrassement||nom||V_0
+débutant,adjectif,V_0,['débuter'],...découvre à l’ouverture du ventre une péritonite débutante ou un appendice en voie de perforation.,débutant||adjectif||V_0
+reprise,nom,V_0,['reprendre'],Les négociations en cours marquent la reprise du dialogue entre les deux Corées après une longue période de tension qui a...,reprise||nom||V_0
+vouvoiement,nom,V_0,['vouvoyer'],"...vous, expliqua-t-il, renouant soudain avec le vouvoiement qu’il avait abandonné depuis que la jeune femme était venue le rejoindre dans...",vouvoiement||nom||V_0
+emploi,nom,V_0,['employer'],"...des artères, procédé moins douloureux que l’emploi des cautères.",emploi||nom||V_0
+consolidation,nom,V_0,['consolider'],"...des deux phalanges durant le temps de consolidation fait appel le plus souvent à des broches, plus rarement à des vis, des agrafes intra-osseuses,...",consolidation||nom||V_0
+consentement,nom,V_0,['consentir'],"...ils étaient tombés, puis sur ce lit, et ce consentement soudain, cet incompréhensible abandon : elle avait cédé tout à coup.",consentement||nom||V_0
+pratique,nom,V_0,['pratiquer'],"Cet indice informe sur la situation de la pratique du ski et des sports de glisse sur le domaine des pistes balisées de la station,...",pratique||nom||V_0
+procréation,nom,V_0,['procréer'],"Le fardeau de la procréation écrase totalement des femmes, à moitié les hommes hétérosexuels.",procréation||nom||V_0
+barrage,nom,V_0,['barrer'],"...de cet ouvrage antique, il faut descendre du barrage et longer la rive du lac, du côté sud, ou mieux encore aller à la nage jusqu’à...",barrage||nom||V_0
+étirement,nom,V_0,['s’étirer'],"...renforcement musculaire, l’assouplissement et l’étirement des membres et de la colonne vertébrale, mais également des mouvements qui renforcent...",étirement||nom||V_0
+attirance,nom,V_0,['attirer'],"À priori, la seule explication à l’attirance de l’aimant et de la soudure est le taux de ferrite dans celle-ci.",attirance||nom||V_0
+atmosphère,nom,Ver,['respirable'],"...sera-t-il protégé, et les œuvres avec lui, contre l’atmosphère viciée et le bruit.",atmosphère||nom||Ver
+mère,nom,Ver,['bon'],"...barbe, est professeur de mathématiques. Sa mère, institutrice, a cessé de travailler pour élever leurs enfants.",mère||nom||Ver
+jupe,nom,Ver,"['imperméable', 'résistant', 'aérodynamique']","...exemple, les kits aérodynamiques composés d’une jupe avant, d’une jupe arrière et d’un jeu de seuils latéraux confèrent à votre BMW...",jupe||nom||Ver
+cinéma,nom,Ver,['professionnel'],"...industrielles : métallurgie, électricité, automobile, cinéma.",cinéma||nom||Ver
+robe,nom,Ver,['étanche'],"...densité supérieure à 50° API, la corrosion de la robe dans l’espace liquide est rarement un problème.",robe||nom||Ver
+boulevard,nom,Ver,['large'],Ils traversent un large boulevard.,boulevard||nom||Ver
