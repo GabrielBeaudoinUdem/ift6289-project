@@ -31,85 +31,81 @@
 \maketitle
 \thispagestyle{plain}
 \begin{abstract}
-Large language models exhibit strong performance across many natural language
-processing tasks, yet their understanding of fine-grained lexical relations
+Large language models exhibit strong performance on many natural language
+processing tasks, yet their ability to model fine-grained lexical relations
 remains limited compared to that of human native speakers. Recent work has used 
-the Meaning-Text Theory (MTT) to evaluate models' lexical competence through
-lexical functions, but has focused primarily on evaluation rather than
-on model improvement. In this project, we propose a structured dataset of French
+the Meaning-Text Theory (MTT) and lexical functions to evaluate models' lexical competence, but has focused primarily on evaluation rather than
+on improvement. In this project, we construct a structured dataset of French
 lexical units annotated with lexical functions derived from the French Lexical
-Network. We used this dataset to fine-tune and evaluate three language models,
-assessing whether explicit training on a structured description of natural
-language improves models' lexical understanding and their ability to generalize
+Network, and use it to fine-tune and evaluate three language models. We investigate whether explicit training on a structured lexical representation improves models' lexical competence and generalization
 beyond memorized lexeme pairs. 
-Our results show that structural injection tripled Qwen2.5-7B's lexical competence, but effectiveness varied; Mistral-7B experienced catastrophic forgetting and FlauBERT showed minimal change. No general NLU gains were observed on the COLE benchmark.
+Our results show that structural injection improves lexical competence for Qwen2.5-7B (up to 3×), but effectiveness varies; Mistral-7B exhibits catastrophic forgetting and FlauBERT shows minimal gains. No consistent improvements are observed on the COLE benchmark, suggesting that improvements in structured lexical knowledge do not readily transfer to broader NLU capabilites.
 \end{abstract}
 
 \section{Introduction}
-Modern natural language processing systems, particularly Large Language Models (LLMs), achieve strong performance across many natural language tasks. However, their understanding of fine-grained lexical relations specifically the meaning of words and the semantic relations between them remains limited. To address this, we rely on the Meaning-Text Theory (MTT) \cite{melcukVersLinguistiqueSensTexte1997}, which formalizes relations between lexical units using Lexical Functions (LFs). 
+Modern natural language processing systems, particularly Large Language Models (LLMs), achieve strong performance across a wide range of tasks. However, their ability to model fine-grained lexical relations-specifically, word meaning and semantic relations between lexical units-remains limited. To address this limitation, we draw on the Meaning-Text Theory (MTT) \cite{melcukVersLinguistiqueSensTexte1997}, which formalizes systematic relations between lexical units through Lexical Functions (LFs). This allows the MMT to create a graph of a language, where the nodes are lexical units and the arcs are Lexical Functions. An example of LF would be \textit{Magn}, which intensifies the input; \textit{Magn(rain) = heavy}.  
 
-While previous research has utilized LFs primarily for evaluating models' lexical competence, our project aims to investigate whether explicit structural injection of these functions can fundamentally improve LLMs' NLU capabilities. We prepared a structured dataset derived from the French Lexical Network (fr-LN) and fine-tuned three selected architectures. We then analyzed the impact of structured lexical knowledge versus standard text exposure. 
+While previous research has primarily utilized LFs to evaluate models' lexical competence, we investigate whether explicitly injecting LF-based structure into training can fundamentally improve LLMs' natural language understanding (NLU). We construct a structured dataset derived from the French Lexical Network (fr-LN) and fine-tuned three model architectures. We compare structured lexical supervision with standard text-based training to assess its impact on lexical competence and generalization. 
 
-In summary, our experiments reveal that while fine-tuned models can achieve a significantly higher understanding of structured lexical relations, notably Qwen2.5-7B which showed a marked improvement on lexical function tasks, these gains are architecture dependent. We observe a trade-off between specialized lexical competence and general stability, as evidenced by the catastrophic forgetting observed in Mistral-7B and the relative stagnation of FlauBERT.
+In summary, our experiments reveal that while fine-tuned models can achieve a higher understanding of structured lexical relations, notably for Qwen2.5-7B, these gains are architecture dependent. We observe a trade-off between specialized lexical competence and general stability, as evidenced by the catastrophic forgetting observed in Mistral-7B and the minimal improvement of FlauBERT.
 
 \section{Related Work}\label{sec:relwork}
-In order to evaluate language models' natural language understanding (NLU), benchmarks need enough generality to quantify models' linguistic capabilities
+To evaluate language models' NLU, benchmarks must be sufficiently general to to capture diverse aspects of models' linguistic capabilities
 \citep{niSurveyLargeLanguage2025}. GLUE \cite{niSurveyLargeLanguage2025}
-proposed the first unified benchmark, giving a single score to quantify a
-model's performance. Following in the steps of GLUE,
+introduced the first unified benchmark, providing a single aggregated score to quantify
+model performance across tasks. Building on this idea,
 FLUE, a French specific benchmark composed of six linguistic evaluation tasks,
-was proposed \citep{leFlauBERTUnsupervisedLanguage2020}. Inspired by this work,
-but wanting to add more diversity and subtility to the evaluation, COLE was
-created, proposing a 23 tasks evaluation benchmark with a single aggregated
+was proposed \citep{leFlauBERTUnsupervisedLanguage2020}. To further increase diversity and enable more fine-grained evaluation, COLE was
+introduced as a comprehensive benchmark with 23 tasks and a unified aggregated
 score \citep{beaucheminCOLEComprehensiveBenchmark2025}. 
 
-While general NLU benchmarks are useful, they do not allow for a fine-grained
-evaluation of a specific linguistic evaluation, such as lexical capabilities.
+While general NLU benchmarks are useful, they do not support fine-grained
+evaluation of specific linguistic capabilities, such as lexical competence.
 
 The French Lexical Network (fr-LN) \citep{11403/lexical-system-fr/v3.2} is a
-formal French lexicon following the MTT, describing a total of $29,976$ lexical
-units. LFs are used to describe the relations between all the lexical units,
-creating a graph data structure. Using this resource,
+formal French lexicon grounded in the MTT, describing in total $29,976$ lexical
+units. LFs encode relations between these units,
+forming a graph-structured representation. Using this resource,
 \citet{liuAssessingBERTsSensitivity2024} proposed 
-an evaluation procedure to assess CamemBERT's \cite{martin-etal-2020-camembert}
-understanding of French idioms. \citet{petrovQALFFrenchQuestionAnswering2025}
-proposed the Q\&A-LF benchmark to evaluation models' lexical knowledge using
-LFs. Using a fixed template prompt design for 15 selected lexical functions,
-the authors found that tested language models generally excel when needed to use
-morphological evidence, but struggle on tasks involving world conception and
-creative reasoning, demonstrating the absence of structured semantic
-mapping. Similarly, \citet{liEvaluationCompetenceLexicale2025} used 82 LFs to
-compare language models.
+an evaluation framework to assess CamemBERT's \cite{martin-etal-2020-camembert}
+sensitivity to French idioms. \citet{petrovQALFFrenchQuestionAnswering2025}
+proposed the Q\&A-LF benchmark to evaluate models' lexical knowledge using
+LFs. Using template-based prompts for 15 selected lexical functions,
+the authors show that models generally perform well on tasks relying on
+morphological cues, but struggle with those involving world conception and
+compositional reasoning, demonstrating the lack of structured semantic
+mapping. Likewise, \citet{liEvaluationCompetenceLexicale2025} evaluate models using a broader set of 82 LFs. 
 
-These MTT specific evaluation procedures tend to remove rare LFs in their
-testing, in order to have a more general score. To our knowledge, no prior work
-proposed to enhance models with LFs knowledge explicitly.
+Existing MTT-based evaluation approaches tend to exclude rare LFs in their
+testing, in order to have a more stable and general score. To our knowledge, no prior work
+has explored using LF-based representations to explicitly enhance model performance.
 
 \section{Method}
-We employed a parameter-efficient fine-tuning approach to verify if explicit structural injection of lexical functions improves linguistic competence. Our primary objective was to compare the performance of fine-tuned models against their base versions to determine if explicit training yields a better understanding of abstract lexical relations.
+We adopt a parameter-efficient fine-tuning approach to verify if explicit structural injection of LFs improves linguistic competence. Our primary objective was to compare the performance of fine-tuned models against their base counterparts to determine if explicit training yields a better understanding of abstract lexical relations.
 
-To achieve this, we relied on Low-Rank Adaptation (LoRA) \citep{LoRA}. LoRA is significantly more cost-effective and computationally efficient than full fine-tuning, allowing us to inject specific Meaning-Text Theory (MTT) constraints without the prohibitive resource costs of updating all model parameters. 
 
-We applied this methodology to three distinct architectures: Mistral-7B \citep{jiangMistral7B2023} for its modern and strong multilingual architecture; Qwen2.5-7B \citep{qwen2} for its instruction-tuned multilingual capabilities; and FlauBERT \citep{leFlauBERTUnsupervisedLanguage2020}, a strong French-specific model. This diversity in models, while maintaining a manageable size for academic experimentation, allowed for a broader understanding of language models' capacities regarding Lexical Functions (LFs).
+To achieve this, we rely on Low-Rank Adaptation (LoRA) \citep{LoRA}, which enables efficient adaptation by updating a small number of parameters, allowing us to inject specific MTT-based constraints without full model retraining.
+
+We apply this methodology to three distinct architectures: Mistral-7B \citep{jiangMistral7B2023}, Qwen2.5-7B \citep{qwen2}, and FlauBERT \citep{leFlauBERTUnsupervisedLanguage2020}. These models are selected to cover complementary design axes, including multilingual instruction-tuned LLMs and a French-specific encoder model. This diversity, while keeping model size manageable for academic experimentation, enables us to assess how LF-based supervision affects models with different architectures and scales.
 
 \section{Experiments}
-The code and datasets for this project are available at \url{https://github.com/GabrielBeaudoinUdem/ift6289-project}. The repository is structured to facilitate reproducibility, including clear instructions on environment setup and execution.
+The code and datasets for this project are publicly available at \url{https://github.com/GabrielBeaudoinUdem/ift6289-project}. The repository includes instructions for environment setup and experiment reproduction.
 
 \subsection{Datasets}
-We created a structured dataset based on the French Lexical Network (fr-LN) \citep{11403/lexical-system-fr/v3.2} formatted in JSON. This structure includes the part of speech (POS), specific senses to handle polysemy, relevant LFs, and an in-context example of the vocable. While all this data is available in fr-LN, our contribution involved structuring it appropriately for model optimization rather than purely for evaluation. Because some LFs have very few instances in fr-LN, we established a minimum occurrence threshold to ensure consistency across the dataset. The dataset was divided into an 80\%/20\% train-test split for our experiments.
+We construct a structured dataset based on the French Lexical Network (fr-LN) \citep{11403/lexical-system-fr/v3.2}, formatted in JSON. Each entry includes its part of speech (POS), sense identified to account for polysemy, associated LFs, an example illustrating its usage in context and its group ID. Although all of the data are available in fr-LN, our contribution lies in restructuring it appropriately into a format suitable for model training, rather than using it purely for evaluation. To ensure sufficient coverage and consistency across the dataset, we apply a minimum frequency threshold on LFs (since some LFs have very few instances in fr-LN). The data set is divided into 80\%/20\% train-test sets for our experiments.
 
 \subsection{Baselines}
-Our primary baselines were the original, un-finetuned versions of the three selected models (Mistral-7B, Qwen2.5-7B, and FlauBERT). We prompted these original base models to perform the tasks without any weight updates to establish their initial capabilities. 
+Our primary baselines consists of the original, un-finetuned versions of the three selected models (Mistral-7B, Qwen2.5-7B, and FlauBERT). We evaluate the base models in a zero-short setting, i.e., without any task-specific fine-tuning or weight updates. 
 
-Additionally, to ensure that any observed performance gains stemmed specifically from the injection of structured lexical knowledge rather than simply from further exposure to the French language, we introduced a secondary fine-tuning baseline. For this, we fine-tuned the base models on a comparable volume of unstructured, raw French text extracted from Wikipedia. Comparing our LF-finetuned models against this Wikipedia-finetuned baseline allowed us to confidently isolate the impact of the structured Meaning-Text Theory annotations versus the mere addition of French linguistic data.
+Additionally, to ensure that any observed performance gains stemmed specifically from the injection of structured lexical knowledge rather than simply from further exposure to the French language, we introduced a secondary baseline by fine-tuning each model on a comparable volume of unstructured, raw French text extracted from Wikipedia. Comparing LF-finetuned models with the Wikipedia-finetuned baseline allows us to  isolate the impact of the structured MTT-based supervision from that of additional French text exposure.
 
 \subsection{Evaluation Methods}
-We performed a two-step evaluation procedure. First, we conducted a supervised-learning inspired evaluation on the 20\% test split. Following the evaluation procedure of \citet{petrovQALFFrenchQuestionAnswering2025}, we created fixed query templates for every LF in our dataset. For example, a prompt for the $S_0$ function is \textit{"What noun corresponds to the verb <<Verb>>?"}, asking for a single lexical unit answer. 
+We perform a two-step evaluation. First, we conduct a supervised-learning-inspired evaluation on the 20\% test split. Following the evaluation procedure of \citet{petrovQALFFrenchQuestionAnswering2025}, we design fixed query templates for every LF. For example, a prompt for the $S_0$ function is \textit{"What noun corresponds to the verb <<Verb>>?"}, expecting a single lexical unit as output. 
 
-We used Exact Match (EM) and Contain Match (CM) \citep{petrovQALFFrenchQuestionAnswering2025} to quantify the models' answers, alongside Accuracy and F1 score. CM is particularly useful to determine if the model's answer contains the desired output, as models often fail to respect the "single lexical unit" constraint. The second evaluation step utilized the COLE benchmark \citep{beaucheminCOLEComprehensiveBenchmark2025} to assess whether learning LFs enables better general natural language understanding beyond specific LF tasks.
+We evaluate model outputs using Exact Match (EM) and Contain Match (CM) \citep{petrovQALFFrenchQuestionAnswering2025}, along with Accuracy and F1 score. CM captures partial correctness when the predict output contains the target, which is particularly useful given that models would violate the single lexical unit constraint. As the second step, we evaluate models on the COLE benchmark \citep{beaucheminCOLEComprehensiveBenchmark2025} to assess whether learning LFs enables better general understanding of natural language beyond specific LF tasks.
 
 \subsection{Experimental Results}
-After comparing full fine-tuning and Low-Rank Adaptation (LoRA), we concluded that LoRA was better suited for our task as it allowed us to inject Meaning-Text Theory constraints without the high resource cost of full parameter updates. We implemented our experiments using the HuggingFace transformers and peft libraries. For Mistral-7B-v0.1 and Qwen2.5-7B, we set the LoRA rank to $r=16$ and $\alpha=32$, targeting the query, key, value, and output projections. These models were trained for 1 epoch on local MPS hardware with a $1 \times 10^{-4}$ learning rate and an effective batch size of 16, using a subset of 5,000 examples and their respective instruction templates (\texttt{[INST]} and ChatML). FlauBERT was fine-tuned for 3 epochs on CUDA hardware with a learning rate of $3 \times 10^{-5}$ using an MLM-based template. All models were trained using the AdamW optimizer and gradient checkpointing to manage memory constraints.
+We adopt LoRA instead of full fine-tuning, as it enables efficient injection of MTT constraints without updating all model parameters. We implement all experiments using the HuggingFace Transformers and PEFT libraries. For Mistral-7B-v0.1 and Qwen2.5-7B, we set the LoRA with rank $r=16$ and scaling factor $\alpha=32$, applied the query, key, value, and output projection layers. Both models are trained for 1 epoch on local MPS hardware with a learning rate of $1 \times 10^{-4}$ and an effective batch size of 16, using a subset of 5,000 examples and their respective instruction templates (\texttt{[INST]} and ChatML). FlauBERT was fine-tuned for 3 epochs on CUDA hardware with a learning rate of $3 \times 10^{-5}$ using a template based on MLM. All models are trained with the AdamW optimizer and gradient checkpointing to manage memory constraints.
 
 \subsection{Results and Analysis}
 
@@ -152,15 +148,15 @@ After comparing full fine-tuning and Low-Rank Adaptation (LoRA), we concluded th
 \label{fig:fl_heatmap}
 \end{strip}
 
-The evaluation on the Lexical Functions (LF) benchmark (see Figure \ref{fig:fl_heatmap}) reveals stark differences in how different architectures react to structural knowledge injection. 
+Evaluation on the Lexical Functions (LF) benchmark (see Figure \ref{fig:fl_heatmap}) reveals clear differences in how model architetures respond to structural knowledge injection. 
 
-Qwen2.5-7B demonstrated the most significant benefit from LF fine-tuning, with its global score jumping from 9.9\% (Base) to 33.4\% (LF). The fine-tuned model performed exceptionally well on functions requiring a change in Part-of-Speech (POS), such as \textit{S\_0}, \textit{V\_0}, and \textit{Adv\_0}. However, rather than acquiring strictly new linguistic knowledge, we hypothesize that the LoRA fine-tuning primarily taught Qwen2.5 how to correctly format its answers to align with the rigid, single-lexeme task constraints, unlocking its pre-existing French capabilities.
+Qwen2.5-7B demonstrates the largest improvement under LF fine-tuning, with its overall score increasing from 9.9\% (Base) to 33.4\% (LF). The fine-tuned model performed exceptionally well on functions involving Part-of-Speech (POS) transformations, such as \textit{S\_0}, \textit{V\_0}, and \textit{Adv\_0}. However, this improvement appears to be driven in part by better alignment with task-specific output constraints, as the fine-tuned model more consistently produces single-lexeme answers required by the evaluation.
 
-Conversely, Mistral-7B experienced a severe performance drop following LF fine-tuning, falling from a robust 25.4\% (Base) to 12.9\% (LF). This indicates catastrophic forgetting and severe overfitting to the training distribution. Interestingly, Mistral Base and Mistral Wiki were surprisingly competitive with the fine-tuned Qwen model, heavily boosted by exceptionally high scores on specific functions like \textit{Loc\_in}, which warrants cautious interpretation of global averages.
+Conversely, Mistral-7B exhibits a severe performance drop after LF fine-tuning, decreasing from a robust 25.4\% (Base) to 12.9\% (LF). This indicates catastrophic forgetting and possible severe overfitting to the training distribution. Notably, Mistral Base and Mistral Wiki remain surprisingly competitive with the fine-tuned Qwen model. This competitiveness is largely driven by exceptionally high scores on a subset of functions (e.g., \textit{Loc\_in}), suggesting that global averages should be interpreted with caution.
 
-FlauBERT exhibited high stability across all configurations, with scores remaining largely similar (ranging from 5.7\% to 8.2\%). We suspect the learning rate may have been too low to induce meaningful parametric shifts for this architecture, leading to a ceiling effect. Notably, FlauBERT Wiki achieved the highest score among the encoder variations. Its slight superiority on the \textit{Hypo} (hyponym) function aligns with the encyclopedic nature of Wikipedia, which is heavily structured around hypernym/hyponym relationships. Curiously, this trend did not extend to the \textit{Gener} function.
+FlauBERT remains relatively stable across all configurations, with scores remaining limited change (ranging from 5.7\% to 8.2\%). One possible explanation is that the learning rate is too low to induce meaningful parametric updates for this architecture, leading to a ceiling effect. Notably, FlauBERT Wiki achieved the highest score among the encoder variations. Its slight advantage on the \textit{Hypo} (hyponym) function aligns with the encyclopedic nature of Wikipedia, where hypernym/hyponym relations are prevalent. However, this trend does not extend to other related functions, such as \textit{Gener} function. This suggests that the observed gains are function-specific rather than indicative of a broader improvement in hierarchical lexical reasoning.
 
-Finally, certain categories such as \textit{Ver}, \textit{AntiVer}, \textit{AntiMagn}, and \textit{Bon} proved universally difficult across all models and configurations. This suggests a broader issue of either severe data scarcity in the pre-training corpora for these specific semantic relations, or an inherent difficulty in the tasks themselves. Furthermore, the baseline comparison reveals that fine-tuning on unstructured Wikipedia data does not consistently beat the base models, confirming that simply increasing a model's exposure to French text does not equate to an improved understanding of fine-grained lexical competence.
+Finally, certain categories such as \textit{Ver}, \textit{AntiVer}, \textit{AntiMagn}, and \textit{Bon} remain consistently challenging across all models and configurations. This may reflect either limited representation of these relations in pre-training corpora or their instrinsic semantice complexity. Furthermore, the baseline comparison reveals that fine-tuning on unstructured Wikipedia data does not consistently outform the base models, confirming that simply increasing a model's exposure to French text is not sufficient to improve fine-grained lexical competence.
 
 % \begin{strip}
 % \centering
@@ -221,25 +217,26 @@ Finally, certain categories such as \textit{Ver}, \textit{AntiVer}, \textit{Anti
 \label{fig:cole_heatmap}
 \end{figure*}
 
-To evaluate whether explicit lexical training translates to broader natural language understanding, we tested the models on the COLE benchmark (see Figure \ref{fig:cole_heatmap}). The most striking observation is the absolute divergence between the encoder (FlauBERT) and the generative decoder architectures (Qwen2.5, Mistral).
+To evaluate whether explicit lexical training transfers to broader natural language understanding, we assess the models on the COLE benchmark (see Figure \ref{fig:cole_heatmap}). We observe an obvious divergence between the encoder (FlauBERT) and the generative decoder architectures (Qwen2.5, Mistral).
 
-FlauBERT achieved near-perfect scores (100\%) on specific classification tasks such as \textit{daccord}, \textit{french\_boolq}, \textit{mms}, and \textit{wino\_x}, while Qwen and Mistral scored exactly 0.0\% on these same metrics. This massive disparity strongly suggests an evaluation methodology artifact rather than a true capability deficit. COLE tasks are highly optimized for encoder models that output specific classification labels. Generative LLMs, without specialized few-shot prompting, struggle to output the exact expected token, leading to artificial 0.0\% scores. Consequently, COLE scores for the generative models are likely severe underestimates of their actual NLU capabilities.
+FlauBERT achieves near-perfect scores (100\%) on several classification tasks (e.g., \textit{daccord}, \textit{french\_boolq}, \textit{mms}, and \textit{wino\_x}), while Qwen and Mistral obtain 0.0\% on these tasks. This discrepancy is likely an artifact of the evaluation setup, rather than evidence of a genuine capability gap between models. COLE tasks are primarily designed for encoder-based models that produce predefined labels. In contrast, generative LLMs must generate exact target token to be scored as correct. Without task-specific prompting, generative models often fail to produce the exact label required by the evaluation, resulting in zero scores despite potentially correct predictions. Consequently, COLE scores for the generative models likely underestimate their actual NLU capabilities.
 
-Despite these formatting hurdles, Qwen2.5 LF showed a minor global score increase compared to its base version, driven by gains in tasks like \textit{allocine} (sentiment analysis). FlauBERT remained mostly stable, though FlauBERT LF exhibited an unexpected improvement on the \textit{gqnli} natural language inference task (categorizing contradictions vs. neutral statements).
+Despite these formatting constraints, Qwen2.5-7B LF shows a modest increase in global score compared to its base version, driven by improvements on tasks such as \textit{allocine} (sentiment analysis). FlauBERT remained mostly stable, though the LF exhibits an unexpected improvement on the \textit{gqnli} (a natural language inference task distinguishing entailment, contradictions and neutral statements).
 
-However, Mistral-7B's performance on COLE confirms the catastrophic forgetting observed in the LF benchmark. The Mistral LF model's global score collapsed to 3.50\%, scoring 0.0\% on almost all tasks, proving that the model overlearned the specific structure of the LF dataset at the expense of its general language modeling capabilities.
 
-Ultimately, these results highlight a fundamental format mismatch: the COLE benchmark favors encoder models built for classification, while the LF query benchmark favors generative models built to produce specific words. Neither benchmark alone captures the full picture, but our results indicate that while targeted LoRA fine-tuning can teach a generative model to excel at structural semantic mapping (as seen with Qwen), it does not easily generalize to broader NLU tasks and carries a high risk of catastrophic forgetting (as seen with Mistral).
+However, Mistral-7B's performance on COLE is consistent with the catastrophic forgetting observed in the LF evaluation. The Mistral LF-finetuned model obtains a global score of 3.50\%, with 0.0\% on most tasks, suggesting overfitting to the LF training distribution at the expense of its general language modeling ability.
+
+Overall, these results point to a fundamental mismatch between evaluation formats: the COLE benchmark favors encoder-based models which are optimized for classification, while the LF query benchmark favors generative models designed to produce constrained lexical outputs. Neither benchmark alone provides a complete assessment of model capabilities. Our results indicate that while targeted LoRA fine-tuning can teach a generative model to excel at structural semantic mapping (as observed with Qwen), these gains do not readily generalize to broader NLU tasks and may come with a risk of catastrophic forgetting (as seen with Mistral).
 
 \section{Conclusion}
-In this project, we investigated whether explicitly training language models on structured lexical functions, derived from the Meaning-Text Theory, could improve both their specific lexical competence and their general Natural Language Understanding (NLU). To do so, we generated a specialized LF dataset from the French Lexical Network and applied LoRA fine-tuning across three distinct architectures.
+In this project, we investigate whether explicitly training language models on structured lexical functions, derived from the Meaning-Text Theory, can improve both their specific lexical competence and their general Natural Language Understanding (NLU). To do so, we build a specialized LF dataset from the French Lexical Network and apply LoRA fine-tuning across three distinct architectures.
 
-Our findings are mixed and highlight the complexity of augmenting LLMs with highly structured linguistic data. On one hand, we observed a resounding success with Qwen2.5, which more than tripled its performance on the Lexical Functions benchmark, proving that structural injection can indeed work when the model architecture and instruction-tuning align well with the training methodology.
+Our findings are mixed and highlight the complexity of augmenting LLMs with highly structured linguistic data. On one hand, we observe a resounding success with Qwen2.5-7B, whose performance on the LF benchmark more than triples. This suggests that structured lexical supervision can be effective when the model architecture and instruction-tuning paradigm are well aligned with the training objective.
 
-On the other hand, we must remain highly cautious regarding the generalizability of these results. Enhancing specific lexical knowledge did not translate into a broader improvement on the general NLU benchmark (COLE). Furthermore, the complete performance collapse observed in the Mistral model serves as a stark reminder of the risks of catastrophic forgetting and formatting-overfit when applying parameter-efficient fine-tuning on highly specific datasets. 
+On the other hand, we must remain highly cautious regarding the generalization of these results. Enhancing specific lexical knowledge did not translate into a broader improvement on the general NLU benchmark (COLE). Moreover, the severe performance degradation observed in Mistral-7B highlights the risk of catastrophic forgetting and overfitting to task-specific output formats when applying parameter-efficient fine-tuning on highly specialized datasets. 
 
-Future work should explore alternative integration methods that are less prone to catastrophic forgetting. Soft-prompting, adapting the LoRA hyperparameters dynamically, or integrating LF data directly during the pre-training or standard alignment phases (RLHF/DPO) might yield a better balance between specialized structural lexical knowledge and robust general linguistic capabilities.
-
+Future work should explore alternative integration strategies that mitigate these limitations. In particular, methods such as soft prompting, adaptive LoRA configurations, or incorporating LF supervision during pre-training or alignment stages (e.g., RLHF or DPO) may provide a more balanced trade-off between structured lexical knowledge and robust general language understanding.
+\newpage
 \bibliography{proposal}
 
 \newpage
@@ -248,7 +245,7 @@ Future work should explore alternative integration methods that are less prone t
 \begin{itemize}
     \item \textbf{Noah Tremblay Taillon:} Responsible for extracting, cleaning, and preparing the linguistic functions dataset. He also developed the evaluation pipeline and prepared the benchmarking infrastructure for the linguistic functions. Together with Gabriel Beaudoin, he contributed to the writing of the project proposal, the mid-progress report, the final report, and the poster.
     \item \textbf{Gabriel Beaudoin:} Responsible for preparing the Wikipedia baseline dataset and integrating the COLE benchmark. He also led the fine-tuning process and executed the evaluation scripts for the Mistral-7B and Qwen2.5-7B models. Together with Noah Tremblay Taillon, he contributed to the writing of the project proposal, the mid-progress report, the final report, and the poster.
-    \item \textbf{Na An:} Responsible for the configuration and fine-tuning of the FlauBERT model, and conducted the performance evaluations for this architecture.
+    \item \textbf{Na An:} Responsible for the configuration and fine-tuning of the FlauBERT model, and conducted the performance evaluations for this architecture. She contributed to the writing of the final report.
 \end{itemize}
 
 \end{document}
